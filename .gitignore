@@ -1,0 +1,16 @@
+build
+.vscode/launch.json
+.vscode/.vscode/c_cpp_properties.json
+.vscode/launch.json
+
+.vscode/*.log
+nul.d
+
+Debug
+Release
+
+*.eez-project-ui-state
+
+org.eclipse.cdt.core.prefs
+
+sync.ffs_db
