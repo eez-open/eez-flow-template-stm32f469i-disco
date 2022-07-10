@@ -59,7 +59,7 @@
             "inheritFrom": "default"
           },
           "timeline": [],
-          "layout": "anim1"
+          "layout": "loader"
         },
         {
           "type": "RectangleWidget",
@@ -232,8 +232,8 @@
           "type": "DisplayData",
           "left": 0,
           "top": 0,
-          "width": 210,
-          "height": 272,
+          "width": 350,
+          "height": 480,
           "wireID": "dbc0c503-2f2f-4e43-fb0c-c98eb04e62e7",
           "customInputs": [],
           "customOutputs": [],
@@ -246,10 +246,10 @@
         },
         {
           "type": "Text",
-          "left": 210,
-          "top": 3,
-          "width": 65,
-          "height": 65,
+          "left": 350,
+          "top": 5,
+          "width": 108,
+          "height": 115,
           "wireID": "e374964a-8dac-46c1-d763-eef26b271289",
           "customInputs": [],
           "customOutputs": [],
@@ -262,10 +262,10 @@
         },
         {
           "type": "Text",
-          "left": 277,
-          "top": 3,
-          "width": 65,
-          "height": 65,
+          "left": 462,
+          "top": 5,
+          "width": 108,
+          "height": 115,
           "wireID": "e4b91b93-db34-4f2f-dfea-ea9d98ef1dd4",
           "customInputs": [],
           "customOutputs": [],
@@ -278,10 +278,10 @@
         },
         {
           "type": "Text",
-          "left": 344,
-          "top": 3,
-          "width": 65,
-          "height": 65,
+          "left": 573,
+          "top": 5,
+          "width": 108,
+          "height": 115,
           "wireID": "2d460edd-f4d1-4960-fbff-6fdae001c110",
           "customInputs": [],
           "customOutputs": [],
@@ -294,10 +294,10 @@
         },
         {
           "type": "Text",
-          "left": 210,
-          "top": 70,
-          "width": 65,
-          "height": 65,
+          "left": 350,
+          "top": 124,
+          "width": 108,
+          "height": 115,
           "wireID": "b436b6d8-01ba-476a-9cec-731b15fec5a5",
           "customInputs": [],
           "customOutputs": [],
@@ -310,10 +310,10 @@
         },
         {
           "type": "Text",
-          "left": 277,
-          "top": 70,
-          "width": 65,
-          "height": 65,
+          "left": 462,
+          "top": 124,
+          "width": 108,
+          "height": 115,
           "wireID": "dd0e99f9-a269-4abc-b727-a685d4801c49",
           "customInputs": [],
           "customOutputs": [],
@@ -326,10 +326,10 @@
         },
         {
           "type": "Text",
-          "left": 344,
-          "top": 70,
-          "width": 65,
-          "height": 65,
+          "left": 573,
+          "top": 124,
+          "width": 108,
+          "height": 115,
           "wireID": "0631f0ec-5112-4166-e00f-74533d31ab49",
           "customInputs": [],
           "customOutputs": [],
@@ -342,10 +342,10 @@
         },
         {
           "type": "Text",
-          "left": 210,
-          "top": 137,
-          "width": 65,
-          "height": 65,
+          "left": 350,
+          "top": 242,
+          "width": 108,
+          "height": 115,
           "wireID": "ac774321-cb76-4660-989c-e13806374f6e",
           "customInputs": [],
           "customOutputs": [],
@@ -358,10 +358,10 @@
         },
         {
           "type": "Text",
-          "left": 277,
-          "top": 137,
-          "width": 65,
-          "height": 65,
+          "left": 462,
+          "top": 242,
+          "width": 108,
+          "height": 115,
           "wireID": "5a5086da-50d0-4794-e03e-d1476892fc5a",
           "customInputs": [],
           "customOutputs": [],
@@ -374,10 +374,10 @@
         },
         {
           "type": "Text",
-          "left": 344,
-          "top": 137,
-          "width": 65,
-          "height": 65,
+          "left": 573,
+          "top": 242,
+          "width": 108,
+          "height": 115,
           "wireID": "1ee52ded-910a-4844-f4bd-a4795124bdea",
           "customInputs": [],
           "customOutputs": [],
@@ -390,10 +390,10 @@
         },
         {
           "type": "Text",
-          "left": 210,
-          "top": 204,
-          "width": 132,
-          "height": 65,
+          "left": 350,
+          "top": 360,
+          "width": 220,
+          "height": 115,
           "wireID": "869a4233-3a77-415c-afd0-e799d95dd70a",
           "customInputs": [],
           "customOutputs": [],
@@ -406,10 +406,10 @@
         },
         {
           "type": "Button",
-          "left": 344,
-          "top": 204,
-          "width": 65,
-          "height": 65,
+          "left": 573,
+          "top": 360,
+          "width": 108,
+          "height": 115,
           "wireID": "abd73c1b-0256-47ad-a13d-954fe9dcb095",
           "customInputs": [],
           "customOutputs": [],
@@ -426,10 +426,10 @@
         },
         {
           "type": "Text",
-          "left": 411,
-          "top": 3,
-          "width": 65,
-          "height": 65,
+          "left": 685,
+          "top": 5,
+          "width": 108,
+          "height": 115,
           "wireID": "248ed0f2-6508-4fa1-d0e8-e9a4246d6695",
           "customInputs": [],
           "customOutputs": [],
@@ -442,10 +442,10 @@
         },
         {
           "type": "Text",
-          "left": 411,
-          "top": 70,
-          "width": 65,
-          "height": 65,
+          "left": 685,
+          "top": 124,
+          "width": 108,
+          "height": 115,
           "wireID": "801ca594-78e7-4648-a8d9-ae84c729cdb7",
           "customInputs": [],
           "customOutputs": [],
@@ -458,10 +458,10 @@
         },
         {
           "type": "Text",
-          "left": 411,
-          "top": 137,
-          "width": 65,
-          "height": 132,
+          "left": 685,
+          "top": 242,
+          "width": 108,
+          "height": 233,
           "wireID": "ade7f838-a0d6-41a1-fa8c-3099e9cdfa37",
           "customInputs": [],
           "customOutputs": [],
@@ -478,9 +478,9 @@
       "name": "numeric_keypad",
       "left": 0,
       "top": 0,
-      "width": 480,
-      "height": 272,
-      "scaleToFit": true
+      "width": 800,
+      "height": 480,
+      "scaleToFit": false
     },
     {
       "components": [
@@ -488,8 +488,8 @@
           "type": "DisplayData",
           "left": 0,
           "top": 0,
-          "width": 480,
-          "height": 40,
+          "width": 800,
+          "height": 71,
           "wireID": "6925d2fd-cfc8-4440-fbfe-f39b17bc971e",
           "customInputs": [],
           "customOutputs": [],
@@ -502,10 +502,10 @@
         },
         {
           "type": "Container",
-          "left": 1,
-          "top": 42,
-          "width": 479,
-          "height": 230,
+          "left": 2,
+          "top": 74,
+          "width": 798,
+          "height": 406,
           "wireID": "dfae0323-c66d-4c23-eac9-ee69133b2778",
           "customInputs": [],
           "customOutputs": [],
@@ -518,8 +518,8 @@
               "type": "Text",
               "left": 0,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "0de4e2f5-1cc2-4f0c-8c9e-b6b3c3e89a71",
               "customInputs": [],
               "customOutputs": [],
@@ -532,10 +532,10 @@
             },
             {
               "type": "Text",
-              "left": 48,
+              "left": 80,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "e26881f5-eeb9-4697-e998-e20e7087ab4e",
               "customInputs": [],
               "customOutputs": [],
@@ -548,10 +548,10 @@
             },
             {
               "type": "Text",
-              "left": 96,
+              "left": 160,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "a5cca9cb-1eba-4b93-e9fa-fbb1e7d4001e",
               "customInputs": [],
               "customOutputs": [],
@@ -564,10 +564,10 @@
             },
             {
               "type": "Text",
-              "left": 144,
+              "left": 240,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "fdcdb298-d120-4dd6-a2da-8d382a0be50b",
               "customInputs": [],
               "customOutputs": [],
@@ -580,10 +580,10 @@
             },
             {
               "type": "Text",
-              "left": 192,
+              "left": 320,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "bc57426c-1892-4a84-a4b8-d16701752f61",
               "customInputs": [],
               "customOutputs": [],
@@ -596,10 +596,10 @@
             },
             {
               "type": "Text",
-              "left": 240,
+              "left": 400,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "2db75b67-a108-46c4-80ba-f2c1aad2536a",
               "customInputs": [],
               "customOutputs": [],
@@ -612,10 +612,10 @@
             },
             {
               "type": "Text",
-              "left": 288,
+              "left": 480,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "722d0ff3-9436-4523-c37b-1d6485647cca",
               "customInputs": [],
               "customOutputs": [],
@@ -628,10 +628,10 @@
             },
             {
               "type": "Text",
-              "left": 336,
+              "left": 560,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "b4989870-3447-4e80-fcf8-3c3a9d18032f",
               "customInputs": [],
               "customOutputs": [],
@@ -644,10 +644,10 @@
             },
             {
               "type": "Text",
-              "left": 384,
+              "left": 640,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "05a49771-9f35-4dc0-a23b-c2a84a8f36c3",
               "customInputs": [],
               "customOutputs": [],
@@ -660,10 +660,10 @@
             },
             {
               "type": "Text",
-              "left": 432,
+              "left": 720,
               "top": 0,
-              "width": 46,
-              "height": 44,
+              "width": 77,
+              "height": 78,
               "wireID": "4b99b42c-0a9c-47f9-dd01-f1084963beef",
               "customInputs": [],
               "customOutputs": [],
@@ -677,9 +677,9 @@
             {
               "type": "Select",
               "left": 0,
-              "top": 46,
-              "width": 479,
-              "height": 138,
+              "top": 81,
+              "width": 798,
+              "height": 244,
               "wireID": "7bae9b9a-1bd7-4723-d9cd-f3bf590cd872",
               "customInputs": [],
               "customOutputs": [],
@@ -694,8 +694,8 @@
                   "type": "Container",
                   "left": 0,
                   "top": 0,
-                  "width": 479,
-                  "height": 138,
+                  "width": 798,
+                  "height": 244,
                   "wireID": "f1c92d20-6e63-4f46-9b17-01fbb8633df6",
                   "customInputs": [],
                   "customOutputs": [],
@@ -708,8 +708,8 @@
                       "type": "Text",
                       "left": 0,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "290fc729-e31e-46b4-e40d-dee9f39a26da",
                       "customInputs": [],
                       "customOutputs": [],
@@ -722,10 +722,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
+                      "left": 80,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "2d77bc06-03b1-4c91-b148-65566def2398",
                       "customInputs": [],
                       "customOutputs": [],
@@ -738,10 +738,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
+                      "left": 160,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "9a46864f-75a7-4243-f42d-6a526fb99ded",
                       "customInputs": [],
                       "customOutputs": [],
@@ -754,10 +754,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
+                      "left": 240,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "50046b26-4211-4566-b289-c4c493718421",
                       "customInputs": [],
                       "customOutputs": [],
@@ -770,10 +770,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
+                      "left": 320,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "0354288d-7477-485c-c5ef-0d61e03697fb",
                       "customInputs": [],
                       "customOutputs": [],
@@ -786,10 +786,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
+                      "left": 400,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b9abe865-9f6c-477e-9723-b8e2619fc865",
                       "customInputs": [],
                       "customOutputs": [],
@@ -802,10 +802,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
+                      "left": 480,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "f29b9a65-3063-4bf0-9ddf-213f73c80cf3",
                       "customInputs": [],
                       "customOutputs": [],
@@ -818,10 +818,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
+                      "left": 560,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "eb055942-11a6-42e9-928b-9f5a96d06f51",
                       "customInputs": [],
                       "customOutputs": [],
@@ -834,10 +834,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
+                      "left": 640,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "8cfab99d-0499-4bb7-a885-8d4bc507cf6e",
                       "customInputs": [],
                       "customOutputs": [],
@@ -850,10 +850,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
+                      "left": 720,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "9256a904-fd2d-41b9-cefb-ca13828d9512",
                       "customInputs": [],
                       "customOutputs": [],
@@ -867,9 +867,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "231e6275-dc1b-4d26-f89c-51908bf647ae",
                       "customInputs": [],
                       "customOutputs": [],
@@ -882,10 +882,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "82b6463a-4408-4745-d3be-68c72005fc4a",
                       "customInputs": [],
                       "customOutputs": [],
@@ -898,10 +898,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b1e9f3d5-5bf8-4c33-c005-84b8441a1e02",
                       "customInputs": [],
                       "customOutputs": [],
@@ -914,10 +914,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "f362cfcf-0c6e-467d-cf2e-0189c16d84fb",
                       "customInputs": [],
                       "customOutputs": [],
@@ -930,10 +930,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "93096f2e-e14d-4ee2-851b-d7b797ad7a67",
                       "customInputs": [],
                       "customOutputs": [],
@@ -946,10 +946,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "4286e6da-ab6d-4941-a69b-49e2d3d7df03",
                       "customInputs": [],
                       "customOutputs": [],
@@ -962,10 +962,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "46a8b962-8425-4b3a-d769-7906be7e9bbe",
                       "customInputs": [],
                       "customOutputs": [],
@@ -978,10 +978,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "f50d36d7-7697-4e59-a487-94335e3a195b",
                       "customInputs": [],
                       "customOutputs": [],
@@ -994,10 +994,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "8b7b8e09-fda3-4b90-bcc3-6d849851beaa",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1010,10 +1010,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "bb5b410b-3ce2-468e-9c85-411825710dbf",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1027,9 +1027,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b7784791-952f-408e-8b6e-6bff1851312f",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1042,10 +1042,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "66ad955b-6ae0-46d2-e99d-41c47c2cb033",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1058,10 +1058,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "10674392-54a2-4ed4-a6af-3676a5b952ac",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1074,10 +1074,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "1ac6a97f-3326-4d7c-954c-d0b7559e9c42",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1090,10 +1090,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "c56bcba5-2cc2-4d5c-aea2-12ba631d638e",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1106,10 +1106,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "61368151-22ce-40ee-ea33-c8d47121cebf",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1122,10 +1122,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "ecd96198-b877-444c-c329-875f29be7237",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1138,10 +1138,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "8c8a454e-b14c-497a-a43c-185a3c0dd23f",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1154,10 +1154,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "39911921-9a35-4759-aa8c-de3d4564a2a1",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1170,10 +1170,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "1d54c295-679b-4c7e-fe67-b7cbbca516a0",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1191,8 +1191,8 @@
                   "type": "Container",
                   "left": 0,
                   "top": 0,
-                  "width": 479,
-                  "height": 138,
+                  "width": 798,
+                  "height": 244,
                   "wireID": "dffe371c-ca62-47f9-99c7-539491b1fadc",
                   "customInputs": [],
                   "customOutputs": [],
@@ -1205,8 +1205,8 @@
                       "type": "Text",
                       "left": 0,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "a235e62a-af95-4b72-a777-a5614e1b0f0b",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1219,10 +1219,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
+                      "left": 80,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "1dae7fd3-559e-418f-a2db-20a1091c6c33",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1235,10 +1235,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
+                      "left": 160,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "0ce8816e-ac10-4cbd-fd97-3dcdcf634c76",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1251,10 +1251,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
+                      "left": 240,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "9346e350-b091-4563-c0ed-8b3650d17e80",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1267,10 +1267,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
+                      "left": 320,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "60ad6c8a-478d-4030-a1c0-af5c70805042",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1283,10 +1283,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
+                      "left": 400,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "da81d3df-578b-4949-f95d-f19cc98526c0",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1299,10 +1299,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
+                      "left": 480,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "197a7bfe-ec68-49a3-9089-3de74da180ac",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1315,10 +1315,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
+                      "left": 560,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "09b80fa2-8adc-4f92-a3e2-2bc4e697bbe9",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1331,10 +1331,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
+                      "left": 640,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "34100e43-9530-4f2c-a953-4dd933be9357",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1347,10 +1347,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
+                      "left": 720,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "3f1cc81d-1d88-4161-f7fa-94eba55e4715",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1364,9 +1364,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "ebe7a04b-6d4e-480e-9ba2-222c97701f05",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1379,10 +1379,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "3b508039-84fd-4d2e-9f99-c624aa324253",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1395,10 +1395,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "a8e93c24-2558-4879-f218-57c2d6b1dd4f",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1411,10 +1411,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "1beabac5-638e-4fe4-aa4c-fddeada03838",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1427,10 +1427,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "f4615eb4-040e-49ca-d23e-7c6707863706",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1443,10 +1443,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "e10019a4-a186-4d5c-83c1-6cb31b2c15c8",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1459,10 +1459,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "40db3cad-5380-4f2e-d038-516f62645bb9",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1475,10 +1475,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "c7fd7ad9-2d7e-4f27-b5fb-e38dc0c84556",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1491,10 +1491,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "64524895-9da2-4f72-fbd8-49e5b02c24e9",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1507,10 +1507,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "cb3ba876-39e9-435a-d61e-4159429b02fa",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1524,9 +1524,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "984496da-2fd2-49f7-80b6-f3a321a9017c",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1539,10 +1539,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "ddff995e-dbef-40ff-edbb-646c2869fb22",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1555,10 +1555,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "78854a8b-a2f0-4996-99dd-0afb32d85631",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1571,10 +1571,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "10c3ac63-caef-4b7d-86fd-1a8167da37d6",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1587,10 +1587,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b04d0689-c42e-432d-a62a-a6ab6909d4df",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1603,10 +1603,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "6004a29a-0f97-4924-8d4e-0d54f2e2db80",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1619,10 +1619,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "5c035883-b6a8-4879-d9c2-243074954269",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1635,10 +1635,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "c93ef652-b146-45d8-9e2f-ee41e015cc4e",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1651,10 +1651,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "53ea664e-7065-4315-d0b0-3aee0090d2db",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1667,10 +1667,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "4d59b749-2eb4-45cf-9d6b-21c657299b4b",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1688,8 +1688,8 @@
                   "type": "Container",
                   "left": 0,
                   "top": 0,
-                  "width": 479,
-                  "height": 138,
+                  "width": 798,
+                  "height": 244,
                   "wireID": "75a8cd27-2af8-491e-8a25-6c2893964e3b",
                   "customInputs": [],
                   "customOutputs": [],
@@ -1702,8 +1702,8 @@
                       "type": "Text",
                       "left": 0,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "185bb9e1-47ed-4738-df89-539f337e3024",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1716,10 +1716,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
+                      "left": 80,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "61fd8501-8fa1-4a12-9535-4fb0c9c2f9ff",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1732,10 +1732,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
+                      "left": 160,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b4adcea6-de33-417b-fd4c-acc8a08576ff",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1748,10 +1748,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
+                      "left": 240,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "0091a152-97d5-4def-f07c-38a6e44bc724",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1764,10 +1764,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
+                      "left": 320,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "5e4242bb-95a4-4355-e884-f8524b88183a",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1780,10 +1780,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
+                      "left": 400,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "41acdb31-ec96-489b-8b6e-d3755df7b1ef",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1796,10 +1796,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
+                      "left": 480,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "856f9949-452b-4720-bd4a-e8eec32d684e",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1812,10 +1812,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
+                      "left": 560,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "ae71f775-6d22-40ee-ad40-054673906318",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1828,10 +1828,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
+                      "left": 640,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "bfc38b3a-2464-4567-cd04-f87d6f2f62c0",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1844,10 +1844,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
+                      "left": 720,
                       "top": 0,
-                      "width": 46,
-                      "height": 44,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "4ac08efa-f5ca-43b9-9e70-93efb705caee",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1861,9 +1861,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "c185aae3-38f7-4ee2-8dd2-a5a3861094a9",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1876,10 +1876,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "9c07c64e-67f3-4a27-97d3-9f6609873d4f",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1892,10 +1892,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "d834cf3c-7a35-431a-876a-055b7a3b3c98",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1908,10 +1908,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "a7662dfc-513b-417e-bdf0-bf1da5b0afdf",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1924,10 +1924,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "d2f4d2a8-d02c-4bef-aa8f-6f31e37847df",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1940,10 +1940,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "70e81285-0e40-4ba1-9572-da6c6ddb3e55",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1956,10 +1956,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "7cae08da-7d1e-4a12-8acf-144af3c93a18",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1972,10 +1972,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "0a2ca474-f3f4-4632-887e-608d5dddbc8b",
                       "customInputs": [],
                       "customOutputs": [],
@@ -1988,10 +1988,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "8632e018-697a-459d-fcd9-d7d0621bb668",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2004,10 +2004,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 46,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 81,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "b085d122-6421-4126-e6cf-baf04a765e82",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2021,9 +2021,9 @@
                     {
                       "type": "Text",
                       "left": 0,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "49eac5a5-1d38-455c-fb62-0dddfc3c6ccb",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2036,10 +2036,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 48,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 80,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "7ee78199-8c74-4dc8-aae3-d0cd744312e0",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2052,10 +2052,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 96,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 160,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "7bc3dca2-7716-4aac-84c1-e72ac43467e2",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2068,10 +2068,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 144,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 240,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "774b7cd3-8548-469c-c9a2-50d6acf200b6",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2084,10 +2084,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 192,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 320,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "df385344-c774-4643-82fa-0b40e589b900",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2100,10 +2100,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 240,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 400,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "679c1c27-7149-46d6-ae55-b0e90d318fd2",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2116,10 +2116,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 288,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 480,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "87971d4d-5bd6-48ae-a755-5afd5f0af9e0",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2132,10 +2132,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 336,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 560,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "1c0fd089-41b5-408b-a091-614b6acf368a",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2148,10 +2148,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 384,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 640,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "eb38fc09-6928-4077-9753-957149d15dd9",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2164,10 +2164,10 @@
                     },
                     {
                       "type": "Text",
-                      "left": 432,
-                      "top": 92,
-                      "width": 46,
-                      "height": 44,
+                      "left": 720,
+                      "top": 162,
+                      "width": 77,
+                      "height": 78,
                       "wireID": "e1c22683-e65c-48a2-cc5c-f9b9cb9ca26f",
                       "customInputs": [],
                       "customOutputs": [],
@@ -2186,9 +2186,9 @@
             {
               "type": "Text",
               "left": 0,
-              "top": 184,
-              "width": 70,
-              "height": 44,
+              "top": 325,
+              "width": 117,
+              "height": 78,
               "wireID": "39abf419-0b2f-4ba3-d0ce-1b3411e4767d",
               "customInputs": [],
               "customOutputs": [],
@@ -2201,10 +2201,10 @@
             },
             {
               "type": "Select",
-              "left": 72,
-              "top": 184,
-              "width": 70,
-              "height": 44,
+              "left": 120,
+              "top": 325,
+              "width": 117,
+              "height": 78,
               "wireID": "ec292715-b83a-4e68-9d0f-d7d4110fa54f",
               "customInputs": [],
               "customOutputs": [],
@@ -2219,8 +2219,8 @@
                   "type": "Text",
                   "left": 0,
                   "top": 0,
-                  "width": 70,
-                  "height": 44,
+                  "width": 117,
+                  "height": 78,
                   "wireID": "51686f97-ca54-490a-dccf-46e7c6a5d23a",
                   "customInputs": [],
                   "customOutputs": [],
@@ -2235,8 +2235,8 @@
                   "type": "Text",
                   "left": 0,
                   "top": 0,
-                  "width": 70,
-                  "height": 44,
+                  "width": 117,
+                  "height": 78,
                   "wireID": "6d60ac60-e82c-4337-f116-b2b08fb50120",
                   "customInputs": [],
                   "customOutputs": [],
@@ -2251,8 +2251,8 @@
                   "type": "Text",
                   "left": 0,
                   "top": 0,
-                  "width": 70,
-                  "height": 44,
+                  "width": 117,
+                  "height": 78,
                   "wireID": "3abaf55c-4fc8-461f-95d8-7ca69e7fb069",
                   "customInputs": [],
                   "customOutputs": [],
@@ -2267,10 +2267,10 @@
             },
             {
               "type": "Text",
-              "left": 144,
-              "top": 184,
-              "width": 190,
-              "height": 44,
+              "left": 240,
+              "top": 325,
+              "width": 317,
+              "height": 78,
               "wireID": "bbd55df5-ea2a-48f6-dea3-9d4620a30d03",
               "customInputs": [],
               "customOutputs": [],
@@ -2283,10 +2283,10 @@
             },
             {
               "type": "Button",
-              "left": 336,
-              "top": 184,
-              "width": 94,
-              "height": 44,
+              "left": 560,
+              "top": 325,
+              "width": 157,
+              "height": 78,
               "wireID": "97a60ef8-eaba-4242-9968-5d3e73218011",
               "customInputs": [],
               "customOutputs": [],
@@ -2303,10 +2303,10 @@
             },
             {
               "type": "Text",
-              "left": 432,
-              "top": 184,
-              "width": 46,
-              "height": 44,
+              "left": 720,
+              "top": 325,
+              "width": 77,
+              "height": 78,
               "wireID": "51482dc7-3716-4f20-9184-ac9644401ed1",
               "customInputs": [],
               "customOutputs": [],
@@ -2326,9 +2326,9 @@
       "name": "keyboard",
       "left": 0,
       "top": 0,
-      "width": 480,
-      "height": 272,
-      "scaleToFit": true
+      "width": 800,
+      "height": 480,
+      "scaleToFit": false
     },
     {
       "components": [
@@ -2336,8 +2336,8 @@
           "type": "TextWidget",
           "left": 0,
           "top": 0,
-          "width": 120,
-          "height": 48,
+          "width": 160,
+          "height": 85,
           "wireID": "406a8ddd-e285-4ce5-f145-9d81df0daefc",
           "customInputs": [],
           "customOutputs": [],
@@ -2352,10 +2352,10 @@
         },
         {
           "type": "MultilineTextWidget",
-          "left": 94,
-          "top": 67,
-          "width": 400,
-          "height": 35,
+          "left": 125,
+          "top": 118,
+          "width": 533,
+          "height": 62,
           "wireID": "b1252ce5-b912-46b2-8161-13656dc15f66",
           "customInputs": [],
           "customOutputs": [],
@@ -2374,17 +2374,17 @@
               },
               "top": {
                 "enabled": true,
-                "value": 52,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 600,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 180,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2409,23 +2409,23 @@
               "start": 0,
               "end": 0.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2450,23 +2450,23 @@
               "start": 0.5,
               "end": 1,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2491,23 +2491,23 @@
               "start": 1,
               "end": 1.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2532,23 +2532,23 @@
               "start": 1.5,
               "end": 2,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2573,10 +2573,10 @@
         },
         {
           "type": "TextWidget",
-          "left": 120,
+          "left": 160,
           "top": 0,
-          "width": 120,
-          "height": 48,
+          "width": 160,
+          "height": 85,
           "wireID": "e2405229-1953-4aaa-e2fd-bfae07344ee5",
           "customInputs": [],
           "customOutputs": [],
@@ -2592,10 +2592,10 @@
         },
         {
           "type": "MultilineTextWidget",
-          "left": 94,
-          "top": 102,
-          "width": 400,
-          "height": 32,
+          "left": 125,
+          "top": 180,
+          "width": 533,
+          "height": 56,
           "wireID": "b83d3369-19c7-47db-9e5c-d12d243cc026",
           "customInputs": [],
           "customOutputs": [],
@@ -2614,17 +2614,17 @@
               },
               "top": {
                 "enabled": true,
-                "value": 52,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 600,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 180,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2649,23 +2649,23 @@
               "start": 0,
               "end": 0.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2690,23 +2690,23 @@
               "start": 0.5,
               "end": 1,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2731,23 +2731,23 @@
               "start": 1,
               "end": 1.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2772,23 +2772,23 @@
               "start": 1.5,
               "end": 2,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2813,10 +2813,10 @@
         },
         {
           "type": "TextWidget",
-          "left": 240,
+          "left": 320,
           "top": 0,
-          "width": 120,
-          "height": 48,
+          "width": 160,
+          "height": 85,
           "wireID": "6f867542-f447-49ca-b3e3-12774a732bd1",
           "customInputs": [],
           "customOutputs": [],
@@ -2831,10 +2831,10 @@
         },
         {
           "type": "MultilineTextWidget",
-          "left": 94,
-          "top": 134,
-          "width": 400,
-          "height": 32,
+          "left": 125,
+          "top": 236,
+          "width": 533,
+          "height": 56,
           "wireID": "7afb9b2b-3372-447a-baa8-e2dc81bb17c3",
           "customInputs": [],
           "customOutputs": [],
@@ -2853,17 +2853,17 @@
               },
               "top": {
                 "enabled": true,
-                "value": 52,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 600,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 180,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2888,23 +2888,23 @@
               "start": 0,
               "end": 0.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2929,23 +2929,23 @@
               "start": 0.5,
               "end": 1,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -2970,23 +2970,23 @@
               "start": 1,
               "end": 1.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3011,262 +3011,23 @@
               "start": 1.5,
               "end": 2,
               "left": {
-                "enabled": false,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": false,
-                "value": 52,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "value": 600,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": false,
-                "value": 180,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              }
-            }
-          ]
-        },
-        {
-          "type": "TextWidget",
-          "left": 360,
-          "top": 0,
-          "width": 120,
-          "height": 48,
-          "wireID": "e06dd50e-680a-4c74-c6bd-14675d4426c5",
-          "customInputs": [],
-          "customOutputs": [],
-          "asOutputProperties": [
-            "action"
-          ],
-          "data": "\"Oscar Wilde\"",
-          "style": {
-            "inheritFrom": "tab"
-          },
-          "timeline": []
-        },
-        {
-          "type": "MultilineTextWidget",
-          "left": 94,
-          "top": 166,
-          "width": 400,
-          "height": 32,
-          "wireID": "9217742b-9901-4de3-a6ee-c4e68bdc8860",
-          "customInputs": [],
-          "customOutputs": [],
-          "data": "\"I am so clever that sometimes I don't understand a single word of what I am saying.\"",
-          "style": {
-            "inheritFrom": "quote"
-          },
-          "timeline": [
-            {
-              "start": 0,
-              "end": 0,
-              "left": {
                 "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 52,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 600,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 180,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 0,
-              "end": 0.5,
-              "left": {
-                "enabled": false,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": false,
-                "value": 52,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "value": 600,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": false,
-                "value": 180,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 0.5,
-              "end": 1,
-              "left": {
-                "enabled": false,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": false,
-                "value": 52,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "value": 600,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": false,
-                "value": 180,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 1,
-              "end": 1.5,
-              "left": {
-                "enabled": false,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": false,
-                "value": 52,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "value": 600,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": false,
-                "value": 180,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": true,
-                "value": 1,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 1.5,
-              "end": 2,
-              "left": {
-                "enabled": false,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": false,
-                "value": 52,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "value": 600,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": false,
-                "value": 180,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3293,15 +3054,15 @@
           "type": "TextWidget",
           "left": 480,
           "top": 0,
-          "width": 120,
-          "height": 48,
-          "wireID": "9cec254a-dfe8-48bb-91c7-40d798cac885",
+          "width": 160,
+          "height": 85,
+          "wireID": "e06dd50e-680a-4c74-c6bd-14675d4426c5",
           "customInputs": [],
           "customOutputs": [],
           "asOutputProperties": [
             "action"
           ],
-          "data": "\"Mark Twain\"",
+          "data": "\"Oscar Wilde\"",
           "style": {
             "inheritFrom": "tab"
           },
@@ -3309,18 +3070,17 @@
         },
         {
           "type": "MultilineTextWidget",
-          "left": 94,
-          "top": 198,
-          "width": 400,
-          "height": 32,
-          "wireID": "b6b62a99-bfca-46d8-e490-89e4f151c581",
+          "left": 125,
+          "top": 293,
+          "width": 533,
+          "height": 56,
+          "wireID": "9217742b-9901-4de3-a6ee-c4e68bdc8860",
           "customInputs": [],
           "customOutputs": [],
-          "data": "\"If you tell the truth, you don't have to remember anything.\"",
+          "data": "\"I am so clever that sometimes I don't understand a single word of what I am saying.\"",
           "style": {
             "inheritFrom": "quote"
           },
-          "locked": false,
           "timeline": [
             {
               "start": 0,
@@ -3332,17 +3092,17 @@
               },
               "top": {
                 "enabled": true,
-                "value": 52,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 600,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 180,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3367,23 +3127,23 @@
               "start": 0,
               "end": 0.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3408,23 +3168,23 @@
               "start": 0.5,
               "end": 1,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3449,23 +3209,263 @@
               "start": 1,
               "end": 1.5,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
+                "enabled": true,
+                "value": 318,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
                 "enabled": false,
-                "value": 180,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": true,
+                "value": 1,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 1.5,
+              "end": 2,
+              "left": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 92,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 800,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 318,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "TextWidget",
+          "left": 640,
+          "top": 0,
+          "width": 160,
+          "height": 85,
+          "wireID": "9cec254a-dfe8-48bb-91c7-40d798cac885",
+          "customInputs": [],
+          "customOutputs": [],
+          "asOutputProperties": [
+            "action"
+          ],
+          "data": "\"Mark Twain\"",
+          "style": {
+            "inheritFrom": "tab"
+          },
+          "timeline": []
+        },
+        {
+          "type": "MultilineTextWidget",
+          "left": 125,
+          "top": 349,
+          "width": 533,
+          "height": 56,
+          "wireID": "b6b62a99-bfca-46d8-e490-89e4f151c581",
+          "customInputs": [],
+          "customOutputs": [],
+          "data": "\"If you tell the truth, you don't have to remember anything.\"",
+          "style": {
+            "inheritFrom": "quote"
+          },
+          "locked": false,
+          "timeline": [
+            {
+              "start": 0,
+              "end": 0,
+              "left": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 92,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 800,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 318,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 0,
+              "end": 0.5,
+              "left": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 92,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 800,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 318,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 0.5,
+              "end": 1,
+              "left": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 92,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 800,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 318,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 1,
+              "end": 1.5,
+              "left": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 92,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 800,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3490,23 +3490,23 @@
               "start": 1.5,
               "end": 2,
               "left": {
-                "enabled": false,
+                "enabled": true,
                 "value": 0,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 52,
+                "enabled": true,
+                "value": 92,
                 "easingFunction": "linear"
               },
               "width": {
-                "enabled": false,
-                "value": 600,
+                "enabled": true,
+                "value": 800,
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 180,
+                "enabled": true,
+                "value": 318,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3532,9 +3532,9 @@
         {
           "type": "ContainerWidget",
           "left": 0,
-          "top": 48,
-          "width": 120,
-          "height": 4,
+          "top": 85,
+          "width": 160,
+          "height": 7,
           "wireID": "2411340e-7a68-46b0-960e-8ee93401830d",
           "customInputs": [],
           "customOutputs": [],
@@ -3553,17 +3553,17 @@
               },
               "top": {
                 "enabled": true,
-                "value": 48,
+                "value": 85,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 4,
+                "value": 7,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3588,22 +3588,22 @@
               "end": 0.5,
               "left": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 48,
+                "value": 85,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 4,
+                "value": 7,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3628,22 +3628,22 @@
               "end": 1,
               "left": {
                 "enabled": true,
-                "value": 240,
+                "value": 320,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 48,
+                "value": 85,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 4,
+                "value": 7,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3668,22 +3668,22 @@
               "end": 1.5,
               "left": {
                 "enabled": true,
-                "value": 360,
+                "value": 480,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 48,
+                "value": 85,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 4,
+                "value": 7,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3708,22 +3708,22 @@
               "end": 2,
               "left": {
                 "enabled": true,
-                "value": 480,
+                "value": 640,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 48,
+                "value": 85,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 120,
+                "value": 160,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 4,
+                "value": 7,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3824,10 +3824,10 @@
         },
         {
           "type": "LayoutViewWidget",
-          "left": 4,
-          "top": 248,
-          "width": 30,
-          "height": 20,
+          "left": 5,
+          "top": 438,
+          "width": 40,
+          "height": 35,
           "wireID": "f88273ea-a4a6-4162-f828-280e9b82c4f9",
           "customInputs": [],
           "customOutputs": [],
@@ -3835,14 +3835,14 @@
             "inheritFrom": "default"
           },
           "timeline": [],
-          "layout": "anim1"
+          "layout": "loader"
         },
         {
           "type": "RectangleWidget",
-          "left": 58,
-          "top": 248,
-          "width": 436,
-          "height": 20,
+          "left": 77,
+          "top": 438,
+          "width": 581,
+          "height": 35,
           "wireID": "a8ed332c-5da2-4a5a-c089-460053d7b347",
           "customInputs": [],
           "customOutputs": [],
@@ -3855,13 +3855,13 @@
               "start": 0,
               "end": 0,
               "left": {
-                "enabled": false,
-                "value": 58,
+                "enabled": true,
+                "value": 77,
                 "easingFunction": "linear"
               },
               "top": {
-                "enabled": false,
-                "value": 248,
+                "enabled": true,
+                "value": 438,
                 "easingFunction": "linear"
               },
               "width": {
@@ -3870,8 +3870,8 @@
                 "easingFunction": "linear"
               },
               "height": {
-                "enabled": false,
-                "value": 20,
+                "enabled": true,
+                "value": 35,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3896,22 +3896,22 @@
               "end": 2,
               "left": {
                 "enabled": true,
-                "value": 58,
+                "value": 77,
                 "easingFunction": "linear"
               },
               "top": {
                 "enabled": true,
-                "value": 248,
+                "value": 438,
                 "easingFunction": "linear"
               },
               "width": {
                 "enabled": true,
-                "value": 422,
+                "value": 563,
                 "easingFunction": "linear"
               },
               "height": {
                 "enabled": true,
-                "value": 20,
+                "value": 35,
                 "easingFunction": "linear"
               },
               "scaleX": {
@@ -3935,10 +3935,10 @@
         },
         {
           "type": "ButtonWidget",
-          "left": 510,
-          "top": 230,
-          "width": 90,
-          "height": 42,
+          "left": 680,
+          "top": 406,
+          "width": 120,
+          "height": 74,
           "wireID": "107d076f-b79d-40ad-df99-548be14a5c76",
           "customInputs": [],
           "customOutputs": [],
@@ -4021,446 +4021,9 @@
       "style": "background",
       "left": 0,
       "top": 0,
-      "width": 600,
-      "height": 272,
-      "scaleToFit": true
-    },
-    {
-      "components": [
-        {
-          "type": "RectangleWidget",
-          "left": 0,
-          "top": 0,
-          "width": 8,
-          "height": 20,
-          "wireID": "17541954-3e22-48af-866a-62fa2d1da19c",
-          "customInputs": [],
-          "customOutputs": [],
-          "style": {
-            "inheritFrom": "block"
-          },
-          "timeline": [
-            {
-              "start": 0,
-              "end": 0,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 0,
-              "end": 0.5,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 2.5,
-              "end": 3,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            }
-          ]
-        },
-        {
-          "type": "RectangleWidget",
-          "left": 11,
-          "top": 0,
-          "width": 8,
-          "height": 20,
-          "wireID": "9ed45c07-f3ca-4127-cf64-fac57bb00432",
-          "customInputs": [],
-          "customOutputs": [],
-          "style": {
-            "inheritFrom": "block"
-          },
-          "timeline": [
-            {
-              "start": 0,
-              "end": 0,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 0.5,
-              "end": 1,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 2,
-              "end": 2.5,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            }
-          ]
-        },
-        {
-          "type": "RectangleWidget",
-          "left": 22,
-          "top": 0,
-          "width": 8,
-          "height": 20,
-          "wireID": "0a636500-228c-4b5a-d596-b9c3168cb12f",
-          "customInputs": [],
-          "customOutputs": [],
-          "style": {
-            "inheritFrom": "block"
-          },
-          "timeline": [
-            {
-              "start": 0,
-              "end": 0,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 1,
-              "end": 1.5,
-              "left": {
-                "enabled": true,
-                "value": 22,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": true,
-                "value": 8,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            },
-            {
-              "start": 1.5,
-              "end": 2,
-              "left": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "top": {
-                "enabled": true,
-                "value": 20,
-                "easingFunction": "linear"
-              },
-              "width": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "height": {
-                "enabled": true,
-                "value": 0,
-                "easingFunction": "linear"
-              },
-              "scaleX": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "scaleY": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "rotate": {
-                "enabled": false,
-                "easingFunction": "linear"
-              },
-              "opacity": {
-                "enabled": false,
-                "easingFunction": "linear"
-              }
-            }
-          ]
-        },
-        {
-          "type": "AnimateActionComponent",
-          "left": 5,
-          "top": -115,
-          "width": 188,
-          "height": 55,
-          "wireID": "63ff1f66-9745-4a71-ac43-e28d1f980833",
-          "customInputs": [],
-          "customOutputs": [],
-          "from": "0",
-          "to": "3",
-          "speed": "2"
-        },
-        {
-          "type": "StartActionComponent",
-          "left": -126,
-          "top": -115,
-          "width": 87,
-          "height": 25,
-          "wireID": "ff1e2a92-1ab0-4c94-90d4-8207da21190f",
-          "customInputs": [],
-          "customOutputs": []
-        }
-      ],
-      "connectionLines": [
-        {
-          "source": "ff1e2a92-1ab0-4c94-90d4-8207da21190f",
-          "output": "@seqout",
-          "target": "63ff1f66-9745-4a71-ac43-e28d1f980833",
-          "input": "@seqin"
-        },
-        {
-          "source": "63ff1f66-9745-4a71-ac43-e28d1f980833",
-          "output": "@seqout",
-          "target": "63ff1f66-9745-4a71-ac43-e28d1f980833",
-          "input": "@seqin"
-        }
-      ],
-      "localVariables": [],
-      "name": "anim1",
-      "left": 0,
-      "top": 0,
-      "width": 30,
-      "height": 20,
-      "isUsedAsCustomWidget": true
+      "width": 800,
+      "height": 480,
+      "scaleToFit": false
     },
     {
       "components": [
@@ -5044,6 +4607,443 @@
       "width": 800,
       "height": 480,
       "scaleToFit": false
+    },
+    {
+      "components": [
+        {
+          "type": "RectangleWidget",
+          "left": 0,
+          "top": 0,
+          "width": 8,
+          "height": 20,
+          "wireID": "17541954-3e22-48af-866a-62fa2d1da19c",
+          "customInputs": [],
+          "customOutputs": [],
+          "style": {
+            "inheritFrom": "block"
+          },
+          "timeline": [
+            {
+              "start": 0,
+              "end": 0,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 0,
+              "end": 0.5,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 2.5,
+              "end": 3,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "RectangleWidget",
+          "left": 11,
+          "top": 0,
+          "width": 8,
+          "height": 20,
+          "wireID": "9ed45c07-f3ca-4127-cf64-fac57bb00432",
+          "customInputs": [],
+          "customOutputs": [],
+          "style": {
+            "inheritFrom": "block"
+          },
+          "timeline": [
+            {
+              "start": 0,
+              "end": 0,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 0.5,
+              "end": 1,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 2,
+              "end": 2.5,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "RectangleWidget",
+          "left": 22,
+          "top": 0,
+          "width": 8,
+          "height": 20,
+          "wireID": "0a636500-228c-4b5a-d596-b9c3168cb12f",
+          "customInputs": [],
+          "customOutputs": [],
+          "style": {
+            "inheritFrom": "block"
+          },
+          "timeline": [
+            {
+              "start": 0,
+              "end": 0,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 1,
+              "end": 1.5,
+              "left": {
+                "enabled": true,
+                "value": 22,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": true,
+                "value": 8,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            },
+            {
+              "start": 1.5,
+              "end": 2,
+              "left": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "top": {
+                "enabled": true,
+                "value": 20,
+                "easingFunction": "linear"
+              },
+              "width": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "height": {
+                "enabled": true,
+                "value": 0,
+                "easingFunction": "linear"
+              },
+              "scaleX": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "scaleY": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "rotate": {
+                "enabled": false,
+                "easingFunction": "linear"
+              },
+              "opacity": {
+                "enabled": false,
+                "easingFunction": "linear"
+              }
+            }
+          ]
+        },
+        {
+          "type": "AnimateActionComponent",
+          "left": 5,
+          "top": -115,
+          "width": 188,
+          "height": 55,
+          "wireID": "63ff1f66-9745-4a71-ac43-e28d1f980833",
+          "customInputs": [],
+          "customOutputs": [],
+          "from": "0",
+          "to": "3",
+          "speed": "2"
+        },
+        {
+          "type": "StartActionComponent",
+          "left": -126,
+          "top": -115,
+          "width": 87,
+          "height": 25,
+          "wireID": "ff1e2a92-1ab0-4c94-90d4-8207da21190f",
+          "customInputs": [],
+          "customOutputs": []
+        }
+      ],
+      "connectionLines": [
+        {
+          "source": "ff1e2a92-1ab0-4c94-90d4-8207da21190f",
+          "output": "@seqout",
+          "target": "63ff1f66-9745-4a71-ac43-e28d1f980833",
+          "input": "@seqin"
+        },
+        {
+          "source": "63ff1f66-9745-4a71-ac43-e28d1f980833",
+          "output": "@seqout",
+          "target": "63ff1f66-9745-4a71-ac43-e28d1f980833",
+          "input": "@seqin"
+        }
+      ],
+      "localVariables": [],
+      "name": "loader",
+      "left": 0,
+      "top": 0,
+      "width": 30,
+      "height": 20,
+      "isUsedAsCustomWidget": true
     }
   ],
   "styles": [
@@ -5125,6 +5125,7 @@
       "name": "text_button",
       "description": "",
       "inheritFrom": "button",
+      "font": "Oswald_17",
       "borderSize": "2",
       "borderRadius": "8"
     },
