@@ -3,23 +3,18 @@
 #include <stdint.h>
 
 #if defined(EEZ_PLATFORM_STM32)
-#if CONF_OPTION_FPGA
 static const uint32_t DISPLAY_WIDTH = 800;
 static const uint32_t DISPLAY_HEIGHT = 480;
-#else
-static const uint32_t DISPLAY_WIDTH = 480;
-static const uint32_t DISPLAY_HEIGHT = 272;
-#endif
 static const uint32_t DISPLAY_BPP = 16; // RGB565
 #endif
 
 #if defined(EEZ_PLATFORM_SIMULATOR)
-static const uint32_t DISPLAY_WIDTH = 680;
-static const uint32_t DISPLAY_HEIGHT = 472;
+static const uint32_t DISPLAY_WIDTH = 1000;
+static const uint32_t DISPLAY_HEIGHT = 680;
 static const uint32_t DISPLAY_BPP = 32;  // RGBA8888
 
-static const char *TITLE = "Uvitron Integrated Rayven";
-static const char *ICON = "uvitron.png";
+static const char *TITLE = "STM32F469I-DISCO Template";
+static const char *ICON = "icon.png";
 #endif
 
 

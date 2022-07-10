@@ -1,0 +1,240 @@
+{
+  "settings": {
+    "general": {
+      "projectVersion": "v3",
+      "projectType": "dashboard",
+      "imports": []
+    },
+    "build": {
+      "configurations": [
+        {
+          "name": "Default"
+        }
+      ],
+      "files": []
+    }
+  },
+  "variables": {
+    "globalVariables": [],
+    "structures": [],
+    "enums": []
+  },
+  "actions": [],
+  "pages": [
+    {
+      "components": [
+        {
+          "type": "Select",
+          "left": 0,
+          "top": 0,
+          "width": 800,
+          "height": 450,
+          "wireID": "8d0a425b-2e66-486e-ca7e-7c40e73f1d49",
+          "customInputs": [],
+          "customOutputs": [],
+          "data": "sel",
+          "style": {
+            "inheritFrom": "default"
+          },
+          "timeline": [],
+          "widgets": [
+            {
+              "type": "TextWidget",
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 450,
+              "wireID": "ea7eb013-6c4a-4647-ff9f-0f2f5df1d137",
+              "customInputs": [],
+              "customOutputs": [],
+              "data": "\"Hello, world!\"",
+              "style": {
+                "inheritFrom": "default",
+                "backgroundColor": "#e8b62b"
+              },
+              "timeline": []
+            },
+            {
+              "type": "TextWidget",
+              "left": 0,
+              "top": 0,
+              "width": 800,
+              "height": 450,
+              "wireID": "add37a1a-c222-4dff-c507-0a336afed2ad",
+              "customInputs": [],
+              "customOutputs": [],
+              "data": "\"Test\"",
+              "style": {
+                "inheritFrom": "default",
+                "backgroundColor": "#3416dc"
+              },
+              "timeline": []
+            }
+          ]
+        },
+        {
+          "type": "StartActionComponent",
+          "left": -33,
+          "top": -184,
+          "width": 87,
+          "height": 25,
+          "wireID": "daf60711-0bd9-4269-bdf9-2bd9b89f10e8",
+          "customInputs": [],
+          "customOutputs": []
+        },
+        {
+          "type": "EvalJSExprActionComponent",
+          "left": 245,
+          "top": -184,
+          "width": 302,
+          "height": 55,
+          "wireID": "bf57d0c4-f7e1-4d83-f68f-17af77959771",
+          "customInputs": [
+            {
+              "name": "counter",
+              "type": "integer"
+            }
+          ],
+          "customOutputs": [
+            {
+              "name": "result",
+              "type": "array:string"
+            }
+          ],
+          "expression": "{counter}.toString().split(\"5\")"
+        },
+        {
+          "type": "ConstantActionComponent",
+          "left": 44,
+          "top": -129,
+          "width": 87,
+          "height": 54,
+          "wireID": "25671a50-e557-4672-b10b-ff70667d5450",
+          "customInputs": [],
+          "customOutputs": [],
+          "value": "123456789"
+        },
+        {
+          "type": "LogActionComponent",
+          "left": 598,
+          "top": -184,
+          "width": 87,
+          "height": 54,
+          "wireID": "9069d197-a417-4d45-d6b7-886cf761e177",
+          "customInputs": [
+            {
+              "name": "value",
+              "type": "array:string"
+            }
+          ],
+          "customOutputs": [],
+          "value": "value"
+        },
+        {
+          "type": "SetVariableActionComponent",
+          "left": 167,
+          "top": -344,
+          "width": 153,
+          "height": 56,
+          "wireID": "8e496378-60e3-4827-b8c3-63429cc80c15",
+          "customInputs": [],
+          "customOutputs": [],
+          "entries": [
+            {
+              "variable": "sel",
+              "value": "sel ? 0 : 1"
+            }
+          ]
+        },
+        {
+          "type": "DelayActionComponent",
+          "left": 334,
+          "top": -344,
+          "width": 87,
+          "height": 55,
+          "wireID": "dbd191a5-fd5d-42d0-fbaa-d48ce5f4f45c",
+          "customInputs": [],
+          "customOutputs": [],
+          "milliseconds": "1000"
+        }
+      ],
+      "connectionLines": [
+        {
+          "source": "daf60711-0bd9-4269-bdf9-2bd9b89f10e8",
+          "output": "@seqout",
+          "target": "bf57d0c4-f7e1-4d83-f68f-17af77959771",
+          "input": "@seqin"
+        },
+        {
+          "source": "25671a50-e557-4672-b10b-ff70667d5450",
+          "output": "value",
+          "target": "bf57d0c4-f7e1-4d83-f68f-17af77959771",
+          "input": "counter"
+        },
+        {
+          "source": "bf57d0c4-f7e1-4d83-f68f-17af77959771",
+          "output": "result",
+          "target": "9069d197-a417-4d45-d6b7-886cf761e177",
+          "input": "value"
+        },
+        {
+          "source": "daf60711-0bd9-4269-bdf9-2bd9b89f10e8",
+          "output": "@seqout",
+          "target": "8e496378-60e3-4827-b8c3-63429cc80c15",
+          "input": "@seqin"
+        },
+        {
+          "source": "8e496378-60e3-4827-b8c3-63429cc80c15",
+          "output": "@seqout",
+          "target": "dbd191a5-fd5d-42d0-fbaa-d48ce5f4f45c",
+          "input": "@seqin"
+        },
+        {
+          "source": "dbd191a5-fd5d-42d0-fbaa-d48ce5f4f45c",
+          "output": "@seqout",
+          "target": "8e496378-60e3-4827-b8c3-63429cc80c15",
+          "input": "@seqin"
+        }
+      ],
+      "localVariables": [
+        {
+          "name": "sel",
+          "type": "integer",
+          "defaultValue": "0",
+          "persistent": false
+        }
+      ],
+      "name": "Main",
+      "style": "page",
+      "left": 0,
+      "top": 0,
+      "width": 800,
+      "height": 450,
+      "scaleToFit": true
+    }
+  ],
+  "styles": [
+    {
+      "name": "default"
+    },
+    {
+      "name": "page",
+      "inheritFrom": "",
+      "backgroundColor": "page_color",
+      "css": "\n"
+    }
+  ],
+  "colors": [
+    {
+      "name": "page_color"
+    }
+  ],
+  "themes": [
+    {
+      "name": "default",
+      "colors": [
+        "#f0f0f0"
+      ]
+    }
+  ]
+}

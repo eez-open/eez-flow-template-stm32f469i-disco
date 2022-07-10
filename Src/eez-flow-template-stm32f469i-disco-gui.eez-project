@@ -9,8 +9,8 @@
         }
       ],
       "flowSupport": true,
-      "displayWidth": 480,
-      "displayHeight": 272
+      "displayWidth": 800,
+      "displayHeight": 480
     },
     "build": {
       "configurations": [
@@ -312,8 +312,8 @@
           "type": "Select",
           "left": 0,
           "top": 0,
-          "width": 480,
-          "height": 272,
+          "width": 800,
+          "height": 480,
           "wireID": "29b822b5-0191-44ac-ccfc-b5d473083547",
           "customInputs": [],
           "customOutputs": [],
@@ -321,24 +321,26 @@
           "style": {
             "inheritFrom": "touch_calibration"
           },
+          "timeline": [],
           "widgets": [
             {
               "type": "Container",
               "left": 0,
               "top": 0,
-              "width": 480,
-              "height": 272,
+              "width": 800,
+              "height": 480,
               "wireID": "7311d830-c36c-464b-ee3a-7d04e357b513",
               "customInputs": [],
               "customOutputs": [],
               "style": {
                 "inheritFrom": "touch_calibration"
               },
+              "timeline": [],
               "widgets": [
                 {
                   "type": "MultilineText",
-                  "left": 95,
-                  "top": 98,
+                  "left": 255,
+                  "top": 202,
                   "width": 290,
                   "height": 76,
                   "wireID": "b835daad-dba0-4ddc-bf30-e59136add4ee",
@@ -347,7 +349,8 @@
                   "data": "\"Touch top-left cross in the center until change color\"",
                   "style": {
                     "inheritFrom": "note_M"
-                  }
+                  },
+                  "timeline": []
                 },
                 {
                   "type": "Text",
@@ -363,27 +366,30 @@
                   "style": {
                     "inheritFrom": "touch_calibration_point",
                     "activeBackgroundColor": "#000000"
-                  }
+                  },
+                  "timeline": []
                 }
-              ]
+              ],
+              "layout": "static"
             },
             {
               "type": "Container",
               "left": 0,
               "top": 0,
-              "width": 480,
-              "height": 272,
+              "width": 800,
+              "height": 480,
               "wireID": "6e7b9361-0965-4ca2-9116-613a7b8d9735",
               "customInputs": [],
               "customOutputs": [],
               "style": {
                 "inheritFrom": "touch_calibration"
               },
+              "timeline": [],
               "widgets": [
                 {
                   "type": "MultilineText",
-                  "left": 95,
-                  "top": 98,
+                  "left": 255,
+                  "top": 202,
                   "width": 290,
                   "height": 76,
                   "wireID": "729f4182-e9be-49d4-c1c1-2bf4767ac4fd",
@@ -392,12 +398,13 @@
                   "data": "\"Touch bottom-right cross in the center until change color\"",
                   "style": {
                     "inheritFrom": "note_M"
-                  }
+                  },
+                  "timeline": []
                 },
                 {
                   "type": "Text",
-                  "left": 445,
-                  "top": 237,
+                  "left": 765,
+                  "top": 445,
                   "width": 35,
                   "height": 35,
                   "wireID": "4a88c334-572d-4f06-a440-9c667eef30e2",
@@ -407,27 +414,30 @@
                   "action": "",
                   "style": {
                     "inheritFrom": "touch_calibration_point"
-                  }
+                  },
+                  "timeline": []
                 }
-              ]
+              ],
+              "layout": "static"
             },
             {
               "type": "Container",
               "left": 0,
               "top": 0,
-              "width": 480,
-              "height": 272,
+              "width": 800,
+              "height": 480,
               "wireID": "9ce862b9-9ec4-4173-f463-59bcb854e96d",
               "customInputs": [],
               "customOutputs": [],
               "style": {
                 "inheritFrom": "touch_calibration"
               },
+              "timeline": [],
               "widgets": [
                 {
                   "type": "MultilineText",
-                  "left": 95,
-                  "top": 98,
+                  "left": 255,
+                  "top": 202,
                   "width": 290,
                   "height": 76,
                   "wireID": "1513bc9a-aca5-4cb0-efca-c777e048c478",
@@ -436,11 +446,12 @@
                   "data": "\"Touch top-right cross in the center until change color\"",
                   "style": {
                     "inheritFrom": "note_M"
-                  }
+                  },
+                  "timeline": []
                 },
                 {
                   "type": "Text",
-                  "left": 445,
+                  "left": 765,
                   "top": 0,
                   "width": 35,
                   "height": 35,
@@ -451,9 +462,11 @@
                   "action": "",
                   "style": {
                     "inheritFrom": "touch_calibration_point"
-                  }
+                  },
+                  "timeline": []
                 }
-              ]
+              ],
+              "layout": "static"
             }
           ]
         }
@@ -465,16 +478,16 @@
       "style": "background",
       "left": 0,
       "top": 0,
-      "width": 480,
-      "height": 272
+      "width": 800,
+      "height": 480
     },
     {
       "components": [
         {
           "type": "DisplayData",
           "left": 0,
-          "top": 82,
-          "width": 480,
+          "top": 186,
+          "width": 800,
           "height": 40,
           "wireID": "5ffa4219-e9d1-4160-a8f6-f8bf4cbfadc4",
           "customInputs": [],
@@ -483,12 +496,13 @@
           "style": {
             "inheritFrom": "default"
           },
+          "timeline": [],
           "displayOption": 0
         },
         {
           "type": "Text",
-          "left": 90,
-          "top": 176,
+          "left": 250,
+          "top": 280,
           "width": 140,
           "height": 40,
           "wireID": "15ec65f7-bed9-4a08-b4b5-b91d2e5bd549",
@@ -498,12 +512,13 @@
           "action": "yes",
           "style": {
             "inheritFrom": "button"
-          }
+          },
+          "timeline": []
         },
         {
           "type": "Text",
-          "left": 250,
-          "top": 176,
+          "left": 410,
+          "top": 280,
           "width": 140,
           "height": 40,
           "wireID": "0c230611-18aa-4d6f-d95c-2cffe0881728",
@@ -513,7 +528,8 @@
           "action": "no",
           "style": {
             "inheritFrom": "button"
-          }
+          },
+          "timeline": []
         }
       ],
       "connectionLines": [],
@@ -524,8 +540,8 @@
       "style": "background",
       "left": 0,
       "top": 0,
-      "width": 480,
-      "height": 272
+      "width": 800,
+      "height": 480
     }
   ],
   "styles": [
@@ -725,6 +741,7 @@
     {
       "id": 1,
       "name": "shadow",
+      "renderingEngine": "freetype",
       "source": {
         "filePath": "Oswald-Medium.ttf",
         "size": 14
@@ -843,6 +860,7 @@
     },
     {
       "name": "gui_icons",
+      "renderingEngine": "freetype",
       "source": {
         "filePath": "Oswald-Medium.ttf",
         "size": 14
