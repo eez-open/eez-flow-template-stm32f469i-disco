@@ -79,8 +79,8 @@ EM_PORT_API(void) startFlow() {
 // clang-format off
 void mountFileSystem() {
     EM_ASM(
-        FS.mkdir("/eez-flow-template-stm32f469i-disco");
-        FS.mount(IDBFS, {}, "/eez-flow-template-stm32f469i-disco");
+        FS.mkdir("/{{projectName}}");
+        FS.mount(IDBFS, {}, "/{{projectName}}");
 
         //Module.print("start file sync..");
 

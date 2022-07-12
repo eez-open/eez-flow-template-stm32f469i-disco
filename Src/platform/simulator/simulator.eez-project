@@ -6,7 +6,7 @@
       "namespace": "",
       "imports": [
         {
-          "projectFilePath": "..\\..\\eez-flow-template-stm32f469i-disco-gui.eez-project"
+          "projectFilePath": "..\\..\\{{projectName}}-gui.eez-project"
         }
       ],
       "flowSupport": true,
