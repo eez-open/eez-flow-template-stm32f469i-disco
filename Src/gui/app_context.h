@@ -10,7 +10,6 @@ namespace gui {
 class DeviceAppContext : public AppContext {
 public:
     void stateManagment() override;
-    void pageRenderCustom(int i, WidgetCursor &widgetCursor) override;
     bool isAutoRepeatAction(int action) override;
 
 protected:

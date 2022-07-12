@@ -3,14 +3,7 @@
     "general": {
       "projectVersion": "v3",
       "projectType": "firmware",
-      "imports": [
-        {
-          "projectFilePath": "eez-flow-template-stm32f469i-disco-gui.eez-project"
-        },
-        {
-          "projectFilePath": "platform\\simulator\\simulator.eez-project"
-        }
-      ],
+      "imports": [],
       "flowSupport": true,
       "displayWidth": 800,
       "displayHeight": 480
@@ -38,11 +31,239 @@
     }
   },
   "variables": {
-    "globalVariables": [],
+    "globalVariables": [
+      {
+        "name": "alert_message",
+        "description": "Message in alert dialog",
+        "type": "string",
+        "defaultValue": "\"Are you sure?\"",
+        "native": true
+      },
+      {
+        "name": "keypad_text",
+        "type": "string",
+        "defaultValue": "\"\"",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_edit_unit",
+        "type": "string",
+        "defaultValue": "\"\"",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_sign_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_unit_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_dot_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option1_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option1_text",
+        "type": "string",
+        "defaultValue": "\"\"",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option2_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option2_text",
+        "type": "string",
+        "defaultValue": "\"\"",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option3_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_option3_text",
+        "type": "string",
+        "defaultValue": "\"\"",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_mode",
+        "type": "integer",
+        "defaultValue": "0",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "keypad_ok_enabled",
+        "type": "boolean",
+        "defaultValue": "false",
+        "persistent": false,
+        "native": true
+      },
+      {
+        "name": "main_app_view",
+        "type": "string",
+        "defaultValue": "\"main\"",
+        "usedIn": [
+          "simulator"
+        ],
+        "native": true
+      }
+    ],
     "structures": [],
     "enums": []
   },
-  "actions": [],
+  "actions": [
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "yes",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "no",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "cancel",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "edit",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "drag_overlay",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "scroll",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_key",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_back",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_unit",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_option1",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_option2",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_option3",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_sign",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_ok",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_cancel",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "toggle_keypad_mode",
+      "implementationType": "native"
+    },
+    {
+      "components": [],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "keypad_space",
+      "implementationType": "native"
+    }
+  ],
   "pages": [
     {
       "components": [
@@ -217,7 +438,6 @@
         }
       ],
       "localVariables": [],
-      "id": 1,
       "name": "main",
       "style": "background",
       "left": 0,
@@ -5044,6 +5264,56 @@
       "width": 30,
       "height": 20,
       "isUsedAsCustomWidget": true
+    },
+    {
+      "components": [
+        {
+          "type": "Bitmap",
+          "left": 0,
+          "top": 0,
+          "width": 1000,
+          "height": 680,
+          "wireID": "cada35ec-cdb1-40db-cca0-d7a4cac33cf8",
+          "customInputs": [],
+          "customOutputs": [],
+          "action": "",
+          "style": {
+            "inheritFrom": "default",
+            "backgroundColor": "#ffffff",
+            "activeColor": "#ffffff"
+          },
+          "timeline": [],
+          "bitmap": "front_panel"
+        },
+        {
+          "type": "AppView",
+          "left": 100,
+          "top": 100,
+          "width": 800,
+          "height": 480,
+          "wireID": "f5b45364-803b-499c-8a2b-d1b12c8bdc4a",
+          "customInputs": [],
+          "customOutputs": [],
+          "data": "main_app_view",
+          "style": {
+            "inheritFrom": "default",
+            "backgroundColor": "#ffffff",
+            "activeColor": "#ffffff"
+          },
+          "timeline": []
+        }
+      ],
+      "connectionLines": [],
+      "localVariables": [],
+      "name": "front_panel",
+      "style": "default",
+      "usedIn": [
+        "simulator"
+      ],
+      "left": 0,
+      "top": 0,
+      "width": 1000,
+      "height": 680
     }
   ],
   "styles": [
@@ -5145,6 +5415,168 @@
       "name": "text_button_icon_disabled",
       "inheritFrom": "text_button_disabled",
       "font": "icons"
+    },
+    {
+      "name": "default",
+      "description": "",
+      "inheritFrom": "",
+      "font": "medium",
+      "alignHorizontal": "center",
+      "alignVertical": "center",
+      "color": "text",
+      "backgroundColor": "background",
+      "activeColor": "background",
+      "activeBackgroundColor": "text",
+      "borderColor": "border",
+      "padding": "0"
+    },
+    {
+      "name": "info_alert",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "padding": "20",
+      "margin": "20"
+    },
+    {
+      "name": "error_alert",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "color": "dark_text",
+      "backgroundColor": "error",
+      "activeColor": "error",
+      "activeBackgroundColor": "dark_text",
+      "padding": "20",
+      "margin": "20"
+    },
+    {
+      "name": "error_alert_button",
+      "inheritFrom": "button",
+      "alwaysBuild": true,
+      "padding": "8 16 8 16"
+    },
+    {
+      "name": "select_enum_item_popup_container",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "color": "drop_down_list_color",
+      "backgroundColor": "drop_down_list_background",
+      "activeColor": "drop_down_list_background",
+      "activeBackgroundColor": "drop_down_list_color",
+      "padding": "12"
+    },
+    {
+      "name": "select_enum_item_popup_container_S",
+      "inheritFrom": "select_enum_item_popup_container",
+      "alwaysBuild": true
+    },
+    {
+      "name": "select_enum_item_popup_item",
+      "inheritFrom": "select_enum_item_popup_container",
+      "alwaysBuild": true,
+      "padding": "6"
+    },
+    {
+      "name": "select_enum_item_popup_item_S",
+      "inheritFrom": "select_enum_item_popup_container_S",
+      "alwaysBuild": true,
+      "alignHorizontal": "left",
+      "padding": "6"
+    },
+    {
+      "name": "select_enum_item_popup_disabled_item",
+      "inheritFrom": "select_enum_item_popup_item",
+      "alwaysBuild": true,
+      "color": "drop_down_list_color_disabled"
+    },
+    {
+      "name": "select_enum_item_popup_disabled_item_S",
+      "inheritFrom": "select_enum_item_popup_item_S",
+      "alwaysBuild": true,
+      "color": "drop_down_list_color_disabled"
+    },
+    {
+      "name": "menu_with_buttons_message",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "alignVertical": "top",
+      "color": "text",
+      "backgroundColor": "background",
+      "activeColor": "background",
+      "activeBackgroundColor": "text",
+      "padding": "0 0 10 0",
+      "margin": "0"
+    },
+    {
+      "name": "menu_with_buttons_container",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "padding": "20",
+      "margin": "20"
+    },
+    {
+      "name": "menu_with_buttons_button",
+      "inheritFrom": "button",
+      "alwaysBuild": true,
+      "padding": "0 4",
+      "margin": "0"
+    },
+    {
+      "name": "fps_graph",
+      "inheritFrom": "default",
+      "alwaysBuild": true,
+      "color": "#00ff1e",
+      "backgroundColor": "#000000",
+      "borderSize": "1",
+      "borderColor": "backdrop"
+    },
+    {
+      "name": "slider_widget",
+      "inheritFrom": "default",
+      "color": "slider_widget_color",
+      "backgroundColor": "slider_widget_background"
+    },
+    {
+      "name": "background",
+      "inheritFrom": "default",
+      "backgroundColor": "background",
+      "backgroundImage": ""
+    },
+    {
+      "name": "button",
+      "inheritFrom": "default",
+      "color": "button_text",
+      "backgroundColor": "button_background",
+      "activeColor": "button_text",
+      "activeBackgroundColor": "button_active_background",
+      "borderSize": "2",
+      "borderRadius": "8",
+      "borderColor": "button_border"
+    },
+    {
+      "name": "button_disabled",
+      "inheritFrom": "button",
+      "color": "button_disabled_text",
+      "backgroundColor": "button_disabled_background",
+      "activeColor": "button_disabled_text",
+      "activeBackgroundColor": "button_disabled_background",
+      "borderColor": "button_disabled_border"
+    },
+    {
+      "name": "note_M",
+      "inheritFrom": "default",
+      "color": "dark_text",
+      "backgroundColor": "note"
+    },
+    {
+      "name": "drop_down_list",
+      "inheritFrom": "default",
+      "color": "drop_down_list_color",
+      "backgroundColor": "drop_down_list_background",
+      "activeColor": "drop_down_list_color",
+      "activeBackgroundColor": "drop_down_list_active_background",
+      "borderSize": "2",
+      "borderRadius": "8",
+      "borderColor": "drop_down_list_border"
     }
   ],
   "fonts": [
@@ -13924,12 +14356,1879 @@
         }
       ],
       "alwaysBuild": true
+    },
+    {
+      "name": "shadow",
+      "renderingEngine": "freetype",
+      "source": {
+        "filePath": "Oswald-Medium.ttf",
+        "size": 14
+      },
+      "bpp": 8,
+      "height": 20,
+      "ascent": 20,
+      "descent": 0,
+      "glyphs": [
+        {
+          "encoding": 32,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "0000000000000000000303030303060606060606000000000000030606060a0a0a0a0a0a0a0a0a0a000000000306060a10101010171717171717171700000003060a10171b1e21212828282828282828000003060a101b000000000000000000000000000000060a101b280000000000000000000000000000030a101b28390000000000000000000000000000060a1721364e000000000000000000000000000006101b2c445f000000000000000000000000000306101e324e7000000000000000000000000000030a102139587a00000000000000000000000000060a10213d5f8400000000000000000000000000060a1728405f8b00000000000000000000000000060a172844668b00000000000000000000000000060a172844668b00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000"
+          }
+        },
+        {
+          "encoding": 33,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "06060606060606060606060606060606060606060a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a171717171717171717171717171717171717171728282828282828282828282828282828282828280000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000"
+          }
+        },
+        {
+          "encoding": 34,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "06060606060603030303030000000000000000000a0a0a0a0a0a0a0a0a0a060606030000000000001717171717171717101010100a06060300000000282828282828282821211e1b17100a0603000000000000000000000000000000001b100a0603000000000000000000000000000000281b100a0600000000000000000000000000000039281b100a0300000000000000000000000000004e3621170a0600000000000000000000000000005f442c1b10060000000000000000000000000000704e321e100603000000000000000000000000007a583921100a0300000000000000000000000000845f3d21100a06000000000000000000000000008b5f4028170a06000000000000000000000000008b664428170a06000000000000000000000000008b664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06"
+          }
+        },
+        {
+          "encoding": 35,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000"
+          }
+        },
+        {
+          "encoding": 36,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06"
+          }
+        },
+        {
+          "encoding": 37,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668e00000000000000000000000000060a172844668b00000000000000000000000000060a172844668b00000000000000000000000000060a1728405f8b00000000000000000000000000060a10213d5f84f8000000000000000000000000030a102139587ac5fb00000000000000000000000306101e324e708eb0c8ddeaf4f4fbfbfbfbfbfb0006101b2c445f7a99adbeccd2d6dddddddddddd00060a1721364e667a8e9faab0b4b4b4b4b4b4b400030a101b28394e5f707a84888b8b8b8e8e8e8e0000060a101b2836444e585f5f66666666666666000003060a101b212c32393d404444444444444400000003060a10171b1e21212828282828282828000000000306060a101010101717171717171b1b000000000000030606060a0a0a0a0a0a0a0d0d0d000000000000000000030303030306060a0a0a0a"
+          }
+        },
+        {
+          "encoding": 38,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000fbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbfbddddddddddddddddddddddddddddddddddddddddb4b4b4b4b4b4b4b4b4b4b4b4b4b4b4b4b4b4b4b48e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e6666666666666666666666666666666666666666444444444444444444444444444444444444444428282828282828282828282828282828282828281b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b1b0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0d0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a"
+          }
+        },
+        {
+          "encoding": 39,
+          "x": 0,
+          "y": 0,
+          "width": 20,
+          "height": 20,
+          "dx": 20,
+          "glyphBitmap": {
+            "width": 20,
+            "height": 20,
+            "pixelArray": "000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008e664428170a06000000000000000000000000008b664428170a06000000000000000000000000008b664428170a06000000000000000000000000008b5f4028170a06000000000000000000000000f8845f3d21100a060000000000000000000000fbc57a583921100a03fbfbfbfbfbfbf4f4eaddc8b08e704e321e100603ddddddddddddd6d2ccbead997a5f442c1b100600b4b4b4b4b4b4b4b0aa9f8e7a664e3621170a06008e8e8e8e8b8b8b88847a705f4e39281b100a0300666666666666665f5f584e4436281b100a06000044444444444444403d39322c211b100a06030000282828282828282821211e1b17100a06030000001b17171717171717101010100a060603000000000d0d0a0a0a0a0a0a0a0a060606030000000000000a0a0a0606060303030303000000000000000000"
+          }
+        }
+      ],
+      "alwaysBuild": true
+    },
+    {
+      "name": "gui_icons",
+      "renderingEngine": "freetype",
+      "source": {
+        "filePath": "Oswald-Medium.ttf",
+        "size": 14
+      },
+      "bpp": 8,
+      "height": 35,
+      "ascent": 35,
+      "descent": 0,
+      "glyphs": [
+        {
+          "encoding": 32,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 32
+          }
+        },
+        {
+          "encoding": 33,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 33
+          }
+        },
+        {
+          "encoding": 34,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 34
+          }
+        },
+        {
+          "encoding": 35,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 35
+          }
+        },
+        {
+          "encoding": 36,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 36
+          }
+        },
+        {
+          "encoding": 37,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 37
+          }
+        },
+        {
+          "encoding": 38,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 38
+          }
+        },
+        {
+          "encoding": 39,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 39
+          }
+        },
+        {
+          "encoding": 40,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 40
+          }
+        },
+        {
+          "encoding": 41,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 41
+          }
+        },
+        {
+          "encoding": 42,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 42
+          }
+        },
+        {
+          "encoding": 43,
+          "x": 0,
+          "y": 0,
+          "width": 35,
+          "height": 35,
+          "dx": 35,
+          "glyphBitmap": {
+            "width": 35,
+            "height": 35,
+            "pixelArray": "00000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000ffffffffffffffffffffffffffffff0000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0000000000ffffffffffffffffffffffffffffff000000000000000000000000000000000000000000000000000000000000000000000000000404040404040404040404000000ffffff0000040404040404040404040100000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff0000000000000000000000000000000000000000000000000000000000000000ffffff00000000000000000000000000000000"
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 43
+          }
+        },
+        {
+          "encoding": 44,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 44
+          }
+        },
+        {
+          "encoding": 45,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 45
+          }
+        },
+        {
+          "encoding": 46,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 46
+          }
+        },
+        {
+          "encoding": 47,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 47
+          }
+        },
+        {
+          "encoding": 48,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 48
+          }
+        },
+        {
+          "encoding": 49,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 49
+          }
+        },
+        {
+          "encoding": 50,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 50
+          }
+        },
+        {
+          "encoding": 51,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 51
+          }
+        },
+        {
+          "encoding": 52,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 52
+          }
+        },
+        {
+          "encoding": 53,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 53
+          }
+        },
+        {
+          "encoding": 54,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 54
+          }
+        },
+        {
+          "encoding": 55,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 55
+          }
+        },
+        {
+          "encoding": 56,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 56
+          }
+        },
+        {
+          "encoding": 57,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 57
+          }
+        },
+        {
+          "encoding": 58,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 58
+          }
+        },
+        {
+          "encoding": 59,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 59
+          }
+        },
+        {
+          "encoding": 60,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 60
+          }
+        },
+        {
+          "encoding": 61,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 61
+          }
+        },
+        {
+          "encoding": 62,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 62
+          }
+        },
+        {
+          "encoding": 63,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 63
+          }
+        },
+        {
+          "encoding": 64,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 64
+          }
+        },
+        {
+          "encoding": 65,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 65
+          }
+        },
+        {
+          "encoding": 66,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 66
+          }
+        },
+        {
+          "encoding": 67,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 67
+          }
+        },
+        {
+          "encoding": 68,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 68
+          }
+        },
+        {
+          "encoding": 69,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 69
+          }
+        },
+        {
+          "encoding": 70,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 70
+          }
+        },
+        {
+          "encoding": 71,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 71
+          }
+        },
+        {
+          "encoding": 72,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 72
+          }
+        },
+        {
+          "encoding": 73,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 73
+          }
+        },
+        {
+          "encoding": 74,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 74
+          }
+        },
+        {
+          "encoding": 75,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 75
+          }
+        },
+        {
+          "encoding": 76,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 76
+          }
+        },
+        {
+          "encoding": 77,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 77
+          }
+        },
+        {
+          "encoding": 78,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 78
+          }
+        },
+        {
+          "encoding": 79,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 79
+          }
+        },
+        {
+          "encoding": 80,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 80
+          }
+        },
+        {
+          "encoding": 81,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 81
+          }
+        },
+        {
+          "encoding": 82,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 82
+          }
+        },
+        {
+          "encoding": 83,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 83
+          }
+        },
+        {
+          "encoding": 84,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 84
+          }
+        },
+        {
+          "encoding": 85,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 85
+          }
+        },
+        {
+          "encoding": 86,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 86
+          }
+        },
+        {
+          "encoding": 87,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 87
+          }
+        },
+        {
+          "encoding": 88,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 88
+          }
+        },
+        {
+          "encoding": 89,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 89
+          }
+        },
+        {
+          "encoding": 90,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 90
+          }
+        },
+        {
+          "encoding": 91,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 91
+          }
+        },
+        {
+          "encoding": 92,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 92
+          }
+        },
+        {
+          "encoding": 93,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 93
+          }
+        },
+        {
+          "encoding": 94,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 94
+          }
+        },
+        {
+          "encoding": 95,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 95
+          }
+        },
+        {
+          "encoding": 96,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 96
+          }
+        },
+        {
+          "encoding": 97,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 97
+          }
+        },
+        {
+          "encoding": 98,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 98
+          }
+        },
+        {
+          "encoding": 99,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 99
+          }
+        },
+        {
+          "encoding": 100,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 100
+          }
+        },
+        {
+          "encoding": 101,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 101
+          }
+        },
+        {
+          "encoding": 102,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 102
+          }
+        },
+        {
+          "encoding": 103,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 103
+          }
+        },
+        {
+          "encoding": 104,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 104
+          }
+        },
+        {
+          "encoding": 105,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 105
+          }
+        },
+        {
+          "encoding": 106,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 106
+          }
+        },
+        {
+          "encoding": 107,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 107
+          }
+        },
+        {
+          "encoding": 108,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 108
+          }
+        },
+        {
+          "encoding": 109,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 109
+          }
+        },
+        {
+          "encoding": 110,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 110
+          }
+        },
+        {
+          "encoding": 111,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 111
+          }
+        },
+        {
+          "encoding": 112,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 112
+          }
+        },
+        {
+          "encoding": 113,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 113
+          }
+        },
+        {
+          "encoding": 114,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 114
+          }
+        },
+        {
+          "encoding": 115,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 115
+          }
+        },
+        {
+          "encoding": 116,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 116
+          }
+        },
+        {
+          "encoding": 117,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 117
+          }
+        },
+        {
+          "encoding": 118,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 118
+          }
+        },
+        {
+          "encoding": 119,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 119
+          }
+        },
+        {
+          "encoding": 120,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 120
+          }
+        },
+        {
+          "encoding": 121,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 121
+          }
+        },
+        {
+          "encoding": 122,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 122
+          }
+        },
+        {
+          "encoding": 123,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 123
+          }
+        },
+        {
+          "encoding": 124,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 124
+          }
+        },
+        {
+          "encoding": 125,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 125
+          }
+        },
+        {
+          "encoding": 126,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 126
+          }
+        },
+        {
+          "encoding": 127,
+          "x": 0,
+          "y": 0,
+          "width": 0,
+          "height": 0,
+          "dx": 0,
+          "glyphBitmap": {
+            "width": 0,
+            "height": 0,
+            "pixelArray": ""
+          },
+          "source": {
+            "filePath": "Oswald-Medium.ttf",
+            "size": 14,
+            "encoding": 127
+          }
+        }
+      ]
     }
   ],
   "readme": {
     "readmeFile": "..\\README.md"
   },
-  "bitmaps": [],
+  "bitmaps": [
+    {
+      "name": "front_panel",
+      "image": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA+gAAAKoCAIAAABr7kJrAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAB4VSURBVHhe7d3Li2TnecDhuve9u6Z7bp5BE0dexAqxLC2MbUiIVvpfkm2y8LLxPxBCAlkY4l0ggeyCk4UhJBhjxwvLAROjgBlGJLrMtaevdTuV7/vOaaEsDOrWJHVeeJ6pPnWquqvq/Wb1O1Ona7qHh4cdAACg3XrNNQAA0GLCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAF0Dw8Pm91XYTAc7t+4PR4fbG7vrK1tdLu95XJZVfOL6cX52cnp8dGzp59MJhfNTwMAQEz//937ysJ9c2v7tde+cnDzbr8/qO9Jo5fpq8VikbfVYr6o+r3u6cmLjz989PLli/rHAAAgkFV1b/+dd95pdq+r3+9/+be/+tU33tq7sT8cDgeDXr++9Hq9fho4XfW6jU5aSrc33Ltxa3dn9/jli7Sw5lkAAKDdVtu9XzTcNza2vvbmN+/euz8apdGTfv5Kc+fp6/k7+SsP300/n7fdTlUtl53+rTt3pxdnzpwBAKD9Vt69Xyjct7Z3v/72t3fHe5ejp8nz8PWl1u2mS5o/zZ4t0+T5TzabLfbGNxfzi4uL83IHAAC0URu69/rhvr6++dbb397e2S5vE+Tpy6UspYxfNmXqdOSRjzk6afgknwFUb/Ia5ts7B/Opf3cHAKClWtK91wz3fn/we29+Y288rk/uSTOnndFgMExrSN/r9wZ5+Dx+fougfq8gu5y9HH7UZtP53vjg+OhpVS3KzwAAQFu0p3uv+Tnu91/7yv7BQTnISEcY9fT90WgwGg3ryzBvB6PhIK2qyD+WF1d+Ph2T9MvJ+1m/e34+vf/a681TAwBAa7Sne68T7usbWw8evN68ejrIGAxG/V4+AklHHmnyS2k/3TkclrHrqfMDmsE/nb9+T6Faru2NbzQvAAAALdCq7r1OuN+7/+XR2jC9dpopzTVI23KWT5l4mMZ5eXxSryepfyCZzxedTj12GTlvsny7l0/62RvfbV4AAABaoFXde+VwT3PeunWvvG6aoZO2+d//izRtp7P83vf/9s/+4q8fP3lWT1/0JheTn/zbe796/9fpGdLs9SJ6+TSgRtpbdkfrGxv1qwAAwGq1rXuvHO47e/tra2vlFf+XNNOiqv7qe3/z3r//8vmLoz//y+9//MmT+lsnJ2c//OcfH708/ujjx79++F/186T706bZL5ezi4u98c36HgAAWK22de+VP1Xm7pcejMf79ZsFaZsOLspv1+aDjNOz83/4xx8en5ymQ4vFYvHeL/7j/GLywQcf/uuPf5Z2ys/nhx3sj5dVJ/9fsNlyUXbK/w5bjYaD46OnzSsBAMDqtK17r/wv7lubO/XHyHfKx8mXT7ZpPuFmb3fnO3/6xzdv7lfLKt28mEx+8tOf//Rnvzg7y59Vme7Z2tr83d95vd9LL1oem7665ckun7HbHzV7AACwUm3r3iuH+2htI71eGThv06T5kKFIRxv7N/a+8yd/NB7vlbcE8jsC5U2D/MCNjY23v/7GcDhIj0s38+PrzeX86Ua30y+7AACwYm3r3iuHe7fbS7OmwcvMebuolmn0eTGbzcd7u3/4+9/s53P3s7KA7Ldeu7c2GqUp68eW6/ovIik7nc584f9gAgCgFdrWvVcO92byywUsFlV61fm8ulzAbDqdprk//c3az3yAZbc8JCkzX8q3P3NP8zIAALBSbeveK4f7Yt6cU18uSRp9McujL9L0ybPnRz9/75fDQf5Ay2YRxYcfPp5MptWi+Qu4vG5mr6/SAUrzMgAAsFJt694rh/vk4iy9ap58Xi8gSwuYzueT2eLF0cnf/f0PTk/Py2fSDwbD/CGXSTryuJhMfvWfD9Py8wOaX62tlaXkTVrHvHkZAABYqbZ175U/DnJ9a3trc6ecvVOfhZ/UV8vJdPaDf/qXJ0+ep6HTgcfB/vjNr71x/96X0qFJmjctY5JMZ3s72+kAJd3XKH8Rs7xXDXqL05Pn5dkAAGCV2ta9Vw73Xre3e+Pm5ex5uyy/GFvO0umen188e/48HXDcuXPrnT/41q2bN3Z2tu7cvnlxMT2/yB+Oc+f2rX4vn4yflLOD8txpUx+R9LuT87Pj/MQAALBSbeveK4f7fD7du3Gnlz+TMmvOqq9XsFzeurk/Go36g8G3vvFWv9/Lw+XRqvHe7mxR3b51sLU+mpWpkzx+Prs/TZ/uqdZGw9Ojj9Ld5RkBAGCV2ta9Vw73ZVWNRutrG1vN7bKGfJpO+T3ZtHNjvHvv7u1ut5OHW+TTgvKI8/nO1ma/103T1zfLVfpmNcvfT1/Vxqhz9OJx86QAALBSbeveK4d7Mp1e7OwedMq5PuV4o54+feVtfSnD1YcX9fVilj/sMu/k0fNVnj7tpQWknUG/Pz1/mp65eQ0AAFi1VnXvdcJ9MZ/1+4O19c08ffN2Qb2C/In06ejj022jOfz4zJLywUfe1NOnh26OOs+ffdS8AAAAtECruvc64Z6cn51sbu91u708el5DHj8Nko468rjlkqcuaykLqMq7BEm9iHxzWqZPl63N0fPHj9IjmmcHAIB2aE/3XjPc09hnpy83t8dpP8+djzrKAtIK8nVaRxosD1e2ZeY0bb5U+Yjj8p2CdOf62ujs5X9PJ06SAQCgddrTvdcM9yQNMjk/2djcLaf75BWUBZShkzJ3utkca+RN2s838yrqOxbV+mg4Of34zEdAAgDQVi3p3uuHezKfz87PXq6v7yyXvXr8PPKlZiXld2zz9OXGrBx45N+6raqN9cH58UeqHQCAlmtD936hcE/STKenzweDQbc3SlNW1bLMnS9pNc1+eY+gvFdQ3jhYLPv93vqgevH0A2fIAAAQwsq794uGe7JcLtPxx2x60hv0e71BfVhRz59269HzQspihmmtvdnk7MnLF4/TwUrzFAAA0Hqr7d5XEO61/PbB6dH52YtuZ5E/6bLX6/V73fyn20+bTtWtpp3F2dnxJ6fHz+azafMwAAAIZVXd2z08PGx2AQCAtuo11wAAQIsJdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAF0Dw8Pm11+s/fff7/ZAwDglXr33XcfPnzY3OA3E+6fSwr3R48eNTcAAHhFUrU/ePBAuH8ewv1zqcP9Rz/6UXMbAIBX4bvf/a5w/5yc4w4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAE0D08PGx2+c3ef//9R48evfvuu81tAABekQcPHjx8+LC5wW8m3D+XFO6qHQDg/4hw/zyEOwAABOAcdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACEC4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAIADhDgAAAQh3AAAIQLgDAEAAwh0AAAIQ7gAAEIBwBwCAAIQ7AAAEINwBACAA4Q4AAAEIdwAACKB7eHjY7L4Kg+Fw/8bt8fhgc3tnbW2j2+0tl8uqml9ML87PTk6Pj549/WQyuWh+GgAAYvr/795XFu6bW9uvvfaVg5t3+/1BfU8avUxfLRaLvK0W80XV73VPT158/OGjly9f1D8GAACBrKp7+++8806ze139fv/Lv/3Vr77x1t6N/eFwOBj0+vWl1+v108DpqtdtdNJSur3h3o1buzu7xy9fpIU1zwIAAO222u79ouG+sbH1tTe/effe/dEojZ7081eaO09fz9/JX3n4bvr5vO12qmq57PRv3bk7vThz5gwAAO238u79QuG+tb379be/vTveuxw9TZ6Hry+1bjdd0vxp9myZJs9/stlssTe+uZhfXFyclzsAAKCN2tC91w/39fXNt97+9vbOdnmbIE9fLmUpZfyyKVOnI498zNFJwyf5DKB6k9cw3945mE/9uzsAAC3Vku69Zrj3+4Pfe/Mbe+NxfXJPmjntjAaDYVpD+l6/N8jD5/HzWwT1ewXZ5ezl8KM2m873xgfHR0+ralF+BgAA2qI93XvNz3G//9pX9g8OykFGOsKop++PRoPRaFhfhnk7GA0HaVVF/rG8uPLz6ZikX07ez/rd8/Pp/ddeb54aAABaoz3de51wX9/YevDg9ebV00HGYDDq9/IRSDrySJNfSvvpzuGwjF1PnR/QDP7p/PV7CtVybW98o3kBAABogVZ173XC/d79L4/Whum100xprkHalrN8ysTDNM7L45N6PUn9A8l8vuh06rHLyHmT5du9fNLP3vhu8wIAANACrereK4d7mvPWrXvlddMMnbTN//5fpGk7neX3vv+3f/YXf/34ybN6+qI3uZj85N/e+9X7v07PkGavF9HLpwE10t6yO1rf2KhfBQAAVqtt3XvlcN/Z219bWyuv+L+kmRZV9Vff+5v3/v2Xz18c/flffv/jT57U3zo5OfvhP//46OXxRx8//vXD/6qfJ92fNs1+uZxdXOyNb9b3AADAarWte6/8qTJ3v/RgPN6v3yxI23RwUX67Nh9knJ6d/8M//vD45DQdWiwWi/d+8R/nF5MPPvjwX3/8s7RTfj4/7GB/vKw6+f+CzZaLslP+d9hqNBwcHz1tXgkAAFanbd175X9x39rcqT9GvlM+Tr58sk3zCTd7uzvf+dM/vnlzv1pW6ebFZPKTn/78pz/7xdlZ/qzKdM/W1ubv/s7r/V560fLY9NUtT3b5jN3+qNkDAICValv3XjncR2sb6fXKwHmbJs2HDEU62ti/sfedP/mj8XivvCWQ3xEobxrkB25sbLz99TeGw0F6XLqZH19vLudPN7qdftkFAIAVa1v3Xjncu91emjUNXmbO20W1TKPPi9lsPt7b/cPf/2Y/n7uflQVkv/XavbXRKE1ZP7Zc138RSdnpdOYL/wcTAACt0LbuvXK4N5NfLmCxqNKrzufV5QJm0+k0zf3pb9Z+5gMsu+UhSZn5Ur79mXualwEAgJVqW/deOdwX8+ac+nJJ0uiLWR59kaZPnj0/+vl7vxwO8gdaNosoPvzw8WQyrRbNX8DldTN7fZUOUJqXAQCAlWpb91453CcXZ+lV8+TzegFZWsB0Pp/MFi+OTv7u739wenpePpN+MBjmD7lM0pHHxWTyq/98mJafH9D8am2tLCVv0jrmzcsAAMBKta17r/xxkOtb21ubO+Xsnfos/KS+Wk6msx/80788efI8DZ0OPA72x29+7Y37976UDk3SvGkZk2Q629vZTgco6b5G+YuY5b1q0FucnjwvzwYAAKvUtu69crj3ur3dGzcvZ8/bZfnF2HKWTvf8/OLZ8+fpgOPOnVvv/MG3bt28sbOzdef2zYuL6flF/nCcO7dv9Xv5ZPyknB2U506b+oik352cnx3nJwYAgJVqW/deOdzn8+nejTu9/JmUWXNWfb2C5fLWzf3RaNQfDL71jbf6/V4eLo9Wjfd2Z4vq9q2DrfXRrEyd5PHz2f1p+nRPtTYanh59lO4uzwgAAKvUtu69crgvq2o0Wl/b2GpulzXk03TK78mmnRvj3Xt3b3e7nTzcIp8WlEecz3e2Nvu9bpq+vlmu0jerWf5++qo2Rp2jF4+bJwUAgJVqW/deOdyT6fRiZ/egU871Kccb9fTpK2/rSxmuPryorxez/GGXeSePnq/y9GkvLSDtDPr96fnT9MzNawAAwKq1qnuvE+6L+azfH6ytb+bpm7cL6hXkT6RPRx+fbhvN4cdnlpQPPvKmnj49dHPUef7so+YFAACgBVrVvdcJ9+T87GRze6/b7eXR8xry+GmQdNSRxy2XPHVZS1lAVd4lSOpF5JvTMn26bG2Onj9+lB7RPDsAALRDe7r3muGexj47fbm5PU77ee581FEWkFaQr9M60mB5uLItM6dp86XKRxyX7xSkO9fXRmcv/3s6cZIMAACt057uvWa4J2mQyfnJxuZuOd0nr6AsoAydlLnTzeZYI2/Sfr6ZV1HfsajWR8PJ6cdnPgISAIC2akn3Xj/ck/l8dn72cn19Z7ns1ePnkS81Kym/Y5unLzdm5cAj/9ZtVW2sD86PP1LtAAC0XBu69wuFe5JmOj19PhgMur1RmrKqlmXufEmrafbLewTlvYLyxsFi2e/31gfVi6cfOEMGAIAQVt69XzTck+VymY4/ZtOT3qDf6w3qw4p6/rRbj54XUhYzTGvtzSZnT16+eJwOVpqnAACA1ltt976CcK/ltw9Oj87PXnQ7i/xJl71er9/r5j/dftp0qm417SzOzo4/OT1+Np9Nm4cBAEAoq+re7uHhYbMLAAC0Va+5BgAAWky4AwBAAMIdAAACEO4AABCAcAcAgACEOwAABCDcAQAgAOEOAAABCHcAAAhAuAMAQADCHQAAAhDuAAAQgHAHAIAAhDsAAAQg3AEAoPU6nf8BWOEbNJC1wUIAAAAASUVORK5CYII=",
+      "bpp": 32
+    }
+  ],
   "colors": [
     {
       "name": "background"
