@@ -3,6 +3,8 @@ build
 .vscode/.vscode/c_cpp_properties.json
 .vscode/launch.json
 
+*.launch
+
 .vscode/*.log
 nul.d
 
