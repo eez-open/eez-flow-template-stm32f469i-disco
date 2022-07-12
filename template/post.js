@@ -25,6 +25,9 @@
  * @param {WizardContext} context
  */
 async function postProcessing(context) {
+    await context.replaceInFile("README.md", "{{projectDirPath}}", context.projectDirPath);
+    await context.replaceInFile("README.md", "{{projectName}}", context.projectName);
+
     await context.replaceInFile(".cproject", "{{projectName}}", context.projectName);
     await context.replaceInFile(".project", "{{projectName}}", context.projectName);
 
