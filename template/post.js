@@ -35,9 +35,6 @@ async function postProcessing(context) {
     await context.replaceInFile(context.projectName + ".ioc", "{{projectName}}", context.projectName);
 
     await context.renameFile("Src/eez-flow-template-stm32f469i-disco.eez-project", "Src/" + context.projectName + ".eez-project");
-    await context.renameFile("Src/eez-flow-template-stm32f469i-disco-gui.eez-project", "Src/" + context.projectName + "-gui.eez-project");
-    await context.replaceInFile("Src/" + context.projectName + ".eez-project", "eez-flow-template-stm32f469i-disco-gui.eez-project", context.projectName + "-gui.eez-project");
-    await context.replaceInFile("Src/" + context.projectName + "-gui.eez-project", "eez-flow-template-stm32f469i-disco.eez-project", context.projectName + ".eez-project");
 
     await context.replaceInFile("Src/firmware.cpp", "{{projectName}}", context.projectName);
 
