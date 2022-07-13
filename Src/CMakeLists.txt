@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-set (PROJECT_NAME eez-flow-template-sdl)
+set (PROJECT_NAME eez-flow-template-stm32f469i-disco)
 
 project(${PROJECT_NAME})
 
