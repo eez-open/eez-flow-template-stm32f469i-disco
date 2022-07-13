@@ -1,3 +1,4 @@
 {
+    "eez-framework-location": "Middlewares/eez",
     "eez-project-path": "Src/{{projectName}}.eez-project"
 }
