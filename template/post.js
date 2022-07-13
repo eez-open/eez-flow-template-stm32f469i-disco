@@ -25,6 +25,8 @@
  * @param {WizardContext} context
  */
 async function postProcessing(context) {
+    await context.replaceInFile("CMakeLists.txt", "eez-flow-template-sdl", context.projectName);
+
     await context.replaceInFile("README.md", "{{projectDirPath}}", context.projectDirPath);
     await context.replaceInFile("README.md", "{{projectName}}", context.projectName);
 
