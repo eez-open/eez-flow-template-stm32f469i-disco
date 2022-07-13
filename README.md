@@ -47,7 +47,7 @@ cd {{projectName}}
 .\cmake.bat
 ```
 
-Visual Studio solution is created in `{{projectName}}\build\win32`.
+Visual Studio solution is created in `{{projectName}}\Src\build\win32`.
 
 Use Visual Studio to build the solution.
 
