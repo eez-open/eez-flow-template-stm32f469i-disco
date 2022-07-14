@@ -13,7 +13,7 @@ First, build the project using EEZ Studio.
 ```
 sudo apt-get update
 sudo apt-get install -y git libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev cmake build-essential libbsd-dev
-cd {{projectName}}
+cd {{projectDirPath}}
 mkdir -p build/linux
 cd build/linux
 cmake ../..
@@ -45,11 +45,11 @@ set SDL2IMAGEDIR=..\SDL2_image-2.0.4
 Execute `cmake.bat`:
 
 ```
-cd {{projectName}}
+cd {{projectDirPath}}
 .\cmake.bat
 ```
 
-Visual Studio solution is created in `{{projectName}}\Src\build\win32`.
+Visual Studio solution is created in `{{projectDirPath}}\Src\build\win32`.
 
 Use Visual Studio to build the solution.
 
@@ -62,8 +62,8 @@ These instructions are for the Linux.
 ```
 source /path/to/emsdk/emsdk_env.sh
 export EMSCRIPTEN=/path/to/emsdk/upstream/emscripten
-mkdir -p {{projectName}}/build/emscripten
-cd {{projectName}}/build/emscripten
+mkdir -p {{projectDirPath}}/build/emscripten
+cd {{projectDirPath}}/build/emscripten
 cmake -DCMAKE_TOOLCHAIN_FILE=../../cmake/Emscripten.cmake -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" ../..
 make
 ```
