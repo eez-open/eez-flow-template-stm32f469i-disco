@@ -23,7 +23,8 @@ enum DataEnum {
     DATA_ID_KEYPAD_OPTION3_ENABLED = 11,
     DATA_ID_KEYPAD_OPTION3_TEXT = 12,
     DATA_ID_KEYPAD_MODE = 13,
-    DATA_ID_KEYPAD_OK_ENABLED = 14
+    DATA_ID_KEYPAD_OK_ENABLED = 14,
+    DATA_ID_TEMPERATURE = 15
 };
 
 void data_none(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
@@ -41,6 +42,7 @@ void data_keypad_option3_enabled(DataOperationEnum operation, const WidgetCursor
 void data_keypad_option3_text(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_mode(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_ok_enabled(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
+void data_temperature(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 
 typedef void (*DataOperationsFunction)(DataOperationEnum operation, const WidgetCursor &widgetCursor, Value &value);
 
@@ -91,10 +93,10 @@ enum FontsEnum {
     FONT_ID_NONE = 0,
     FONT_ID_ICONS = 1,
     FONT_ID_SHADOW = 2,
-    FONT_ID_MEDIUM = 3,
-    FONT_ID_OSWALD_24 = 4,
-    FONT_ID_OSWALD_38 = 5,
-    FONT_ID_OSWALD_17 = 6
+    FONT_ID_TEXT_M = 3,
+    FONT_ID_TEXT_L = 4,
+    FONT_ID_TEXT_XL = 5,
+    FONT_ID_TEXT_XXL = 6
 };
 
 enum BitmapsEnum {
@@ -117,16 +119,15 @@ enum StylesEnum {
     STYLE_ID_MENU_WITH_BUTTONS_BUTTON = 12,
     STYLE_ID_FPS_GRAPH = 13,
     STYLE_ID_BACKGROUND = 14,
-    STYLE_ID_DEFAULT_24 = 15,
-    STYLE_ID_DEFAULT = 16,
-    STYLE_ID_DEFAULT_38 = 17,
-    STYLE_ID_BUTTON = 18,
-    STYLE_ID_DISABLED_BUTTON = 19,
-    STYLE_ID_BUTTON_ICON = 20,
-    STYLE_ID_TEXT_INPUT = 21,
-    STYLE_ID_TEXT_BUTTON = 22,
-    STYLE_ID_TEXT_BUTTON_ICON = 23,
-    STYLE_ID_TEXT_BUTTON_ICON_DISABLED = 24
+    STYLE_ID_DEFAULT_XL = 15,
+    STYLE_ID_DEFAULT_XXL = 16,
+    STYLE_ID_TEXT_BUTTON = 17,
+    STYLE_ID_TEXT_BUTTON_DISABLED = 18,
+    STYLE_ID_BUTTON_ICON = 19,
+    STYLE_ID_TEXT_INPUT = 20,
+    STYLE_ID_DEFAULT = 21,
+    STYLE_ID_TEXT_BUTTON_ICON = 22,
+    STYLE_ID_TEXT_BUTTON_ICON_DISABLED = 23
 };
 
 enum ThemesEnum {
@@ -179,7 +180,7 @@ enum PagesEnum {
     PAGE_ID_KEYBOARD = 3
 };
 
-extern const uint8_t assets[61981];
+extern const uint8_t assets[60825];
 
 #elif defined(EEZ_PLATFORM_SIMULATOR)
 
@@ -199,7 +200,8 @@ enum DataEnum {
     DATA_ID_KEYPAD_OPTION3_TEXT = 12,
     DATA_ID_KEYPAD_MODE = 13,
     DATA_ID_KEYPAD_OK_ENABLED = 14,
-    DATA_ID_MAIN_APP_VIEW = 15
+    DATA_ID_MAIN_APP_VIEW = 15,
+    DATA_ID_TEMPERATURE = 16
 };
 
 void data_none(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
@@ -218,6 +220,7 @@ void data_keypad_option3_text(DataOperationEnum operation, const WidgetCursor &c
 void data_keypad_mode(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_ok_enabled(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_main_app_view(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
+void data_temperature(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 
 typedef void (*DataOperationsFunction)(DataOperationEnum operation, const WidgetCursor &widgetCursor, Value &value);
 
@@ -268,10 +271,10 @@ enum FontsEnum {
     FONT_ID_NONE = 0,
     FONT_ID_ICONS = 1,
     FONT_ID_SHADOW = 2,
-    FONT_ID_MEDIUM = 3,
-    FONT_ID_OSWALD_24 = 4,
-    FONT_ID_OSWALD_38 = 5,
-    FONT_ID_OSWALD_17 = 6
+    FONT_ID_TEXT_M = 3,
+    FONT_ID_TEXT_L = 4,
+    FONT_ID_TEXT_XL = 5,
+    FONT_ID_TEXT_XXL = 6
 };
 
 enum BitmapsEnum {
@@ -295,17 +298,16 @@ enum StylesEnum {
     STYLE_ID_MENU_WITH_BUTTONS_BUTTON = 12,
     STYLE_ID_FPS_GRAPH = 13,
     STYLE_ID_BACKGROUND = 14,
-    STYLE_ID_DEFAULT_24 = 15,
-    STYLE_ID_DEFAULT = 16,
-    STYLE_ID_DEFAULT_38 = 17,
-    STYLE_ID_BUTTON = 18,
-    STYLE_ID_DISABLED_BUTTON = 19,
-    STYLE_ID_BUTTON_ICON = 20,
-    STYLE_ID_TEXT_INPUT = 21,
-    STYLE_ID_TEXT_BUTTON = 22,
-    STYLE_ID_TEXT_BUTTON_ICON = 23,
-    STYLE_ID_TEXT_BUTTON_ICON_DISABLED = 24,
-    STYLE_ID_INLINE24 = 25
+    STYLE_ID_DEFAULT_XL = 15,
+    STYLE_ID_DEFAULT_XXL = 16,
+    STYLE_ID_TEXT_BUTTON = 17,
+    STYLE_ID_TEXT_BUTTON_DISABLED = 18,
+    STYLE_ID_BUTTON_ICON = 19,
+    STYLE_ID_TEXT_INPUT = 20,
+    STYLE_ID_DEFAULT = 21,
+    STYLE_ID_TEXT_BUTTON_ICON = 22,
+    STYLE_ID_TEXT_BUTTON_ICON_DISABLED = 23,
+    STYLE_ID_INLINE23 = 24
 };
 
 enum ThemesEnum {
@@ -360,7 +362,7 @@ enum PagesEnum {
     PAGE_ID_FRONT_PANEL = 4
 };
 
-extern const uint8_t assets[78397];
+extern const uint8_t assets[77251];
 
 #endif
 

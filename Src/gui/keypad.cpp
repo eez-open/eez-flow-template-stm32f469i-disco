@@ -55,7 +55,8 @@ NumericKeypad *getActiveNumericKeypad() {
 WidgetCursor g_editWidgetCursor;
 
 void keypadSetFloatValue(float value) {
-	//auto &widgetCursor = g_editWidgetCursor;
+	auto &widgetCursor = g_editWidgetCursor;
+	set(widgetCursor, widgetCursor.widget->data, value);
 	g_deviceAppContext.popPage();
 }
 
