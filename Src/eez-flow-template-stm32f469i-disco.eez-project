@@ -138,19 +138,6 @@
           "simulator"
         ],
         "native": true
-      },
-      {
-        "name": "roller_value",
-        "type": "integer",
-        "defaultValue": "1",
-        "persistent": false
-      },
-      {
-        "name": "temperature",
-        "type": "float",
-        "defaultValue": "0",
-        "persistent": false,
-        "native": true
       }
     ],
     "structures": [],

@@ -23,8 +23,7 @@ enum DataEnum {
     DATA_ID_KEYPAD_OPTION3_ENABLED = 11,
     DATA_ID_KEYPAD_OPTION3_TEXT = 12,
     DATA_ID_KEYPAD_MODE = 13,
-    DATA_ID_KEYPAD_OK_ENABLED = 14,
-    DATA_ID_TEMPERATURE = 15
+    DATA_ID_KEYPAD_OK_ENABLED = 14
 };
 
 void data_none(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
@@ -42,7 +41,6 @@ void data_keypad_option3_enabled(DataOperationEnum operation, const WidgetCursor
 void data_keypad_option3_text(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_mode(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_ok_enabled(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
-void data_temperature(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 
 typedef void (*DataOperationsFunction)(DataOperationEnum operation, const WidgetCursor &widgetCursor, Value &value);
 
@@ -180,7 +178,7 @@ enum PagesEnum {
     PAGE_ID_KEYBOARD = 3
 };
 
-extern const uint8_t assets[60825];
+extern const uint8_t assets[60811];
 
 #elif defined(EEZ_PLATFORM_SIMULATOR)
 
@@ -200,8 +198,7 @@ enum DataEnum {
     DATA_ID_KEYPAD_OPTION3_TEXT = 12,
     DATA_ID_KEYPAD_MODE = 13,
     DATA_ID_KEYPAD_OK_ENABLED = 14,
-    DATA_ID_MAIN_APP_VIEW = 15,
-    DATA_ID_TEMPERATURE = 16
+    DATA_ID_MAIN_APP_VIEW = 15
 };
 
 void data_none(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
@@ -220,7 +217,6 @@ void data_keypad_option3_text(DataOperationEnum operation, const WidgetCursor &c
 void data_keypad_mode(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_keypad_ok_enabled(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 void data_main_app_view(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
-void data_temperature(DataOperationEnum operation, const WidgetCursor &cursor, Value &value);
 
 typedef void (*DataOperationsFunction)(DataOperationEnum operation, const WidgetCursor &widgetCursor, Value &value);
 
@@ -362,7 +358,7 @@ enum PagesEnum {
     PAGE_ID_FRONT_PANEL = 4
 };
 
-extern const uint8_t assets[77251];
+extern const uint8_t assets[77235];
 
 #endif
 
