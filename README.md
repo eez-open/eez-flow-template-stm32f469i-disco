@@ -8,6 +8,12 @@ To report an issue, use the [issues page](https://github.com/eez-open/eez-flow-t
 
 First, build the project using EEZ Studio.
 
+### STM32 binary
+
+Import project from {{projectDirPath}} into STM32CubeIDE and build it.
+
+### Simulator
+
 #### Linux
 
 ```
