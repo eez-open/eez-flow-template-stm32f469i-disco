@@ -124,7 +124,6 @@ void StartDefaultTask(void *argument)
   for(;;)
   {
 	  tick();
-	  MY_LCD_Tick();
   }
   /* USER CODE END StartDefaultTask */
 }
