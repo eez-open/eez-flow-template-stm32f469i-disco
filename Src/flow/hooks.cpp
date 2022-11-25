@@ -1,5 +1,7 @@
 #include <assert.h>
 
+#include <eez/conf-internal.h>
+
 #include <eez/flow/flow.h>
 #include <eez/flow/hooks.h>
 

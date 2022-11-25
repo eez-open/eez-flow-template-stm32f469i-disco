@@ -56,12 +56,11 @@ if(${CMAKE_SYSTEM_NAME} STREQUAL "Emscripten")
 endif()
 
 include_directories(
-    ../Middlewares
-    ../Middlewares/eez/libs/agg
-    ../Middlewares/eez/libs/libscpi/inc
-    ../Middlewares/eez/platform/simulator
-    ../Src/scpi
-    ../Src/conf
+    ../Middlewares/eez-framework/src
+    ../Middlewares/eez-framework/src/eez/libs/agg
+    ../Middlewares/eez-framework/src/eez/libs/libscpi/inc
+    ../Middlewares/eez-framework/src/eez/platform/simulator
+    ../Src
 )
 
 set(src_files)
@@ -71,15 +70,15 @@ set(header_files)
 ################################################################################
 # EEZ Framework files
 file(GLOB_RECURSE src_eez
-    ../Middlewares/eez/*.cpp
-    ../Middlewares/eez/*.c
+    ../Middlewares/eez-framework/src/eez/*.cpp
+    ../Middlewares/eez-framework/src/eez/*.c
 )
 file(GLOB_RECURSE header_eez
-    ../Middlewares/eez/*.h
+    ../Middlewares/eez-framework/src/eez/*.h
 )
 
 # exclude STM32 platform specific files
-set (EXCLUDE_DIR "../Middlewares/eez/platform/stm32")
+set (EXCLUDE_DIR "../Middlewares/eez-framework/src/eez/platform/stm32")
 foreach (TMP_PATH ${src_eez})
     string (FIND ${TMP_PATH} ${EXCLUDE_DIR} EXCLUDE_DIR_FOUND)
     if (NOT ${EXCLUDE_DIR_FOUND} EQUAL -1)
@@ -96,11 +95,11 @@ endforeach(TMP_PATH)
 list (APPEND src_files ${src_eez})
 list (APPEND header_files ${header_eez})
 
-source_group(TREE "../../../Middlewares/eez" PREFIX "eez" FILES ${src_eez} ${header_eez})
+source_group(TREE "../../../Middlewares/eez-framework/src/eez" PREFIX "eez" FILES ${src_eez} ${header_eez})
 
 if(MSVC)
     set(libscpi_src_files ${src_files})
-    list(FILTER libscpi_src_files INCLUDE REGEX "${CMAKE_CURRENT_SOURCE_DIR}/../Middlewares/eez/libs/libscpi")
+    list(FILTER libscpi_src_files INCLUDE REGEX "${CMAKE_CURRENT_SOURCE_DIR}/../Middlewares/eez-framework/src/eez/libs/libscpi")
     set_source_files_properties(${libscpi_src_files} PROPERTIES COMPILE_FLAGS /W0)
 endif()
 

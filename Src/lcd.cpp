@@ -7,7 +7,7 @@
 #endif
 
 #include "firmware.h"
-#include "eez/conf.h"
+#include "eez/conf-internal.h"
 #include "eez/core/memory.h"
 
 #define MAX_BRIGHTNESS 20

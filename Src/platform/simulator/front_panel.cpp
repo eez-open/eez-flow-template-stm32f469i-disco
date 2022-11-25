@@ -1,7 +1,7 @@
 #include <eez/gui/gui.h>
 
-#include "../gui/app_context.h"
-#include "../gui/document.h"
+#include "../../gui/app_context.h"
+#include "../../gui/document.h"
 
 #include "front_panel.h"
 
