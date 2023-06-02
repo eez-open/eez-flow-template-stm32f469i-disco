@@ -9,7 +9,12 @@
       "imports": [],
       "flowSupport": true,
       "displayWidth": 800,
-      "displayHeight": 480
+      "displayHeight": 480,
+      "description": "EEZ-GUI project template for the STM32F469I-DISCO board",
+      "keywords": "stm32 stm32f469I-disco",
+      "targetPlatform": "The STM32F469 Discovery kit (32F469IDISCOVERY) allows users to easily develop applications with the STM32F469 high-performance MCUs with ARM®Cortex®-M4 core and Chrom-ART Accelerator™. The discovery kit enables a wide range of use cases taking advantage of premium graphics, audio, multi-sensor support, WVGA color display, security, memory extension and connectivity features. An embedded ST-LINK/V2-1 debugger/programmer is included; specialized add-on boards can be connected thanks to the Arduino™ UNO or to the expansion connectors.",
+      "targetPlatformLink": "https://www.st.com/en/evaluation-tools/32f469idiscovery.html",
+      "resourceFiles": []
     },
     "build": {
       "objID": "72794a43-a0fc-13c2-7eb5-67dd952141a4",
@@ -35,7 +40,8 @@
           "template": "#include \"document.h\"\n\nnamespace eez {\nnamespace gui {\n\n#if defined(EEZ_PLATFORM_STM32)\n\n//${eez-studio DATA_ARRAY_DEF stm32}\n\n//${eez-studio ACTIONS_ARRAY_DEF stm32}\n\n//${eez-studio GUI_ASSETS_DEF_COMPRESSED stm32}\n\n#elif defined(EEZ_PLATFORM_SIMULATOR)\n\n//${eez-studio DATA_ARRAY_DEF simulator}\n\n//${eez-studio ACTIONS_ARRAY_DEF simulator}\n\n//${eez-studio GUI_ASSETS_DEF_COMPRESSED simulator}\n\n#endif\n\n} // namespace gui\n} // namespace eez\n"
         }
       ],
-      "destinationFolder": "."
+      "destinationFolder": ".",
+      "lvglInclude": "lvgl/lvgl.h"
     }
   },
   "variables": {
@@ -305,7 +311,7 @@
       "implementationType": "native"
     }
   ],
-  "pages": [
+  "userPages": [
     {
       "objID": "dc8c5e32-a2aa-9d2d-a70b-4d971f3c2b8d",
       "components": [
@@ -323,7 +329,8 @@
             "objID": "759e70f7-0da0-ee89-4fb3-c9fe64b200c5",
             "inheritFrom": "default_XL"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": []
         }
       ],
       "connectionLines": [],
@@ -357,6 +364,7 @@
             "inheritFrom": "default_XXL"
           },
           "timeline": [],
+          "eventHandlers": [],
           "displayOption": 0
         },
         {
@@ -369,12 +377,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"1\"",
-          "action": "keypad_key",
           "style": {
             "objID": "a7d5472f-6dc7-f53e-f1a2-5a4a008bb2de",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "fc189ecd-1c69-6d20-5623-e6a5deaed8ad",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "e189cfc8-d71f-252a-52f6-9e191a51cf4b",
@@ -386,12 +401,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"2\"",
-          "action": "keypad_key",
           "style": {
             "objID": "4c5c9d40-f79b-c5e1-c9f5-008f146cfb6f",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "01997e4e-291c-6820-f607-61cd406538a5",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "8e4b81c1-a981-1f33-cc14-be3ba170e740",
@@ -403,12 +425,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"3\"",
-          "action": "keypad_key",
           "style": {
             "objID": "bd257e64-3739-9b0d-d69f-d83d328b0638",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "df19cd55-7c7c-96f3-4970-973b6f7858f1",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "1260f902-e8e1-fc91-ffd2-db1b050f51a3",
@@ -420,12 +449,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"4\"",
-          "action": "keypad_key",
           "style": {
             "objID": "0e7aa274-b474-9c2a-b16a-e4c3fb97ff39",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "85f0bce4-d91a-fecc-f617-f7c3a3303c53",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "4282bcfd-c5cc-8182-e640-9a3f5822346b",
@@ -437,12 +473,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"5\"",
-          "action": "keypad_key",
           "style": {
             "objID": "4545afb7-aba1-4479-32b5-f386d4f2f9b1",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "7170891c-4ba4-c021-b306-768c7b8bafb4",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "c3d3c921-14a2-d3d0-93bd-8ebcea342a09",
@@ -454,12 +497,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"6\"",
-          "action": "keypad_key",
           "style": {
             "objID": "71cdabc7-e915-cc98-03c4-77814b0deada",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "193590c1-c894-1f18-f8bc-65c80e8e5cad",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "a42134df-2176-52c0-c21c-4d0a54559c34",
@@ -471,12 +521,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"7\"",
-          "action": "keypad_key",
           "style": {
             "objID": "2b5aa24f-9ecc-b32b-a912-5709d9668cb5",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "b9b6cdec-0cd2-7a8a-fb3b-bf84f21020e0",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "258924eb-500d-ad60-f1a9-7edf17ea56d9",
@@ -488,12 +545,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"8\"",
-          "action": "keypad_key",
           "style": {
             "objID": "5b5a0ebb-2f16-4f8a-74a6-c3303b948a15",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "b66785a0-cc39-b2ae-6b04-5a0b4b5062a6",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "49c2362a-7802-b78c-487a-66eb91c350b0",
@@ -505,12 +569,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"9\"",
-          "action": "keypad_key",
           "style": {
             "objID": "a83842a4-aeeb-dab1-0586-d97d97ebf73d",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "2c0ab87d-302f-0c21-32f4-83cce26a5e1c",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "f88c3278-f1c7-1310-b2bb-fe6f746e9c71",
@@ -522,12 +593,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"0\"",
-          "action": "keypad_key",
           "style": {
             "objID": "76a3044f-be61-7916-3005-d1786ee371d1",
             "inheritFrom": "text_button"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "f6f8fca9-9014-a704-3fee-7ecf0a53cf15",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ]
         },
         {
           "objID": "d07682f7-89e7-cc5e-b4d1-6fdd2f6e0415",
@@ -539,12 +617,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\".\"",
-          "action": "keypad_key",
           "style": {
             "objID": "48cd363b-3ac4-1f48-b0d5-20d8ebcf3f6c",
             "inheritFrom": "text_button"
           },
           "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "9a27d260-da96-11a5-6ce1-78f47d469f74",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_key"
+            }
+          ],
           "enabled": "keypad_dot_enabled",
           "disabledStyle": {
             "objID": "999825db-c222-0005-e090-e51ab4736647",
@@ -561,12 +646,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"\\u0020\"",
-          "action": "keypad_back",
           "style": {
             "objID": "952965f9-3b7c-da6d-78e5-1a5ba18cd8ac",
             "inheritFrom": "button_icon"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "b5945e9a-e6c9-ee03-4704-1898390523e2",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_back"
+            }
+          ]
         },
         {
           "objID": "e78630c2-cc45-1587-0724-2e66e6f97a59",
@@ -578,12 +670,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"\\u0022\"",
-          "action": "keypad_cancel",
           "style": {
             "objID": "975f706d-3001-62ba-f7d7-20b2463ad9e9",
             "inheritFrom": "button_icon"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "62c60a0e-6de9-37d5-5a3b-5d60ea7f6373",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_cancel"
+            }
+          ]
         },
         {
           "objID": "043b74d5-1681-776e-2b78-7d2d77ca04b5",
@@ -595,12 +694,19 @@
           "customInputs": [],
           "customOutputs": [],
           "data": "\"\\u0021\"",
-          "action": "keypad_ok",
           "style": {
             "objID": "311a99ae-6136-548d-a563-06763e7f216e",
             "inheritFrom": "button_icon"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": [
+            {
+              "objID": "835f63bb-6ad5-9e60-51f9-65b83aeced7b",
+              "eventName": "CLICKED",
+              "handlerType": "action",
+              "action": "keypad_ok"
+            }
+          ]
         }
       ],
       "connectionLines": [],
@@ -633,6 +739,7 @@
             "inheritFrom": "text_input"
           },
           "timeline": [],
+          "eventHandlers": [],
           "displayOption": 0
         },
         {
@@ -649,6 +756,7 @@
             "inheritFrom": "default"
           },
           "timeline": [],
+          "eventHandlers": [],
           "widgets": [
             {
               "objID": "3b10777c-0b17-b1c8-8076-6dffef31f5d4",
@@ -660,12 +768,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"1\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "1cd7c0a0-bb31-fc1f-d691-a4e571f80e83",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "df914e18-124b-0264-74a1-58b822db4751",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "26f98565-50a5-5e74-af30-ca3a01b866d3",
@@ -677,12 +792,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"2\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "0e5337b2-ad1f-99f3-adb7-31d9fc4c2f30",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "36d3c531-b4be-7b11-dde8-9e6e694f1785",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "f75d2e60-f8d2-838f-83b6-7ce253ab1c9b",
@@ -694,12 +816,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"3\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "63133581-4404-fe75-fca2-260e33bccf2b",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "dc973abe-8b9c-00e2-7234-4692bae1b9d4",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "d6cafa4a-544a-19f5-e320-369fa922f0f5",
@@ -711,12 +840,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"4\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "0fbd1ec1-ecc3-0edb-bc69-b67e9ceb1ee6",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "eb74ed4e-3b49-1819-2e01-5d38a270a89f",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "56237a80-eebc-c347-39e8-2f32564b6f39",
@@ -728,12 +864,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"5\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "aa08c95f-e104-fec4-cff5-753dc7ed926b",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "7c4cfaed-5a85-ef49-ea45-123f64c7883e",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "69b1ae7b-2b94-584d-68c5-9a39d89732d4",
@@ -745,12 +888,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"6\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "41b3991a-607f-0e05-fcf5-b3103ea0c97e",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "445c6604-4f11-fb02-3fd8-1b8be838a1f3",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "113c6281-3128-d022-2e94-82dd033970ce",
@@ -762,12 +912,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"7\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "00761520-9fec-cb6d-feea-f8d6b9e4c8af",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "015b4281-1abc-0926-06f1-c7e528e2478e",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "6cdc58ee-b1f9-3ec7-4348-964e22fd7fd1",
@@ -779,12 +936,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"8\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "e4e843e3-f1d7-22b0-f199-e9a3865d14bf",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "24a44a6f-2f5f-57fe-7359-ea86f88c8e99",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "529dc03e-6f2d-3662-40c4-bd8df2c84296",
@@ -796,12 +960,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"9\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "ad572ea5-5918-1426-f1cd-058cbf81b29d",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "c0bd9624-93e9-ed75-02d2-8078d91c3143",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "41d15bd6-2019-c115-aaca-9b47e57bebb7",
@@ -813,12 +984,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"0\"",
-              "action": "keypad_key",
               "style": {
                 "objID": "1a4e2942-e17b-322c-a6a5-10c39bc77172",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "fdf896d0-3980-15f3-95e3-2861685a337f",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_key"
+                }
+              ]
             },
             {
               "objID": "a5ab84b6-720a-c8f2-9dd1-7e98a374c7f5",
@@ -830,12 +1008,12 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "keypad_mode",
-              "action": "",
               "style": {
                 "objID": "519ece33-6aab-3b80-35f9-e55daf2f3a2d",
                 "inheritFrom": "default"
               },
               "timeline": [],
+              "eventHandlers": [],
               "widgets": [
                 {
                   "objID": "bb184969-6004-16df-711b-5dca593f6a06",
@@ -851,6 +1029,7 @@
                     "inheritFrom": "default"
                   },
                   "timeline": [],
+                  "eventHandlers": [],
                   "widgets": [
                     {
                       "objID": "9297f68f-8269-676f-6b6b-bfc1b656f535",
@@ -862,12 +1041,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"q\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6c3f3dd9-c4b0-6126-6a6b-e6f59b997fe1",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "0456b6a8-5582-91ff-8c1f-9a54fa4169c6",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "7a997bf7-b32a-0016-5ac0-133c9390f4ce",
@@ -879,12 +1065,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"w\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "0a906f98-4e61-73a3-4325-a4dd76c81d61",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "1f149c36-aea1-b60e-4649-b56ab73c579e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "dcef0ff7-74cc-0af1-443c-a1ecd6368333",
@@ -896,12 +1089,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"e\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "a5ebd8ed-e9f2-cfb7-3977-bf515c1ecf74",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "6aec4ff9-89fe-a024-db30-1d188b8a5a52",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "24a5933d-bf14-2ad6-fed0-b52bd7c970bf",
@@ -913,12 +1113,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"r\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "7d0b0b2a-4374-8e43-4d59-4ec66fd07959",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "5cf5b0be-b501-28c4-b700-c3cf80c966a8",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "46db5e43-f803-6a9b-3521-0ed7a2dbed53",
@@ -930,12 +1137,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"t\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "7258e7b4-4408-44f1-e4d2-0a80d68721c7",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "971714f2-f55f-c2d5-6756-f736c453aded",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "63cb084d-1426-ba4c-4263-e3cb51eb0979",
@@ -947,12 +1161,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"y\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "f940b236-c9d4-c380-40f5-5b25d089fa3d",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "f60cbe4f-b700-ebf8-1e6e-bc3df7b77270",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "dec08037-a928-3097-4718-bfd81614fdef",
@@ -964,12 +1185,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"u\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "0b398bfd-0089-501b-a74b-131a6b50d2f7",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "11393082-ce68-897a-fb8a-734f52b52f01",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "7ebc2a10-bfe7-d0f2-b5bb-caa0647f249f",
@@ -981,12 +1209,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"i\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "05464318-600d-5034-2db6-2c3de0fa3e81",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "1fbc8929-3108-7e69-cb53-7832e0d3eaf7",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "731e8178-e006-750d-6979-4b3932ae692c",
@@ -998,12 +1233,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"o\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5e1806e9-7a13-b8cd-b17f-469e9ed8f381",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "45b033f3-889f-ad67-1192-d73b634ba8ce",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "de5af259-354e-155a-6d35-c69ba399ebbd",
@@ -1015,12 +1257,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"p\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5a62fb7e-252a-09c6-967b-8f6cc99a5020",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "6cc487c5-6ccc-510d-77c4-21a12aed60b8",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "b2c5ac34-9516-4b6b-07de-c8c0fae76572",
@@ -1032,12 +1281,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"a\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "4f9ceba1-f375-1706-fbc2-ef8f0ca325ba",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "181f3b2e-8b9b-b1ce-92e7-d8b914d4c91c",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "7e60915b-c2b6-f4e6-b028-16281f01c310",
@@ -1049,12 +1305,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"s\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "d74ddc2b-f935-8ff2-bf3b-a2026bbb3778",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "c2c60aaf-fa2a-32dc-69a1-49d953131c36",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "7a71a6f2-fa14-cb26-e2e4-59d591a4e6b8",
@@ -1066,12 +1329,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"d\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6df3848d-00ba-ea5c-6fa4-8fb17987248c",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "da80b1ce-3734-c1a8-3f2e-22dea16756da",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "dbae35dc-e9ad-f24f-8b36-cd1341bcc41b",
@@ -1083,12 +1353,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"f\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "bc529ee0-850f-917d-17cc-d380c41e4272",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "db29a471-427b-0455-bf04-7995c888eece",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "a3c56b08-5b1e-e1ed-ba92-b519a3512acd",
@@ -1100,12 +1377,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"g\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "bf34ff7e-44df-e23f-331b-bb3c4b952c0a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "5f169ec7-6629-1b2f-5318-a9c4c170ddbc",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "c51c3818-ab06-1c0b-079a-6291c57c3778",
@@ -1117,12 +1401,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"h\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "f55aa651-0228-d937-8dff-b12823d240ba",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "a4dc7154-4ab8-be44-29a4-0a34c12aa12b",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "39a6b7d6-f25b-56f6-fd5a-14efb1ccd2b7",
@@ -1134,12 +1425,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"j\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "371efa98-9918-bae8-80d2-6001d20514d6",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e6e29934-440f-5e9f-cb10-8532966a4a0c",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "4cdf2163-3081-f708-6114-33ade7265c2c",
@@ -1151,12 +1449,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"k\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "bea6e7e5-abf0-737a-9397-30074b70fe27",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "00e1f0db-0058-c3c8-0d6c-30ee455c3f40",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "0911765f-dd1f-cd9e-ac4d-4e014a8468f1",
@@ -1168,12 +1473,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"l\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "c19629b8-8fb9-f1cf-d2a9-1e0344d9a8c5",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "3949d106-4f4d-2e71-0288-a47df20d17f9",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "7885396e-88c2-373d-0887-49136a80f14f",
@@ -1185,12 +1497,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"#\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "d7ef638f-b2f7-5e14-5af6-cd65e66090e3",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "ab9ddb56-d3d2-f9dc-e0b7-0643af646b18",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "6d7af4b3-a430-99c8-6db7-7313e1d8bf39",
@@ -1202,12 +1521,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"z\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5677336d-3301-1f06-cf9b-67e5143df9a8",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "11e67dbd-321e-9e7a-df27-3891011f6d81",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "2e173e35-684d-b058-71c6-cae1bcdb56cd",
@@ -1219,12 +1545,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"x\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "fc4adad4-cd0b-045d-bf95-3fedc779d16d",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "30530b24-9df5-6915-41b5-3de0be39f2fe",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "20599dcf-c1fc-ef03-ad78-3ed9d49c46bb",
@@ -1236,12 +1569,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"c\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "a108f9cc-eabc-3a03-a86d-48e92896b877",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "6c467331-a447-e8b4-4211-97ebff4e2170",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "2289f0c7-2e0d-736b-4006-0d09900de1b5",
@@ -1253,12 +1593,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"v\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "e396ea05-2a13-c6af-173a-bdc511fe4b12",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "de1caa36-8d05-9b26-8d67-7250a2b8326d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "93f908d6-0c53-1303-c00c-628f74ec716f",
@@ -1270,12 +1617,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"b\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "34e7c60b-3122-5beb-db25-d8bc0937fea6",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "73c460f6-db26-b9b5-fa14-4a47843b9046",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "86364636-3af0-a87b-12e4-85078627b481",
@@ -1287,12 +1641,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"n\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "d3873bd2-58ab-1442-6699-db475912e4d6",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "90989c21-e6c0-b673-f46e-e5fe2d065ec6",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "e783c60c-eeab-3fd8-1838-f138d156f0be",
@@ -1304,12 +1665,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"m\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "4d7f43ea-5e25-a4a2-a1c0-e2743aa1f9e5",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "2cd86f5b-63f3-b27e-ac01-9120496f07c1",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "000b9f3c-fea6-71a1-d5ac-9a305245619e",
@@ -1321,12 +1689,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\",\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "c928add3-60fc-def1-f6de-ff1eff33d59a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "f4cf6475-37af-0423-0f24-d39032b741dd",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "881384ce-2a8c-16fe-2f23-fdfadc29b5ae",
@@ -1338,12 +1713,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\".\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "69197aa4-a167-6425-52be-25af2d576e80",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "7bbd3b6c-33f9-fa90-85d6-59b0deb6820e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "4ca3aeb5-f241-f28f-0ed8-6110227e50c3",
@@ -1355,12 +1737,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"/\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "18745b11-946f-c60e-995e-96f46cbc1e25",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "63b9fafd-7cd6-9db8-0cc5-b34bf4f053d3",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     }
                   ],
                   "layout": "static"
@@ -1379,6 +1768,7 @@
                     "inheritFrom": "default"
                   },
                   "timeline": [],
+                  "eventHandlers": [],
                   "widgets": [
                     {
                       "objID": "596b9658-ab97-ae48-00ed-98238d19f71d",
@@ -1390,12 +1780,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"Q\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6d1b83e7-d4c4-3e5d-8a60-a9ce56cd74a3",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "2ab5121f-eb1c-5926-520f-773fc2742b4f",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "d1f7a9e4-9ce4-adf2-fcd2-6d290b1d031e",
@@ -1407,12 +1804,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"W\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "f19c5cd1-becb-056e-d45d-700af86fe3d7",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "be5555e3-5e12-35db-89b9-5c54283fa1db",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "54593366-ca47-ab02-df55-80bfe241f7a3",
@@ -1424,12 +1828,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"E\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "ca5b9d38-dba4-b4f3-5852-b4832b60eadf",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e8d5a0b8-4f54-47d9-083c-b6ecef42565e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f8cecd78-4eb4-4710-fd8b-0d69072025ca",
@@ -1441,12 +1852,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"R\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "3a798a9b-7652-cf68-38ea-f9d14e9a1ee8",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "a1ae4fb3-d748-12f8-e6e3-7897cb6a0348",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "c3e920bc-5a04-1e9a-5b07-74589a206c69",
@@ -1458,12 +1876,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"T\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5abe3a72-cf75-077e-06cc-469a62e46fad",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "ff86c8b6-1a7d-6a70-c77d-2abdb538489e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "01c97dea-cdf0-6348-e9e8-95a38e6a6ac8",
@@ -1475,12 +1900,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"Y\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "b75ab485-74b7-fc48-a232-1edafd058465",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "7d18c59e-b34d-2dd8-6afd-50282bd15f91",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f724847e-5db0-b25a-155a-fbe7cdce605a",
@@ -1492,12 +1924,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"U\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "4abec423-a117-c058-0edd-10dfd6bf65a2",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "35a9cbed-551e-4389-3c63-eeb8cf682580",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "ecd4b41a-2f27-5ca5-6328-89470db3a0d4",
@@ -1509,12 +1948,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"I\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "12aeb4fe-ffb3-0ed8-49de-6e211e1c7d80",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "d0d415da-33bb-0248-8d47-a3f86a431be9",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "6f185c37-a938-46b2-ff32-fa8b75a4b89f",
@@ -1526,12 +1972,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"O\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "a5988318-b337-a6d4-61b5-c769ff263b41",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "23f4b4e1-05be-12b7-da42-fa595566d8d7",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "49b8fd17-b14a-dcbb-3c04-419c951dfd94",
@@ -1543,12 +1996,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"P\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "4abbce14-bfec-d835-f812-ece630dc112e",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "88f48314-6503-1800-823d-06f3b6601e96",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "b0ac6485-64c4-23c7-b3c5-d9874b2d81eb",
@@ -1560,12 +2020,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"A\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "8c409a7c-12e0-333c-438d-0816ce7fdd06",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e0b2dde2-96b7-9525-7f11-98701057c31d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "6df903a5-05f4-eecb-1ad0-12fb7d245390",
@@ -1577,12 +2044,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"S\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "cb4dd19a-5592-16b2-e041-c02cf09dabd7",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "882116c8-2a90-7d7e-423e-af68e39bb640",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "991b0640-e8d1-1644-f4f2-55f4949ee425",
@@ -1594,12 +2068,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"D\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "064b383b-5271-e907-b024-af943ae44e5a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "14d69e2e-2471-0efc-cdca-c228ac163430",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "e44fb34d-ebb4-10b4-aa03-0fecf8a4b5b3",
@@ -1611,12 +2092,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"F\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5b68bd25-e314-4645-86b4-add482c193f1",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "1a5bf8ed-3217-3510-8cba-2c2d43dcb251",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f32c62cd-dd3d-d62c-1a15-fb40706d48eb",
@@ -1628,12 +2116,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"G\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "0446facd-26d1-9a8e-39af-1317b010936b",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "c42f8da0-2cdf-6bc4-3f78-d4b149795014",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "5644f708-3173-1988-58f2-5ce81bf60321",
@@ -1645,12 +2140,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"H\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "821c556c-35fd-d7ef-a278-8712fe3c5f6f",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e9060402-ab5f-1688-6c8a-89bd301d2c2b",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "d7a42d45-2d28-77f8-51de-b5d1f3467f45",
@@ -1662,12 +2164,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"J\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "ae7b730e-e4e8-233f-9f3a-1be1ddaac759",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "c20933de-1209-9bb4-b824-d9eac44d0847",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "487b3cba-2bec-4551-0e2f-ee4354330cdb",
@@ -1679,12 +2188,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"K\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "14181725-e0ef-de2d-65f8-f1be4fceb79c",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "9b28268d-7670-6674-0eb9-3d8bd60a09f5",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "771aa33f-0d75-302d-36b1-dafa2bedf302",
@@ -1696,12 +2212,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"L\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5cbd6e9b-4aad-a16e-e834-39806caa4b97",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "f6899b42-98b5-b67f-def1-e1406a7dd497",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "cb8ec772-a41f-358b-c231-9fcf47abab34",
@@ -1713,12 +2236,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"#\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "8dc5f332-27a2-a518-7f4a-f3c77d361d10",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "c5dd9c95-a5f9-928b-ee0b-15ce3160c9f4",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "10d16aff-cc93-3c6a-1d02-e17049f3b2db",
@@ -1730,12 +2260,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"Z\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "c0619835-329e-d8b5-754a-ae91b036cea2",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "7f3d434f-3890-8379-35ef-9847801b49ad",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "4b7b8cde-cb64-1b78-c66e-2d66edabcdd0",
@@ -1747,12 +2284,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"X\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "9de07d50-d113-254d-467d-de431ed4fcbb",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "72da2183-0a03-eb96-0f15-13fccbb932e7",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "060988bd-e965-7994-da0e-bc432c9ee7d8",
@@ -1764,12 +2308,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"C\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "c2fe5bab-50a4-ae38-3ae1-2e2bf641f36d",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "8b1fc169-603e-2ae6-6b93-3a614c332a7d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f62c3ba1-a3e8-fbe4-7498-121065335ccd",
@@ -1781,12 +2332,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"V\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "229bee84-73cd-1a1f-f26a-fabdacbcc99f",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "fa56d32b-cc18-f330-4abc-ad356d4c8690",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "2bd0443e-febb-9bfe-039e-5b01cfee8649",
@@ -1798,12 +2356,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"B\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "f8cebf95-3400-6a2a-bda8-41143df37098",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "452bf84c-3848-d960-6741-a7937c5bd1a9",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "26ad2352-6c61-da3f-ab46-8694cfe3a37d",
@@ -1815,12 +2380,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"N\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "59f78d6f-d2b9-386e-aefc-3200bd21661a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "5cd6225a-8af8-1de7-e52d-42b7da271f4c",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "43955508-78a8-dfdd-052f-c8f3b50c83f8",
@@ -1832,12 +2404,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"M\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "dd15a6d0-79c8-f914-55d7-e4d78ddfb81f",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "b8ae5e67-edd7-d21f-1182-c32bb6b3983d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f70aba39-2f2a-e218-e4c0-65456c1de04a",
@@ -1849,12 +2428,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\",\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "936dd6cf-1609-f2c2-9419-68ddb3337c41",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "9b15a1cd-3d3a-92ca-bac2-6704e3744947",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "e8481141-f4fc-1f5f-607d-6c0cef61b0b9",
@@ -1866,12 +2452,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\".\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "47aa0d90-27bf-e701-413a-bf9bd98d2809",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "0e15eaf0-217a-ff70-9c3c-e6e2572627e2",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "325332c7-ec79-09b7-13ea-0be3ced83d55",
@@ -1883,12 +2476,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"/\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6601e676-c137-e093-1829-28c263d87b1e",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "97c1ee5b-684e-0871-c191-a9c4dd881de1",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     }
                   ],
                   "layout": "static"
@@ -1907,6 +2507,7 @@
                     "inheritFrom": "default"
                   },
                   "timeline": [],
+                  "eventHandlers": [],
                   "widgets": [
                     {
                       "objID": "f3ddc319-7fdf-6292-40a4-76455c659800",
@@ -1918,12 +2519,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"!\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "c7b74ddc-8f39-c037-28fb-2e635b02d97a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "d8aa14e5-48b9-ac8d-933b-6fc2cfda06b0",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "9556ccb2-268a-a07f-5b5f-918f69a670d4",
@@ -1935,12 +2543,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"@\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "25b6bd90-95ea-042b-c790-0fd7843426cb",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "9a1a2972-c986-8683-5792-185265aad07c",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "5a11a35a-9067-dfd2-de74-73abace4ec86",
@@ -1952,12 +2567,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"#\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6dc3dacc-0ba5-3ac7-b0ee-43ad91360636",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "595a8877-6821-a5c2-d11e-4054693c5021",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "ed895b98-8cab-1bb0-a8a3-87967bca8453",
@@ -1969,12 +2591,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"$\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "a0814c7f-b523-9ff1-c9e4-abe8800ac59a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "fd2b6276-dd38-7e64-1b33-9e0894d62c53",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "d24ea3db-1f3a-4d08-4f7f-043336238e87",
@@ -1986,12 +2615,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"%\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "ec6885fa-8a60-0ae6-d205-fb562a612d1a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "aaff9454-8de8-9760-e4b3-d46c3e9b8477",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "09dadc50-de71-21e1-0c41-4c1d97e15c60",
@@ -2003,12 +2639,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"^\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "551362e8-c378-c4da-d80b-452e08fc5134",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "8214e0c4-b225-4911-b556-bafb448754ad",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "f8a905f3-0967-7aaf-7069-f86b7850416c",
@@ -2020,12 +2663,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"&\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "61dab3cd-b4af-6abd-daac-a1b4cdca621d",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "66074ef8-44ec-5205-7328-3f22ffb6d44d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "4af01fdc-93e8-7c22-bca3-fbe6be8a7ca3",
@@ -2037,12 +2687,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"*\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "09f64309-4425-334c-2a01-b726dbcf5fcd",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "367f384a-f6f9-3c18-ea1e-68c23eb7d94f",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "e8e22bbd-cac9-2228-f438-b77b1821e542",
@@ -2054,12 +2711,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"(\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "439d9c22-9a99-7640-da8b-ebb50a0038c4",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "2418fd3f-66b3-e2cc-5911-243289af87c3",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "62302600-d613-1b4f-b75f-a692e3ffe5f6",
@@ -2071,12 +2735,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\")\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "7e0d5747-6379-ab5a-5c98-84adf73f03ab",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "a8d0bcf5-27c8-78df-a201-67789893a1bc",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "a67bf56a-46ab-c5a1-7b78-0d5b179a0586",
@@ -2088,12 +2759,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"+\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6c10040e-5498-61ea-1cf5-5ed44b9ee9bf",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "1f5c44fb-c2c0-480f-02ac-1583bf16016e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "628b14f9-5738-0dd1-86df-49d80c164cea",
@@ -2105,12 +2783,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"-\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "44193d3f-036d-2a75-d137-681565256803",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "9f3680eb-c047-6d8d-82df-70768ed9c649",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "e87bb832-a93b-489d-27ef-fdab983dedcb",
@@ -2122,12 +2807,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"=\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "cc5a4921-f610-67fa-4656-809bea8b32a7",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "48117d19-c458-f1ab-d1b3-2e20d45abb50",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "317c617d-15cc-7f69-5916-502e3f31ffde",
@@ -2139,12 +2831,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"_\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "8f01029e-1cc5-869f-260e-f8ab7fd0bef5",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e3605715-3057-2573-5a91-1d8d81881fdc",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "26dd5ee5-e7a8-5f2a-7631-211a35bcaa2c",
@@ -2156,12 +2855,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"[\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6714c1b3-3791-26ea-42a8-6a56c5e47719",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "0d643e14-93aa-4781-8b88-4531b8ad9d1d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "30015c84-7ce1-4be6-9684-e7be43841c8d",
@@ -2173,12 +2879,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"]\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "7a96e93a-9212-98f6-4c40-decfc9c7715e",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "0aca0e66-5880-1317-faab-dc9b53f04444",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "8dc1c712-94e6-da04-320a-6ca36867ff42",
@@ -2190,12 +2903,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"{\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "9dd366f5-6f69-c0e6-bd0f-7902fe670088",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "97f6694b-72c4-859e-dc43-6107c5538c76",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "0ed4c18e-141e-aa61-abf5-8b0a21f6d98e",
@@ -2207,12 +2927,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"}\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "1e08a766-f427-c266-1d8d-a012bed7e009",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "76fd07a4-a268-85f5-52d8-f3f3f689eb91",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "0bb3f51a-5241-d9e7-b41c-e203f7687020",
@@ -2224,12 +2951,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"\\\\\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "6f2099d7-8eae-5f03-a291-da2e1ea9675b",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "cca013fd-841d-2bac-ad6b-fb07f3d231cc",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "209d7c0c-a341-51eb-6a94-4dca6b62b599",
@@ -2241,12 +2975,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"|\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "a25c2f69-9487-20b2-b7cf-b7304b2cc7cf",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "cd18efa0-d6af-60c7-b837-da3b0267962e",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "9b9c1e47-0f15-65cf-65ee-e56bfa39db06",
@@ -2258,12 +2999,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"?\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "80dcff27-4545-716a-36dd-ef24e736c2a9",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "916195c6-8eb6-620d-152f-2bbcf07ab81d",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "79121bf3-1ccd-0391-6575-94669c266478",
@@ -2275,12 +3023,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"`\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "bb3c2a42-ec71-21e7-6f8f-7d9100e453f0",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "67440f63-c385-1db9-f533-8f45a61a844b",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "a6390dd5-2e0c-cf42-e07a-9504a969502f",
@@ -2292,12 +3047,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"~\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "e08d3daa-4efb-d223-d94f-42621be78c53",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "b7d4d832-7af2-d9cc-efa4-f087b23bdaf5",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "af08194e-01a3-1cc7-9f5a-118870bc60e6",
@@ -2309,12 +3071,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\";\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "0f0681b1-cace-937b-0c7f-ec618193a9c8",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "a9f03852-926e-a093-367a-b4ac82b71e3c",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "772fb62d-0e7b-4e2b-ff1d-b85c5c1842b1",
@@ -2326,12 +3095,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\":\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "5938ff67-069b-9459-ef22-19ee2b6648a0",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "80e1ced4-0488-4aff-0413-61bd965bac6f",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "2c9e5010-0df3-f2e9-d1be-dd402de48109",
@@ -2343,12 +3119,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"'\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "7baa41dd-0ed0-099c-f870-487bbaa08965",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "4444d8c7-6e2e-84ee-afa4-67325f3018a6",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "be451cd6-bfc8-cf1e-b14f-55b3f6480d6c",
@@ -2360,12 +3143,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"\\\"\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "53a4736a-d728-0371-7180-e93d5fc07b2a",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "923b9d4d-50ed-4090-058b-2a98e75e3ac0",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "3f16cfc9-b178-0291-c7c4-59fe653df7f8",
@@ -2377,12 +3167,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"<\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "81a4daf3-324a-ebf2-1218-0678e1bc8b07",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "f5051aee-1a55-1a67-4cd8-bf6e8b97ad7f",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "1fabe7be-4239-967a-b1ba-cc7100df962f",
@@ -2394,12 +3191,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\">\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "50c1fb9e-6108-187f-0e3f-f09c73b8a1cd",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "e3e3d985-72a0-b375-258c-5d2df7ffb0c7",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     },
                     {
                       "objID": "8c718941-4c8f-ec20-041e-f5f3bf927f8f",
@@ -2411,12 +3215,19 @@
                       "customInputs": [],
                       "customOutputs": [],
                       "data": "\"/\"",
-                      "action": "keypad_key",
                       "style": {
                         "objID": "f0d00998-fe2a-5b59-3704-8017254ea826",
                         "inheritFrom": "text_button"
                       },
-                      "timeline": []
+                      "timeline": [],
+                      "eventHandlers": [
+                        {
+                          "objID": "4af38b47-e9bd-0e98-3814-8a16f1bb4f66",
+                          "eventName": "CLICKED",
+                          "handlerType": "action",
+                          "action": "keypad_key"
+                        }
+                      ]
                     }
                   ],
                   "layout": "static"
@@ -2433,12 +3244,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"\\u0020\"",
-              "action": "keypad_back",
               "style": {
                 "objID": "5925545d-9446-281a-9115-32f72f322a11",
                 "inheritFrom": "text_button_icon"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "fc9c29be-9279-b272-2cd9-32e3e7bf9c7e",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_back"
+                }
+              ]
             },
             {
               "objID": "871c1c51-5db0-2e2d-30ca-ec1551cfe8eb",
@@ -2450,12 +3268,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "keypad_mode",
-              "action": "toggle_keypad_mode",
               "style": {
                 "objID": "591ba94d-f899-4dd9-7363-2e2915f81e82",
                 "inheritFrom": "default"
               },
               "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "b5418a07-7da9-1b0b-6b7b-c106569ce3d0",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "toggle_keypad_mode"
+                }
+              ],
               "widgets": [
                 {
                   "objID": "405fd90b-8667-4f74-d440-fc023ee38043",
@@ -2467,12 +3292,12 @@
                   "customInputs": [],
                   "customOutputs": [],
                   "data": "\"ABC\"",
-                  "action": "",
                   "style": {
                     "objID": "2db60ac8-c061-6f0f-f724-283e328efcf3",
                     "inheritFrom": "text_button"
                   },
-                  "timeline": []
+                  "timeline": [],
+                  "eventHandlers": []
                 },
                 {
                   "objID": "4a7af0d3-345a-3ef4-9506-317f236e1ddf",
@@ -2484,12 +3309,12 @@
                   "customInputs": [],
                   "customOutputs": [],
                   "data": "\"sym\"",
-                  "action": "",
                   "style": {
                     "objID": "96a60029-a8da-cd0b-2aed-184616a52983",
                     "inheritFrom": "text_button"
                   },
-                  "timeline": []
+                  "timeline": [],
+                  "eventHandlers": []
                 },
                 {
                   "objID": "78cce1dd-b269-3351-6313-7344cfe62ee0",
@@ -2501,12 +3326,12 @@
                   "customInputs": [],
                   "customOutputs": [],
                   "data": "\"abc\"",
-                  "action": "",
                   "style": {
                     "objID": "3bd6834a-6c45-0cc4-4251-e513c53bde3f",
                     "inheritFrom": "text_button"
                   },
-                  "timeline": []
+                  "timeline": [],
+                  "eventHandlers": []
                 }
               ]
             },
@@ -2520,12 +3345,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"Space\"",
-              "action": "keypad_space",
               "style": {
                 "objID": "b93edcb2-d163-5b96-3bbb-7dce82ff694c",
                 "inheritFrom": "text_button"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "a5c7a8d8-7faa-f962-6e91-4c38db1a11dc",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_space"
+                }
+              ]
             },
             {
               "objID": "0ef0b389-fb26-ba0d-657a-836d137ad680",
@@ -2537,12 +3369,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"\\u0021\"",
-              "action": "keypad_ok",
               "style": {
                 "objID": "6e025f55-802c-fdf5-a831-c857c67c02c6",
                 "inheritFrom": "text_button_icon"
               },
               "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "ea33d7fa-2b58-84ca-472e-3276a0714ca2",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_ok"
+                }
+              ],
               "enabled": "keypad_ok_enabled",
               "disabledStyle": {
                 "objID": "7c4db074-b81c-5cd6-1433-d815b63108f5",
@@ -2559,12 +3398,19 @@
               "customInputs": [],
               "customOutputs": [],
               "data": "\"\\u0022\"",
-              "action": "keypad_cancel",
               "style": {
                 "objID": "dd10255e-dda8-8a6a-9e87-5dad5c5564d0",
                 "inheritFrom": "text_button_icon"
               },
-              "timeline": []
+              "timeline": [],
+              "eventHandlers": [
+                {
+                  "objID": "7965bc50-b5a9-aff3-b61e-d2412d747ece",
+                  "eventName": "CLICKED",
+                  "handlerType": "action",
+                  "action": "keypad_cancel"
+                }
+              ]
             }
           ],
           "layout": "static"
@@ -2594,7 +3440,6 @@
           "height": 680,
           "customInputs": [],
           "customOutputs": [],
-          "action": "",
           "style": {
             "objID": "a2b15f79-a3dc-53a1-8f19-0ce6c7876c93",
             "inheritFrom": "default",
@@ -2602,6 +3447,7 @@
             "activeColor": "#ffffff"
           },
           "timeline": [],
+          "eventHandlers": [],
           "bitmap": "front_panel"
         },
         {
@@ -2618,7 +3464,8 @@
             "objID": "a258e106-99f1-7538-91bc-15e634c23925",
             "inheritFrom": "background"
           },
-          "timeline": []
+          "timeline": [],
+          "eventHandlers": []
         }
       ],
       "connectionLines": [],
@@ -2637,6 +3484,7 @@
       }
     }
   ],
+  "userWidgets": [],
   "styles": [
     {
       "objID": "61d144a6-aa0b-0380-12be-a3ba9a3eca5a",
