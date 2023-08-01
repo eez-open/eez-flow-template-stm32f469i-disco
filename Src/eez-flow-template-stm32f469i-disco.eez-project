@@ -6,6 +6,7 @@
       "objID": "fd434352-2277-c4a8-e87e-e96cfcbf2305",
       "projectVersion": "v3",
       "projectType": "firmware",
+      "extensions": [],
       "imports": [],
       "flowSupport": true,
       "displayWidth": 800,
@@ -327,10 +328,16 @@
           "data": "\"Hello, world!\"",
           "style": {
             "objID": "759e70f7-0da0-ee89-4fb3-c9fe64b200c5",
-            "inheritFrom": "default_XL"
+            "useStyle": "default_XL",
+            "childStyles": []
           },
           "timeline": [],
-          "eventHandlers": []
+          "eventHandlers": [],
+          "focusStyle": {
+            "objID": "1809b9e5-7d40-01d5-cfaa-3a6763f22a1b",
+            "useStyle": "default",
+            "childStyles": []
+          }
         }
       ],
       "connectionLines": [],
@@ -361,10 +368,16 @@
           "data": "keypad_text",
           "style": {
             "objID": "9a7eeabb-69a9-c5cf-20cd-9b9d8792a155",
-            "inheritFrom": "default_XXL"
+            "useStyle": "default_XXL",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [],
+          "focusStyle": {
+            "objID": "ea3ffa4d-aa7d-4c3f-1544-759b76864476",
+            "useStyle": "default",
+            "childStyles": []
+          },
           "displayOption": 0
         },
         {
@@ -379,7 +392,8 @@
           "data": "\"1\"",
           "style": {
             "objID": "a7d5472f-6dc7-f53e-f1a2-5a4a008bb2de",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -389,7 +403,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "e6a8bd2a-dcb3-396a-e28b-6e5c339d6a33",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "e189cfc8-d71f-252a-52f6-9e191a51cf4b",
@@ -403,7 +422,8 @@
           "data": "\"2\"",
           "style": {
             "objID": "4c5c9d40-f79b-c5e1-c9f5-008f146cfb6f",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -413,7 +433,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "9e1b8b79-7acd-b4e9-1f2d-038725dbbc06",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "8e4b81c1-a981-1f33-cc14-be3ba170e740",
@@ -427,7 +452,8 @@
           "data": "\"3\"",
           "style": {
             "objID": "bd257e64-3739-9b0d-d69f-d83d328b0638",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -437,7 +463,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "f2e55f0d-e020-b56b-db13-2d57ab988714",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "1260f902-e8e1-fc91-ffd2-db1b050f51a3",
@@ -451,7 +482,8 @@
           "data": "\"4\"",
           "style": {
             "objID": "0e7aa274-b474-9c2a-b16a-e4c3fb97ff39",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -461,7 +493,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "04842378-520e-0219-8d0e-e7ffb1bc7cf3",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "4282bcfd-c5cc-8182-e640-9a3f5822346b",
@@ -475,7 +512,8 @@
           "data": "\"5\"",
           "style": {
             "objID": "4545afb7-aba1-4479-32b5-f386d4f2f9b1",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -485,7 +523,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "8901bd1d-57d1-ff0c-73a4-0676a71f6b4d",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "c3d3c921-14a2-d3d0-93bd-8ebcea342a09",
@@ -499,7 +542,8 @@
           "data": "\"6\"",
           "style": {
             "objID": "71cdabc7-e915-cc98-03c4-77814b0deada",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -509,7 +553,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "9f8cbb98-0841-faf2-a3fd-b647437b50cf",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "a42134df-2176-52c0-c21c-4d0a54559c34",
@@ -523,7 +572,8 @@
           "data": "\"7\"",
           "style": {
             "objID": "2b5aa24f-9ecc-b32b-a912-5709d9668cb5",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -533,7 +583,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "c33b55c8-76ef-c616-312d-c476b609a470",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "258924eb-500d-ad60-f1a9-7edf17ea56d9",
@@ -547,7 +602,8 @@
           "data": "\"8\"",
           "style": {
             "objID": "5b5a0ebb-2f16-4f8a-74a6-c3303b948a15",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -557,7 +613,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "fd6c42ba-c10a-3002-0dff-5ecea9cda02f",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "49c2362a-7802-b78c-487a-66eb91c350b0",
@@ -571,7 +632,8 @@
           "data": "\"9\"",
           "style": {
             "objID": "a83842a4-aeeb-dab1-0586-d97d97ebf73d",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -581,7 +643,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "0713aab4-4dc9-820d-ef87-b0498935fe26",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "f88c3278-f1c7-1310-b2bb-fe6f746e9c71",
@@ -595,7 +662,8 @@
           "data": "\"0\"",
           "style": {
             "objID": "76a3044f-be61-7916-3005-d1786ee371d1",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -605,7 +673,12 @@
               "handlerType": "action",
               "action": "keypad_key"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "352bd3be-7a9b-fc0a-e0a4-7121b03e2434",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "d07682f7-89e7-cc5e-b4d1-6fdd2f6e0415",
@@ -619,7 +692,8 @@
           "data": "\".\"",
           "style": {
             "objID": "48cd363b-3ac4-1f48-b0d5-20d8ebcf3f6c",
-            "inheritFrom": "text_button"
+            "useStyle": "text_button",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -633,7 +707,8 @@
           "enabled": "keypad_dot_enabled",
           "disabledStyle": {
             "objID": "999825db-c222-0005-e090-e51ab4736647",
-            "inheritFrom": "text_button_disabled"
+            "useStyle": "text_button_disabled",
+            "childStyles": []
           }
         },
         {
@@ -648,7 +723,8 @@
           "data": "\"\\u0020\"",
           "style": {
             "objID": "952965f9-3b7c-da6d-78e5-1a5ba18cd8ac",
-            "inheritFrom": "button_icon"
+            "useStyle": "button_icon",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -658,7 +734,12 @@
               "handlerType": "action",
               "action": "keypad_back"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "8cc1aadc-5aa5-6c55-1121-96a59f03c5a6",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "e78630c2-cc45-1587-0724-2e66e6f97a59",
@@ -672,7 +753,8 @@
           "data": "\"\\u0022\"",
           "style": {
             "objID": "975f706d-3001-62ba-f7d7-20b2463ad9e9",
-            "inheritFrom": "button_icon"
+            "useStyle": "button_icon",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -682,7 +764,12 @@
               "handlerType": "action",
               "action": "keypad_cancel"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "366351e0-bd02-abee-3d6f-010d721d1416",
+            "useStyle": "default",
+            "childStyles": []
+          }
         },
         {
           "objID": "043b74d5-1681-776e-2b78-7d2d77ca04b5",
@@ -696,7 +783,8 @@
           "data": "\"\\u0021\"",
           "style": {
             "objID": "311a99ae-6136-548d-a563-06763e7f216e",
-            "inheritFrom": "button_icon"
+            "useStyle": "button_icon",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [
@@ -706,7 +794,12 @@
               "handlerType": "action",
               "action": "keypad_ok"
             }
-          ]
+          ],
+          "focusStyle": {
+            "objID": "21ca19aa-a5d2-f25f-092d-549e582b7190",
+            "useStyle": "default",
+            "childStyles": []
+          }
         }
       ],
       "connectionLines": [],
@@ -736,10 +829,16 @@
           "data": "keypad_text",
           "style": {
             "objID": "489cfdd2-b237-059a-fe48-18eb49297b28",
-            "inheritFrom": "text_input"
+            "useStyle": "text_input",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [],
+          "focusStyle": {
+            "objID": "391fddf3-4c9f-f31f-e4ba-9f3b7f0835e3",
+            "useStyle": "default",
+            "childStyles": []
+          },
           "displayOption": 0
         },
         {
@@ -753,7 +852,8 @@
           "customOutputs": [],
           "style": {
             "objID": "b59e191e-9369-10e9-f614-07b59c88d967",
-            "inheritFrom": "default"
+            "useStyle": "default",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": [],
@@ -770,7 +870,8 @@
               "data": "\"1\"",
               "style": {
                 "objID": "1cd7c0a0-bb31-fc1f-d691-a4e571f80e83",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -780,7 +881,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "7508688a-4933-3a90-8af0-1e6edab548fd",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "26f98565-50a5-5e74-af30-ca3a01b866d3",
@@ -794,7 +900,8 @@
               "data": "\"2\"",
               "style": {
                 "objID": "0e5337b2-ad1f-99f3-adb7-31d9fc4c2f30",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -804,7 +911,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "0656f662-aa6b-6f05-1825-c5e5e91373b6",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "f75d2e60-f8d2-838f-83b6-7ce253ab1c9b",
@@ -818,7 +930,8 @@
               "data": "\"3\"",
               "style": {
                 "objID": "63133581-4404-fe75-fca2-260e33bccf2b",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -828,7 +941,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "fd24d3d8-54f8-ba47-1797-cb62e2128630",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "d6cafa4a-544a-19f5-e320-369fa922f0f5",
@@ -842,7 +960,8 @@
               "data": "\"4\"",
               "style": {
                 "objID": "0fbd1ec1-ecc3-0edb-bc69-b67e9ceb1ee6",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -852,7 +971,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "3821acfa-1400-abfe-271f-4bd86115fec3",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "56237a80-eebc-c347-39e8-2f32564b6f39",
@@ -866,7 +990,8 @@
               "data": "\"5\"",
               "style": {
                 "objID": "aa08c95f-e104-fec4-cff5-753dc7ed926b",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -876,7 +1001,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "db8be046-33a8-de44-ce1e-888e425fa7ed",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "69b1ae7b-2b94-584d-68c5-9a39d89732d4",
@@ -890,7 +1020,8 @@
               "data": "\"6\"",
               "style": {
                 "objID": "41b3991a-607f-0e05-fcf5-b3103ea0c97e",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -900,7 +1031,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "18259427-7879-7e92-b6d0-57eb7851c423",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "113c6281-3128-d022-2e94-82dd033970ce",
@@ -914,7 +1050,8 @@
               "data": "\"7\"",
               "style": {
                 "objID": "00761520-9fec-cb6d-feea-f8d6b9e4c8af",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -924,7 +1061,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "60588277-60cc-85b2-c97e-01f1f93ab872",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "6cdc58ee-b1f9-3ec7-4348-964e22fd7fd1",
@@ -938,7 +1080,8 @@
               "data": "\"8\"",
               "style": {
                 "objID": "e4e843e3-f1d7-22b0-f199-e9a3865d14bf",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -948,7 +1091,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "bc54f7be-dd1f-8ecf-2336-135ef3e59230",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "529dc03e-6f2d-3662-40c4-bd8df2c84296",
@@ -962,7 +1110,8 @@
               "data": "\"9\"",
               "style": {
                 "objID": "ad572ea5-5918-1426-f1cd-058cbf81b29d",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -972,7 +1121,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "1a11f36a-c431-5528-ddb6-3d87abfc3c2d",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "41d15bd6-2019-c115-aaca-9b47e57bebb7",
@@ -986,7 +1140,8 @@
               "data": "\"0\"",
               "style": {
                 "objID": "1a4e2942-e17b-322c-a6a5-10c39bc77172",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -996,7 +1151,12 @@
                   "handlerType": "action",
                   "action": "keypad_key"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "a12e474b-9f4c-4aae-5814-487e11961f02",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "a5ab84b6-720a-c8f2-9dd1-7e98a374c7f5",
@@ -1010,7 +1170,8 @@
               "data": "keypad_mode",
               "style": {
                 "objID": "519ece33-6aab-3b80-35f9-e55daf2f3a2d",
-                "inheritFrom": "default"
+                "useStyle": "default",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [],
@@ -1026,7 +1187,8 @@
                   "customOutputs": [],
                   "style": {
                     "objID": "5d89ea16-3cea-bf40-2b83-4fe925896704",
-                    "inheritFrom": "default"
+                    "useStyle": "default",
+                    "childStyles": []
                   },
                   "timeline": [],
                   "eventHandlers": [],
@@ -1043,7 +1205,8 @@
                       "data": "\"q\"",
                       "style": {
                         "objID": "6c3f3dd9-c4b0-6126-6a6b-e6f59b997fe1",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1053,7 +1216,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "938b67b4-785d-b81e-f1ea-894504abf078",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "7a997bf7-b32a-0016-5ac0-133c9390f4ce",
@@ -1067,7 +1235,8 @@
                       "data": "\"w\"",
                       "style": {
                         "objID": "0a906f98-4e61-73a3-4325-a4dd76c81d61",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1077,7 +1246,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "caf9e111-9a97-a4a1-b955-e97317c655c0",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "dcef0ff7-74cc-0af1-443c-a1ecd6368333",
@@ -1091,7 +1265,8 @@
                       "data": "\"e\"",
                       "style": {
                         "objID": "a5ebd8ed-e9f2-cfb7-3977-bf515c1ecf74",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1101,7 +1276,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "6b1f0b3b-6a38-8155-4272-ba2aacc1dd0e",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "24a5933d-bf14-2ad6-fed0-b52bd7c970bf",
@@ -1115,7 +1295,8 @@
                       "data": "\"r\"",
                       "style": {
                         "objID": "7d0b0b2a-4374-8e43-4d59-4ec66fd07959",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1125,7 +1306,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "d28bff8a-c222-182e-e551-cf172b70c74a",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "46db5e43-f803-6a9b-3521-0ed7a2dbed53",
@@ -1139,7 +1325,8 @@
                       "data": "\"t\"",
                       "style": {
                         "objID": "7258e7b4-4408-44f1-e4d2-0a80d68721c7",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1149,7 +1336,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "a04f8bb5-b022-a908-d10c-b5a1f1d24a1c",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "63cb084d-1426-ba4c-4263-e3cb51eb0979",
@@ -1163,7 +1355,8 @@
                       "data": "\"y\"",
                       "style": {
                         "objID": "f940b236-c9d4-c380-40f5-5b25d089fa3d",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1173,7 +1366,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "330b8fc6-7a22-4110-6b13-543b9db79ca1",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "dec08037-a928-3097-4718-bfd81614fdef",
@@ -1187,7 +1385,8 @@
                       "data": "\"u\"",
                       "style": {
                         "objID": "0b398bfd-0089-501b-a74b-131a6b50d2f7",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1197,7 +1396,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "0cbb4edf-beb5-49b0-d588-970971c116e4",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "7ebc2a10-bfe7-d0f2-b5bb-caa0647f249f",
@@ -1211,7 +1415,8 @@
                       "data": "\"i\"",
                       "style": {
                         "objID": "05464318-600d-5034-2db6-2c3de0fa3e81",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1221,7 +1426,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "449d2224-959c-7095-285b-a2ac5a95bfea",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "731e8178-e006-750d-6979-4b3932ae692c",
@@ -1235,7 +1445,8 @@
                       "data": "\"o\"",
                       "style": {
                         "objID": "5e1806e9-7a13-b8cd-b17f-469e9ed8f381",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1245,7 +1456,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "9e9f2c73-b3b5-4989-eb98-304f0fcd2cca",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "de5af259-354e-155a-6d35-c69ba399ebbd",
@@ -1259,7 +1475,8 @@
                       "data": "\"p\"",
                       "style": {
                         "objID": "5a62fb7e-252a-09c6-967b-8f6cc99a5020",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1269,7 +1486,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "5cbb1b66-e416-9bd8-7540-7119e4c43b6b",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "b2c5ac34-9516-4b6b-07de-c8c0fae76572",
@@ -1283,7 +1505,8 @@
                       "data": "\"a\"",
                       "style": {
                         "objID": "4f9ceba1-f375-1706-fbc2-ef8f0ca325ba",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1293,7 +1516,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "dcfc093c-d624-012b-acba-2d933ab02422",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "7e60915b-c2b6-f4e6-b028-16281f01c310",
@@ -1307,7 +1535,8 @@
                       "data": "\"s\"",
                       "style": {
                         "objID": "d74ddc2b-f935-8ff2-bf3b-a2026bbb3778",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1317,7 +1546,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "5362b7c1-0cd3-3c7a-50bd-95c110488c8a",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "7a71a6f2-fa14-cb26-e2e4-59d591a4e6b8",
@@ -1331,7 +1565,8 @@
                       "data": "\"d\"",
                       "style": {
                         "objID": "6df3848d-00ba-ea5c-6fa4-8fb17987248c",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1341,7 +1576,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "d4f8c060-b789-c995-21cb-a467ff933377",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "dbae35dc-e9ad-f24f-8b36-cd1341bcc41b",
@@ -1355,7 +1595,8 @@
                       "data": "\"f\"",
                       "style": {
                         "objID": "bc529ee0-850f-917d-17cc-d380c41e4272",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1365,7 +1606,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "0205e5ae-7070-3e97-4e74-a4eaff25e375",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "a3c56b08-5b1e-e1ed-ba92-b519a3512acd",
@@ -1379,7 +1625,8 @@
                       "data": "\"g\"",
                       "style": {
                         "objID": "bf34ff7e-44df-e23f-331b-bb3c4b952c0a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1389,7 +1636,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "affd0d61-c571-37c5-fc8c-b7bd4537d4a9",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "c51c3818-ab06-1c0b-079a-6291c57c3778",
@@ -1403,7 +1655,8 @@
                       "data": "\"h\"",
                       "style": {
                         "objID": "f55aa651-0228-d937-8dff-b12823d240ba",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1413,7 +1666,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "61aa380f-b4d4-ae9e-c6da-21271a2621bd",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "39a6b7d6-f25b-56f6-fd5a-14efb1ccd2b7",
@@ -1427,7 +1685,8 @@
                       "data": "\"j\"",
                       "style": {
                         "objID": "371efa98-9918-bae8-80d2-6001d20514d6",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1437,7 +1696,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "2610eba5-c5fc-db34-be61-1a5e35a27160",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "4cdf2163-3081-f708-6114-33ade7265c2c",
@@ -1451,7 +1715,8 @@
                       "data": "\"k\"",
                       "style": {
                         "objID": "bea6e7e5-abf0-737a-9397-30074b70fe27",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1461,7 +1726,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "5ff4ff70-2732-ac7d-18cf-e7b709901097",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "0911765f-dd1f-cd9e-ac4d-4e014a8468f1",
@@ -1475,7 +1745,8 @@
                       "data": "\"l\"",
                       "style": {
                         "objID": "c19629b8-8fb9-f1cf-d2a9-1e0344d9a8c5",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1485,7 +1756,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "49eb243a-efad-13a6-b67c-eb47f05b9808",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "7885396e-88c2-373d-0887-49136a80f14f",
@@ -1499,7 +1775,8 @@
                       "data": "\"#\"",
                       "style": {
                         "objID": "d7ef638f-b2f7-5e14-5af6-cd65e66090e3",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1509,7 +1786,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "379638af-f630-2a6e-0a5c-9bc57827a3cf",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "6d7af4b3-a430-99c8-6db7-7313e1d8bf39",
@@ -1523,7 +1805,8 @@
                       "data": "\"z\"",
                       "style": {
                         "objID": "5677336d-3301-1f06-cf9b-67e5143df9a8",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1533,7 +1816,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "ad9bc7ef-5ee5-2087-4714-b57dea68e3e0",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "2e173e35-684d-b058-71c6-cae1bcdb56cd",
@@ -1547,7 +1835,8 @@
                       "data": "\"x\"",
                       "style": {
                         "objID": "fc4adad4-cd0b-045d-bf95-3fedc779d16d",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1557,7 +1846,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "3a292c6b-ea80-a250-6d86-4806e7992cd0",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "20599dcf-c1fc-ef03-ad78-3ed9d49c46bb",
@@ -1571,7 +1865,8 @@
                       "data": "\"c\"",
                       "style": {
                         "objID": "a108f9cc-eabc-3a03-a86d-48e92896b877",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1581,7 +1876,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "dc2bc2b1-9228-2b57-64d4-5613b132cf19",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "2289f0c7-2e0d-736b-4006-0d09900de1b5",
@@ -1595,7 +1895,8 @@
                       "data": "\"v\"",
                       "style": {
                         "objID": "e396ea05-2a13-c6af-173a-bdc511fe4b12",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1605,7 +1906,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "68e179e8-a323-f4e9-db23-4636fd63ef56",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "93f908d6-0c53-1303-c00c-628f74ec716f",
@@ -1619,7 +1925,8 @@
                       "data": "\"b\"",
                       "style": {
                         "objID": "34e7c60b-3122-5beb-db25-d8bc0937fea6",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1629,7 +1936,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "071824ef-0e02-4137-bee3-a084241717f1",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "86364636-3af0-a87b-12e4-85078627b481",
@@ -1643,7 +1955,8 @@
                       "data": "\"n\"",
                       "style": {
                         "objID": "d3873bd2-58ab-1442-6699-db475912e4d6",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1653,7 +1966,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "65616951-1482-aa48-24a3-a1029f26a4d8",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "e783c60c-eeab-3fd8-1838-f138d156f0be",
@@ -1667,7 +1985,8 @@
                       "data": "\"m\"",
                       "style": {
                         "objID": "4d7f43ea-5e25-a4a2-a1c0-e2743aa1f9e5",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1677,7 +1996,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "960895be-b693-1344-152d-abe7f0815cdb",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "000b9f3c-fea6-71a1-d5ac-9a305245619e",
@@ -1691,7 +2015,8 @@
                       "data": "\",\"",
                       "style": {
                         "objID": "c928add3-60fc-def1-f6de-ff1eff33d59a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1701,7 +2026,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "7171e0f3-672d-7ead-fecd-7216109460a9",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "881384ce-2a8c-16fe-2f23-fdfadc29b5ae",
@@ -1715,7 +2045,8 @@
                       "data": "\".\"",
                       "style": {
                         "objID": "69197aa4-a167-6425-52be-25af2d576e80",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1725,7 +2056,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "25629a6c-1405-306d-fd3c-6c473bc79c08",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "4ca3aeb5-f241-f28f-0ed8-6110227e50c3",
@@ -1739,7 +2075,8 @@
                       "data": "\"/\"",
                       "style": {
                         "objID": "18745b11-946f-c60e-995e-96f46cbc1e25",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1749,7 +2086,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "c007b005-f5ac-8911-2169-820c6569c536",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     }
                   ],
                   "layout": "static"
@@ -1765,7 +2107,8 @@
                   "customOutputs": [],
                   "style": {
                     "objID": "6318e8f8-66bc-6fa4-0a1e-7f2bad92e1ea",
-                    "inheritFrom": "default"
+                    "useStyle": "default",
+                    "childStyles": []
                   },
                   "timeline": [],
                   "eventHandlers": [],
@@ -1782,7 +2125,8 @@
                       "data": "\"Q\"",
                       "style": {
                         "objID": "6d1b83e7-d4c4-3e5d-8a60-a9ce56cd74a3",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1792,7 +2136,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "3f75d0a0-4760-ab05-ac7f-586baec03e19",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "d1f7a9e4-9ce4-adf2-fcd2-6d290b1d031e",
@@ -1806,7 +2155,8 @@
                       "data": "\"W\"",
                       "style": {
                         "objID": "f19c5cd1-becb-056e-d45d-700af86fe3d7",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1816,7 +2166,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "829dcce4-3045-4349-d232-a8a35dd4d105",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "54593366-ca47-ab02-df55-80bfe241f7a3",
@@ -1830,7 +2185,8 @@
                       "data": "\"E\"",
                       "style": {
                         "objID": "ca5b9d38-dba4-b4f3-5852-b4832b60eadf",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1840,7 +2196,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "00388551-b676-0327-f8f1-6f80de65c77c",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f8cecd78-4eb4-4710-fd8b-0d69072025ca",
@@ -1854,7 +2215,8 @@
                       "data": "\"R\"",
                       "style": {
                         "objID": "3a798a9b-7652-cf68-38ea-f9d14e9a1ee8",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1864,7 +2226,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "07b05932-4c7f-ac3d-0930-61afd3aa4123",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "c3e920bc-5a04-1e9a-5b07-74589a206c69",
@@ -1878,7 +2245,8 @@
                       "data": "\"T\"",
                       "style": {
                         "objID": "5abe3a72-cf75-077e-06cc-469a62e46fad",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1888,7 +2256,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "62f4d1dc-785a-5a68-4c6f-e35172efdfcc",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "01c97dea-cdf0-6348-e9e8-95a38e6a6ac8",
@@ -1902,7 +2275,8 @@
                       "data": "\"Y\"",
                       "style": {
                         "objID": "b75ab485-74b7-fc48-a232-1edafd058465",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1912,7 +2286,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "edf23509-62af-4b77-f3a4-0d12d4e6c7e7",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f724847e-5db0-b25a-155a-fbe7cdce605a",
@@ -1926,7 +2305,8 @@
                       "data": "\"U\"",
                       "style": {
                         "objID": "4abec423-a117-c058-0edd-10dfd6bf65a2",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1936,7 +2316,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "107bc9f4-e945-ff7f-ce62-713fbc181ef1",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "ecd4b41a-2f27-5ca5-6328-89470db3a0d4",
@@ -1950,7 +2335,8 @@
                       "data": "\"I\"",
                       "style": {
                         "objID": "12aeb4fe-ffb3-0ed8-49de-6e211e1c7d80",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1960,7 +2346,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "38b84f15-546a-38ec-27d6-3dde1e3d19e6",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "6f185c37-a938-46b2-ff32-fa8b75a4b89f",
@@ -1974,7 +2365,8 @@
                       "data": "\"O\"",
                       "style": {
                         "objID": "a5988318-b337-a6d4-61b5-c769ff263b41",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -1984,7 +2376,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "7c84d00a-e3b4-17a1-36c4-a4221b526118",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "49b8fd17-b14a-dcbb-3c04-419c951dfd94",
@@ -1998,7 +2395,8 @@
                       "data": "\"P\"",
                       "style": {
                         "objID": "4abbce14-bfec-d835-f812-ece630dc112e",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2008,7 +2406,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "732aae4c-1709-705e-abff-5c8705edbae0",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "b0ac6485-64c4-23c7-b3c5-d9874b2d81eb",
@@ -2022,7 +2425,8 @@
                       "data": "\"A\"",
                       "style": {
                         "objID": "8c409a7c-12e0-333c-438d-0816ce7fdd06",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2032,7 +2436,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "c3eff32b-3f70-5f14-f580-b1b6a1994d4e",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "6df903a5-05f4-eecb-1ad0-12fb7d245390",
@@ -2046,7 +2455,8 @@
                       "data": "\"S\"",
                       "style": {
                         "objID": "cb4dd19a-5592-16b2-e041-c02cf09dabd7",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2056,7 +2466,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "242cf69b-ee5b-8ba2-fa21-9b7ee3976258",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "991b0640-e8d1-1644-f4f2-55f4949ee425",
@@ -2070,7 +2485,8 @@
                       "data": "\"D\"",
                       "style": {
                         "objID": "064b383b-5271-e907-b024-af943ae44e5a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2080,7 +2496,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "862158fb-e69a-96b7-6737-dbf426abfa43",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "e44fb34d-ebb4-10b4-aa03-0fecf8a4b5b3",
@@ -2094,7 +2515,8 @@
                       "data": "\"F\"",
                       "style": {
                         "objID": "5b68bd25-e314-4645-86b4-add482c193f1",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2104,7 +2526,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "8f87dde6-794d-6806-4314-d377626b3999",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f32c62cd-dd3d-d62c-1a15-fb40706d48eb",
@@ -2118,7 +2545,8 @@
                       "data": "\"G\"",
                       "style": {
                         "objID": "0446facd-26d1-9a8e-39af-1317b010936b",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2128,7 +2556,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "50d34b78-13b8-a415-1ad0-2c7eb5e3c847",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "5644f708-3173-1988-58f2-5ce81bf60321",
@@ -2142,7 +2575,8 @@
                       "data": "\"H\"",
                       "style": {
                         "objID": "821c556c-35fd-d7ef-a278-8712fe3c5f6f",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2152,7 +2586,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "e1a1c261-6118-0eab-e149-c7901c14d12d",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "d7a42d45-2d28-77f8-51de-b5d1f3467f45",
@@ -2166,7 +2605,8 @@
                       "data": "\"J\"",
                       "style": {
                         "objID": "ae7b730e-e4e8-233f-9f3a-1be1ddaac759",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2176,7 +2616,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "eb60c0ee-d29a-574d-8657-0e02654b99a8",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "487b3cba-2bec-4551-0e2f-ee4354330cdb",
@@ -2190,7 +2635,8 @@
                       "data": "\"K\"",
                       "style": {
                         "objID": "14181725-e0ef-de2d-65f8-f1be4fceb79c",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2200,7 +2646,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "ff0c99cf-9bb2-0c6b-4cde-8c7c286b5cc2",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "771aa33f-0d75-302d-36b1-dafa2bedf302",
@@ -2214,7 +2665,8 @@
                       "data": "\"L\"",
                       "style": {
                         "objID": "5cbd6e9b-4aad-a16e-e834-39806caa4b97",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2224,7 +2676,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "9e5c6c25-942d-611a-646f-b1fe4eb0b027",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "cb8ec772-a41f-358b-c231-9fcf47abab34",
@@ -2238,7 +2695,8 @@
                       "data": "\"#\"",
                       "style": {
                         "objID": "8dc5f332-27a2-a518-7f4a-f3c77d361d10",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2248,7 +2706,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "971985c6-7307-0001-f1ea-c74218548f92",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "10d16aff-cc93-3c6a-1d02-e17049f3b2db",
@@ -2262,7 +2725,8 @@
                       "data": "\"Z\"",
                       "style": {
                         "objID": "c0619835-329e-d8b5-754a-ae91b036cea2",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2272,7 +2736,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "d3da63da-8bc7-5571-7a54-94f951251c5d",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "4b7b8cde-cb64-1b78-c66e-2d66edabcdd0",
@@ -2286,7 +2755,8 @@
                       "data": "\"X\"",
                       "style": {
                         "objID": "9de07d50-d113-254d-467d-de431ed4fcbb",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2296,7 +2766,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "0805f80d-3e9f-4e75-a3cb-10c5c9847aea",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "060988bd-e965-7994-da0e-bc432c9ee7d8",
@@ -2310,7 +2785,8 @@
                       "data": "\"C\"",
                       "style": {
                         "objID": "c2fe5bab-50a4-ae38-3ae1-2e2bf641f36d",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2320,7 +2796,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "6a0aa51c-b0b7-7df2-2fbc-f223d19bd367",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f62c3ba1-a3e8-fbe4-7498-121065335ccd",
@@ -2334,7 +2815,8 @@
                       "data": "\"V\"",
                       "style": {
                         "objID": "229bee84-73cd-1a1f-f26a-fabdacbcc99f",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2344,7 +2826,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "c9e6cf7b-58ba-d849-c8d2-55ba64290c32",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "2bd0443e-febb-9bfe-039e-5b01cfee8649",
@@ -2358,7 +2845,8 @@
                       "data": "\"B\"",
                       "style": {
                         "objID": "f8cebf95-3400-6a2a-bda8-41143df37098",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2368,7 +2856,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "e21a06e6-103f-f6b6-5b26-ae1109ca5914",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "26ad2352-6c61-da3f-ab46-8694cfe3a37d",
@@ -2382,7 +2875,8 @@
                       "data": "\"N\"",
                       "style": {
                         "objID": "59f78d6f-d2b9-386e-aefc-3200bd21661a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2392,7 +2886,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "3d0e1da6-1d71-6e95-a21b-ac4bd11b6eb0",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "43955508-78a8-dfdd-052f-c8f3b50c83f8",
@@ -2406,7 +2905,8 @@
                       "data": "\"M\"",
                       "style": {
                         "objID": "dd15a6d0-79c8-f914-55d7-e4d78ddfb81f",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2416,7 +2916,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "71cc07d8-1362-a813-38f9-52495001ede9",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f70aba39-2f2a-e218-e4c0-65456c1de04a",
@@ -2430,7 +2935,8 @@
                       "data": "\",\"",
                       "style": {
                         "objID": "936dd6cf-1609-f2c2-9419-68ddb3337c41",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2440,7 +2946,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "4f62e7e1-73ad-451d-7a84-7d93b36f4bfd",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "e8481141-f4fc-1f5f-607d-6c0cef61b0b9",
@@ -2454,7 +2965,8 @@
                       "data": "\".\"",
                       "style": {
                         "objID": "47aa0d90-27bf-e701-413a-bf9bd98d2809",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2464,7 +2976,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "42043a24-e9b7-b286-fd58-1acb94ae849c",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "325332c7-ec79-09b7-13ea-0be3ced83d55",
@@ -2478,7 +2995,8 @@
                       "data": "\"/\"",
                       "style": {
                         "objID": "6601e676-c137-e093-1829-28c263d87b1e",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2488,7 +3006,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "aced2e85-06f6-de29-d129-6e60bf331b73",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     }
                   ],
                   "layout": "static"
@@ -2504,7 +3027,8 @@
                   "customOutputs": [],
                   "style": {
                     "objID": "37c679de-8f56-26cf-8fea-8fa08bb6800c",
-                    "inheritFrom": "default"
+                    "useStyle": "default",
+                    "childStyles": []
                   },
                   "timeline": [],
                   "eventHandlers": [],
@@ -2521,7 +3045,8 @@
                       "data": "\"!\"",
                       "style": {
                         "objID": "c7b74ddc-8f39-c037-28fb-2e635b02d97a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2531,7 +3056,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "dbd7f1c3-9ee3-12a5-53a6-0f8f640b1e66",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "9556ccb2-268a-a07f-5b5f-918f69a670d4",
@@ -2545,7 +3075,8 @@
                       "data": "\"@\"",
                       "style": {
                         "objID": "25b6bd90-95ea-042b-c790-0fd7843426cb",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2555,7 +3086,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "cc4b0b77-65a4-342c-4ef1-872ba6d5c1e3",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "5a11a35a-9067-dfd2-de74-73abace4ec86",
@@ -2569,7 +3105,8 @@
                       "data": "\"#\"",
                       "style": {
                         "objID": "6dc3dacc-0ba5-3ac7-b0ee-43ad91360636",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2579,7 +3116,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "c4d69efa-ad85-c8f6-03e4-245b2fe4f743",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "ed895b98-8cab-1bb0-a8a3-87967bca8453",
@@ -2593,7 +3135,8 @@
                       "data": "\"$\"",
                       "style": {
                         "objID": "a0814c7f-b523-9ff1-c9e4-abe8800ac59a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2603,7 +3146,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "76b48b84-56f6-cfee-4131-28a373feaddf",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "d24ea3db-1f3a-4d08-4f7f-043336238e87",
@@ -2617,7 +3165,8 @@
                       "data": "\"%\"",
                       "style": {
                         "objID": "ec6885fa-8a60-0ae6-d205-fb562a612d1a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2627,7 +3176,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "33d10543-d05d-c416-3d16-e4bf2e05c333",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "09dadc50-de71-21e1-0c41-4c1d97e15c60",
@@ -2641,7 +3195,8 @@
                       "data": "\"^\"",
                       "style": {
                         "objID": "551362e8-c378-c4da-d80b-452e08fc5134",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2651,7 +3206,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "a828f1aa-6351-a239-d2b1-7add3c85e8a9",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "f8a905f3-0967-7aaf-7069-f86b7850416c",
@@ -2665,7 +3225,8 @@
                       "data": "\"&\"",
                       "style": {
                         "objID": "61dab3cd-b4af-6abd-daac-a1b4cdca621d",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2675,7 +3236,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "10a65e63-1a55-cc89-6fe6-8174847f1bd6",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "4af01fdc-93e8-7c22-bca3-fbe6be8a7ca3",
@@ -2689,7 +3255,8 @@
                       "data": "\"*\"",
                       "style": {
                         "objID": "09f64309-4425-334c-2a01-b726dbcf5fcd",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2699,7 +3266,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "7f811565-7939-aef1-7472-c470236564f3",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "e8e22bbd-cac9-2228-f438-b77b1821e542",
@@ -2713,7 +3285,8 @@
                       "data": "\"(\"",
                       "style": {
                         "objID": "439d9c22-9a99-7640-da8b-ebb50a0038c4",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2723,7 +3296,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "8669aaea-a6d6-773a-92bb-533f1cf6a57a",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "62302600-d613-1b4f-b75f-a692e3ffe5f6",
@@ -2737,7 +3315,8 @@
                       "data": "\")\"",
                       "style": {
                         "objID": "7e0d5747-6379-ab5a-5c98-84adf73f03ab",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2747,7 +3326,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "6087f744-670d-8370-38cc-19c3e47e51a6",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "a67bf56a-46ab-c5a1-7b78-0d5b179a0586",
@@ -2761,7 +3345,8 @@
                       "data": "\"+\"",
                       "style": {
                         "objID": "6c10040e-5498-61ea-1cf5-5ed44b9ee9bf",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2771,7 +3356,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "874e886f-2995-00ab-4fea-2e0867b069ff",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "628b14f9-5738-0dd1-86df-49d80c164cea",
@@ -2785,7 +3375,8 @@
                       "data": "\"-\"",
                       "style": {
                         "objID": "44193d3f-036d-2a75-d137-681565256803",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2795,7 +3386,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "24729542-1618-43ce-3819-9ebf0213fd6e",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "e87bb832-a93b-489d-27ef-fdab983dedcb",
@@ -2809,7 +3405,8 @@
                       "data": "\"=\"",
                       "style": {
                         "objID": "cc5a4921-f610-67fa-4656-809bea8b32a7",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2819,7 +3416,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "078f2d95-061b-89f6-af4e-2b3d4d2e0349",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "317c617d-15cc-7f69-5916-502e3f31ffde",
@@ -2833,7 +3435,8 @@
                       "data": "\"_\"",
                       "style": {
                         "objID": "8f01029e-1cc5-869f-260e-f8ab7fd0bef5",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2843,7 +3446,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "317c7b71-a4f5-daf8-76aa-406f13112e5b",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "26dd5ee5-e7a8-5f2a-7631-211a35bcaa2c",
@@ -2857,7 +3465,8 @@
                       "data": "\"[\"",
                       "style": {
                         "objID": "6714c1b3-3791-26ea-42a8-6a56c5e47719",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2867,7 +3476,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "96aba285-ab30-7615-b5b9-fce16f0ff137",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "30015c84-7ce1-4be6-9684-e7be43841c8d",
@@ -2881,7 +3495,8 @@
                       "data": "\"]\"",
                       "style": {
                         "objID": "7a96e93a-9212-98f6-4c40-decfc9c7715e",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2891,7 +3506,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "bc0844c9-1ab8-3eb1-952e-fcd5f0ad11ec",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "8dc1c712-94e6-da04-320a-6ca36867ff42",
@@ -2905,7 +3525,8 @@
                       "data": "\"{\"",
                       "style": {
                         "objID": "9dd366f5-6f69-c0e6-bd0f-7902fe670088",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2915,7 +3536,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "d32ffd53-6cc9-b441-1341-aa8048498ce5",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "0ed4c18e-141e-aa61-abf5-8b0a21f6d98e",
@@ -2929,7 +3555,8 @@
                       "data": "\"}\"",
                       "style": {
                         "objID": "1e08a766-f427-c266-1d8d-a012bed7e009",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2939,7 +3566,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "34a5c07f-2271-66e3-5794-30426d720ebe",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "0bb3f51a-5241-d9e7-b41c-e203f7687020",
@@ -2953,7 +3585,8 @@
                       "data": "\"\\\\\"",
                       "style": {
                         "objID": "6f2099d7-8eae-5f03-a291-da2e1ea9675b",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2963,7 +3596,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "8d2bcf0d-3e4e-beff-614c-dcc0c88e567b",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "209d7c0c-a341-51eb-6a94-4dca6b62b599",
@@ -2977,7 +3615,8 @@
                       "data": "\"|\"",
                       "style": {
                         "objID": "a25c2f69-9487-20b2-b7cf-b7304b2cc7cf",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -2987,7 +3626,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "3c1aa0c6-faa6-c69a-fb30-3122ee52ff6a",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "9b9c1e47-0f15-65cf-65ee-e56bfa39db06",
@@ -3001,7 +3645,8 @@
                       "data": "\"?\"",
                       "style": {
                         "objID": "80dcff27-4545-716a-36dd-ef24e736c2a9",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3011,7 +3656,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "c70364bf-c501-5776-feb1-b80fc0b94efb",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "79121bf3-1ccd-0391-6575-94669c266478",
@@ -3025,7 +3675,8 @@
                       "data": "\"`\"",
                       "style": {
                         "objID": "bb3c2a42-ec71-21e7-6f8f-7d9100e453f0",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3035,7 +3686,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "43ea3aa8-0508-4ead-e6ac-b9f520dfeb7d",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "a6390dd5-2e0c-cf42-e07a-9504a969502f",
@@ -3049,7 +3705,8 @@
                       "data": "\"~\"",
                       "style": {
                         "objID": "e08d3daa-4efb-d223-d94f-42621be78c53",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3059,7 +3716,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "8d6d00cc-a446-ea30-4681-4ffff6e69f53",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "af08194e-01a3-1cc7-9f5a-118870bc60e6",
@@ -3073,7 +3735,8 @@
                       "data": "\";\"",
                       "style": {
                         "objID": "0f0681b1-cace-937b-0c7f-ec618193a9c8",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3083,7 +3746,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "75a8a55e-a411-5f2d-05c8-7efa20aa2dad",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "772fb62d-0e7b-4e2b-ff1d-b85c5c1842b1",
@@ -3097,7 +3765,8 @@
                       "data": "\":\"",
                       "style": {
                         "objID": "5938ff67-069b-9459-ef22-19ee2b6648a0",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3107,7 +3776,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "ac0c4e3b-8c01-cfc5-690b-a61538293811",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "2c9e5010-0df3-f2e9-d1be-dd402de48109",
@@ -3121,7 +3795,8 @@
                       "data": "\"'\"",
                       "style": {
                         "objID": "7baa41dd-0ed0-099c-f870-487bbaa08965",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3131,7 +3806,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "d5c6d37b-1cb5-f01d-8b95-ed5af8343d0d",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "be451cd6-bfc8-cf1e-b14f-55b3f6480d6c",
@@ -3145,7 +3825,8 @@
                       "data": "\"\\\"\"",
                       "style": {
                         "objID": "53a4736a-d728-0371-7180-e93d5fc07b2a",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3155,7 +3836,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "e1d5d91d-be3b-1dd5-1203-7f1e8de88890",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "3f16cfc9-b178-0291-c7c4-59fe653df7f8",
@@ -3169,7 +3855,8 @@
                       "data": "\"<\"",
                       "style": {
                         "objID": "81a4daf3-324a-ebf2-1218-0678e1bc8b07",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3179,7 +3866,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "1df8c12b-ea5d-c2e4-f82c-98bf3747d7e6",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "1fabe7be-4239-967a-b1ba-cc7100df962f",
@@ -3193,7 +3885,8 @@
                       "data": "\">\"",
                       "style": {
                         "objID": "50c1fb9e-6108-187f-0e3f-f09c73b8a1cd",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3203,7 +3896,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "b260423d-5a3f-fd53-5c79-2ba16e531392",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     },
                     {
                       "objID": "8c718941-4c8f-ec20-041e-f5f3bf927f8f",
@@ -3217,7 +3915,8 @@
                       "data": "\"/\"",
                       "style": {
                         "objID": "f0d00998-fe2a-5b59-3704-8017254ea826",
-                        "inheritFrom": "text_button"
+                        "useStyle": "text_button",
+                        "childStyles": []
                       },
                       "timeline": [],
                       "eventHandlers": [
@@ -3227,7 +3926,12 @@
                           "handlerType": "action",
                           "action": "keypad_key"
                         }
-                      ]
+                      ],
+                      "focusStyle": {
+                        "objID": "fe1789dc-ac06-ffb4-94c3-301727865e73",
+                        "useStyle": "default",
+                        "childStyles": []
+                      }
                     }
                   ],
                   "layout": "static"
@@ -3246,7 +3950,8 @@
               "data": "\"\\u0020\"",
               "style": {
                 "objID": "5925545d-9446-281a-9115-32f72f322a11",
-                "inheritFrom": "text_button_icon"
+                "useStyle": "text_button_icon",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -3256,7 +3961,12 @@
                   "handlerType": "action",
                   "action": "keypad_back"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "48af5f75-6bd8-4f6f-64ab-3cbc95528f11",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "871c1c51-5db0-2e2d-30ca-ec1551cfe8eb",
@@ -3270,7 +3980,8 @@
               "data": "keypad_mode",
               "style": {
                 "objID": "591ba94d-f899-4dd9-7363-2e2915f81e82",
-                "inheritFrom": "default"
+                "useStyle": "default",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -3294,10 +4005,16 @@
                   "data": "\"ABC\"",
                   "style": {
                     "objID": "2db60ac8-c061-6f0f-f724-283e328efcf3",
-                    "inheritFrom": "text_button"
+                    "useStyle": "text_button",
+                    "childStyles": []
                   },
                   "timeline": [],
-                  "eventHandlers": []
+                  "eventHandlers": [],
+                  "focusStyle": {
+                    "objID": "4dc45e3c-42c0-73a2-1098-08c00338838f",
+                    "useStyle": "default",
+                    "childStyles": []
+                  }
                 },
                 {
                   "objID": "4a7af0d3-345a-3ef4-9506-317f236e1ddf",
@@ -3311,10 +4028,16 @@
                   "data": "\"sym\"",
                   "style": {
                     "objID": "96a60029-a8da-cd0b-2aed-184616a52983",
-                    "inheritFrom": "text_button"
+                    "useStyle": "text_button",
+                    "childStyles": []
                   },
                   "timeline": [],
-                  "eventHandlers": []
+                  "eventHandlers": [],
+                  "focusStyle": {
+                    "objID": "ef2e5762-41de-e10e-4b9a-925976508311",
+                    "useStyle": "default",
+                    "childStyles": []
+                  }
                 },
                 {
                   "objID": "78cce1dd-b269-3351-6313-7344cfe62ee0",
@@ -3328,10 +4051,16 @@
                   "data": "\"abc\"",
                   "style": {
                     "objID": "3bd6834a-6c45-0cc4-4251-e513c53bde3f",
-                    "inheritFrom": "text_button"
+                    "useStyle": "text_button",
+                    "childStyles": []
                   },
                   "timeline": [],
-                  "eventHandlers": []
+                  "eventHandlers": [],
+                  "focusStyle": {
+                    "objID": "c1ce3d7d-a31c-27da-4007-1da3de23108e",
+                    "useStyle": "default",
+                    "childStyles": []
+                  }
                 }
               ]
             },
@@ -3347,7 +4076,8 @@
               "data": "\"Space\"",
               "style": {
                 "objID": "b93edcb2-d163-5b96-3bbb-7dce82ff694c",
-                "inheritFrom": "text_button"
+                "useStyle": "text_button",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -3357,7 +4087,12 @@
                   "handlerType": "action",
                   "action": "keypad_space"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "91a8a696-8d2e-55ac-7e95-e0b68d2fd57f",
+                "useStyle": "default",
+                "childStyles": []
+              }
             },
             {
               "objID": "0ef0b389-fb26-ba0d-657a-836d137ad680",
@@ -3371,7 +4106,8 @@
               "data": "\"\\u0021\"",
               "style": {
                 "objID": "6e025f55-802c-fdf5-a831-c857c67c02c6",
-                "inheritFrom": "text_button_icon"
+                "useStyle": "text_button_icon",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -3385,7 +4121,8 @@
               "enabled": "keypad_ok_enabled",
               "disabledStyle": {
                 "objID": "7c4db074-b81c-5cd6-1433-d815b63108f5",
-                "inheritFrom": "text_button_icon_disabled"
+                "useStyle": "text_button_icon_disabled",
+                "childStyles": []
               }
             },
             {
@@ -3400,7 +4137,8 @@
               "data": "\"\\u0022\"",
               "style": {
                 "objID": "dd10255e-dda8-8a6a-9e87-5dad5c5564d0",
-                "inheritFrom": "text_button_icon"
+                "useStyle": "text_button_icon",
+                "childStyles": []
               },
               "timeline": [],
               "eventHandlers": [
@@ -3410,7 +4148,12 @@
                   "handlerType": "action",
                   "action": "keypad_cancel"
                 }
-              ]
+              ],
+              "focusStyle": {
+                "objID": "51e68423-78d1-612b-a8b6-75a471c0c734",
+                "useStyle": "default",
+                "childStyles": []
+              }
             }
           ],
           "layout": "static"
@@ -3442,7 +4185,8 @@
           "customOutputs": [],
           "style": {
             "objID": "a2b15f79-a3dc-53a1-8f19-0ce6c7876c93",
-            "inheritFrom": "default",
+            "useStyle": "default",
+            "childStyles": [],
             "backgroundColor": "#ffffff",
             "activeColor": "#ffffff"
           },
@@ -3462,7 +4206,8 @@
           "data": "main_app_view",
           "style": {
             "objID": "a258e106-99f1-7538-91bc-15e634c23925",
-            "inheritFrom": "background"
+            "useStyle": "background",
+            "childStyles": []
           },
           "timeline": [],
           "eventHandlers": []
@@ -3487,74 +4232,16 @@
   "userWidgets": [],
   "styles": [
     {
-      "objID": "61d144a6-aa0b-0380-12be-a3ba9a3eca5a",
-      "name": "quote",
-      "inheritFrom": "default_L"
-    },
-    {
-      "objID": "750ffa5d-b570-569b-df50-29dff86462d7",
-      "name": "tab",
-      "inheritFrom": "default_L"
-    },
-    {
-      "objID": "6552f7e4-f8d4-ec0a-e94c-fc7dc04d0902",
-      "name": "block",
-      "inheritFrom": "default",
-      "backgroundColor": "#c8c8c8"
-    },
-    {
-      "objID": "668bacd5-6736-4b23-9849-169026dbc9cc",
-      "name": "default_L",
-      "description": "",
-      "inheritFrom": "default",
-      "font": "text_L"
-    },
-    {
-      "objID": "deede560-5303-2738-3566-445c3597625c",
-      "name": "default_XL",
-      "description": "",
-      "inheritFrom": "default",
-      "font": "text_XL"
-    },
-    {
-      "objID": "1a3fcde1-d486-81c7-79a6-4d87dedf7134",
-      "name": "default_XXL",
-      "description": "",
-      "inheritFrom": "default",
-      "font": "text_XXL"
-    },
-    {
-      "objID": "2eef6d5a-c282-f977-914d-4f4d2c4227cd",
-      "name": "label_left_aligned",
-      "inheritFrom": "default",
-      "font": "text_L",
-      "alignHorizontal": "left",
-      "padding": "0 0 0 6"
-    },
-    {
-      "objID": "db556364-b406-9720-be0d-4d6a6b65ad22",
-      "name": "button_large",
-      "inheritFrom": "button",
-      "font": "text_XXL"
-    },
-    {
-      "objID": "2f6ed8c6-6417-7757-a26c-ddb79035d02e",
-      "name": "button_icon",
-      "inheritFrom": "button",
-      "font": "icons"
-    },
-    {
-      "objID": "eca3b102-1986-5942-1d01-406f94512c0d",
-      "name": "disabled_button",
-      "description": "",
-      "inheritFrom": "button",
-      "color": "button_disabled_text",
-      "backgroundColor": "button_disabled_background",
-      "borderColor": "button_disabled_border"
-    },
-    {
       "objID": "776573b3-3569-c348-c82a-4ebed65248ad",
       "name": "text_input",
+      "childStyles": [
+        {
+          "objID": "6186c81b-912c-52f9-abf9-57361b42a929",
+          "name": "text_input_small",
+          "childStyles": [],
+          "font": "text_M"
+        }
+      ],
       "font": "text_L",
       "alignHorizontal": "left",
       "color": "text_input_color",
@@ -3565,44 +4252,333 @@
       "padding": "0 0 0 4"
     },
     {
-      "objID": "6186c81b-912c-52f9-abf9-57361b42a929",
-      "name": "text_input_small",
-      "inheritFrom": "text_input",
-      "font": "text_M"
-    },
-    {
-      "objID": "76cba2bc-caa7-3e53-842e-184bc05728ab",
-      "name": "text_button",
-      "description": "",
-      "inheritFrom": "button",
-      "font": "text_L"
-    },
-    {
-      "objID": "de683720-4908-81c9-8537-941b785f673c",
-      "name": "text_button_disabled",
-      "description": "",
-      "inheritFrom": "text_button",
-      "color": "button_disabled_text",
-      "backgroundColor": "button_disabled_background"
-    },
-    {
-      "objID": "ee40532d-e010-05df-32c8-d192071a8f88",
-      "name": "text_button_icon",
-      "inheritFrom": "text_button",
-      "font": "icons"
-    },
-    {
-      "objID": "2a84bf81-a523-5cfe-3e54-0797ef033a39",
-      "name": "text_button_icon_disabled",
-      "inheritFrom": "text_button_disabled",
-      "font": "icons"
-    },
-    {
       "objID": "04157789-da53-2f4a-e658-4ca10aa5fbef",
       "id": 1,
       "name": "default",
       "description": "",
-      "inheritFrom": "",
+      "childStyles": [
+        {
+          "objID": "6552f7e4-f8d4-ec0a-e94c-fc7dc04d0902",
+          "name": "block",
+          "childStyles": [],
+          "backgroundColor": "#c8c8c8"
+        },
+        {
+          "objID": "668bacd5-6736-4b23-9849-169026dbc9cc",
+          "name": "default_L",
+          "description": "",
+          "childStyles": [
+            {
+              "objID": "61d144a6-aa0b-0380-12be-a3ba9a3eca5a",
+              "name": "quote",
+              "childStyles": []
+            },
+            {
+              "objID": "750ffa5d-b570-569b-df50-29dff86462d7",
+              "name": "tab",
+              "childStyles": []
+            }
+          ],
+          "font": "text_L"
+        },
+        {
+          "objID": "deede560-5303-2738-3566-445c3597625c",
+          "name": "default_XL",
+          "description": "",
+          "childStyles": [],
+          "font": "text_XL"
+        },
+        {
+          "objID": "1a3fcde1-d486-81c7-79a6-4d87dedf7134",
+          "name": "default_XXL",
+          "description": "",
+          "childStyles": [],
+          "font": "text_XXL"
+        },
+        {
+          "objID": "2eef6d5a-c282-f977-914d-4f4d2c4227cd",
+          "name": "label_left_aligned",
+          "childStyles": [],
+          "font": "text_L",
+          "alignHorizontal": "left",
+          "padding": "0 0 0 6"
+        },
+        {
+          "objID": "d9630995-549b-27a2-06c2-a2794496b85a",
+          "id": 2,
+          "name": "info_alert",
+          "childStyles": [],
+          "alwaysBuild": true,
+          "padding": "20",
+          "margin": "20"
+        },
+        {
+          "objID": "596e02a3-c281-63d5-74de-a9f10915ecad",
+          "id": 3,
+          "name": "error_alert",
+          "childStyles": [],
+          "alwaysBuild": true,
+          "color": "dark_text",
+          "backgroundColor": "error",
+          "activeColor": "error",
+          "activeBackgroundColor": "dark_text",
+          "padding": "20",
+          "margin": "20"
+        },
+        {
+          "objID": "99524f6d-f187-67b3-070c-f68da187ac56",
+          "id": 5,
+          "name": "select_enum_item_popup_container",
+          "childStyles": [
+            {
+              "objID": "451ff6d3-0da3-8dd3-54cc-5630b8a68c1f",
+              "id": 6,
+              "name": "select_enum_item_popup_container_S",
+              "childStyles": [
+                {
+                  "objID": "eccd5f27-3959-bf9b-36e6-401768a0cbd2",
+                  "id": 8,
+                  "name": "select_enum_item_popup_item_S",
+                  "childStyles": [
+                    {
+                      "objID": "32fc2d2f-db93-8b71-6883-195f498d5977",
+                      "id": 10,
+                      "name": "select_enum_item_popup_disabled_item_S",
+                      "childStyles": [],
+                      "alwaysBuild": true,
+                      "color": "drop_down_list_color_disabled"
+                    }
+                  ],
+                  "alwaysBuild": true,
+                  "alignHorizontal": "left",
+                  "padding": "6"
+                }
+              ],
+              "alwaysBuild": true,
+              "font": "text_M"
+            },
+            {
+              "objID": "0d0344fa-33c2-0b11-7d16-e298ad85df1a",
+              "id": 7,
+              "name": "select_enum_item_popup_item",
+              "childStyles": [
+                {
+                  "objID": "15c183e7-e541-10d2-dc96-701adca53473",
+                  "id": 9,
+                  "name": "select_enum_item_popup_disabled_item",
+                  "childStyles": [],
+                  "alwaysBuild": true,
+                  "color": "drop_down_list_color_disabled"
+                }
+              ],
+              "alwaysBuild": true,
+              "padding": "6"
+            }
+          ],
+          "alwaysBuild": true,
+          "font": "text_L",
+          "color": "drop_down_list_color",
+          "backgroundColor": "drop_down_list_background",
+          "activeColor": "drop_down_list_background",
+          "activeBackgroundColor": "drop_down_list_color",
+          "padding": "12"
+        },
+        {
+          "objID": "896bb373-355d-40b9-8386-4332390ce115",
+          "id": 11,
+          "name": "menu_with_buttons_message",
+          "childStyles": [],
+          "alwaysBuild": true,
+          "alignVertical": "top",
+          "color": "text",
+          "backgroundColor": "background",
+          "activeColor": "background",
+          "activeBackgroundColor": "text",
+          "padding": "0 0 10 0",
+          "margin": "0"
+        },
+        {
+          "objID": "c8203187-878b-1452-d8ff-9425dede499b",
+          "id": 12,
+          "name": "menu_with_buttons_container",
+          "childStyles": [],
+          "alwaysBuild": true,
+          "padding": "20",
+          "margin": "20"
+        },
+        {
+          "objID": "b250a172-d01b-d54f-3d84-891f3c6c48ab",
+          "id": 14,
+          "name": "fps_graph",
+          "childStyles": [],
+          "alwaysBuild": true,
+          "color": "#00ff1e",
+          "backgroundColor": "#000000",
+          "borderSize": "1",
+          "borderColor": "backdrop"
+        },
+        {
+          "objID": "196d3137-46d6-a552-f1bc-80c98098e3ce",
+          "id": 15,
+          "name": "slider",
+          "childStyles": [],
+          "color": "slider_widget_color",
+          "backgroundColor": "slider_widget_background"
+        },
+        {
+          "objID": "4d239458-1686-00b4-e6d6-551070c8e0c6",
+          "id": 16,
+          "name": "switch",
+          "childStyles": [],
+          "color": "switch_widget_color",
+          "backgroundColor": "switch_widget_background_off",
+          "activeColor": "switch_widget_color",
+          "activeBackgroundColor": "switch_widget_background_on",
+          "focusColor": "switch_widget_color",
+          "borderSize": "2",
+          "borderColor": "switch_widget_border",
+          "padding": "3 0"
+        },
+        {
+          "objID": "b1aa1e30-6a2d-4fe1-8880-b4fecf686ed2",
+          "id": 17,
+          "name": "background",
+          "childStyles": [],
+          "backgroundColor": "background"
+        },
+        {
+          "objID": "07d83b2f-14da-b1c3-ea6e-d277fb3355be",
+          "id": 18,
+          "name": "button",
+          "childStyles": [
+            {
+              "objID": "db556364-b406-9720-be0d-4d6a6b65ad22",
+              "name": "button_large",
+              "childStyles": [],
+              "font": "text_XXL"
+            },
+            {
+              "objID": "2f6ed8c6-6417-7757-a26c-ddb79035d02e",
+              "name": "button_icon",
+              "childStyles": [],
+              "font": "icons"
+            },
+            {
+              "objID": "eca3b102-1986-5942-1d01-406f94512c0d",
+              "name": "disabled_button",
+              "description": "",
+              "childStyles": [],
+              "color": "button_disabled_text",
+              "backgroundColor": "button_disabled_background",
+              "borderColor": "button_disabled_border"
+            },
+            {
+              "objID": "76cba2bc-caa7-3e53-842e-184bc05728ab",
+              "name": "text_button",
+              "description": "",
+              "childStyles": [
+                {
+                  "objID": "de683720-4908-81c9-8537-941b785f673c",
+                  "name": "text_button_disabled",
+                  "description": "",
+                  "childStyles": [
+                    {
+                      "objID": "2a84bf81-a523-5cfe-3e54-0797ef033a39",
+                      "name": "text_button_icon_disabled",
+                      "childStyles": [],
+                      "font": "icons"
+                    }
+                  ],
+                  "color": "button_disabled_text",
+                  "backgroundColor": "button_disabled_background"
+                },
+                {
+                  "objID": "ee40532d-e010-05df-32c8-d192071a8f88",
+                  "name": "text_button_icon",
+                  "childStyles": [],
+                  "font": "icons"
+                }
+              ],
+              "font": "text_L"
+            },
+            {
+              "objID": "47f65ab6-cfa3-09b2-b3b4-4260adc98ef5",
+              "id": 4,
+              "name": "error_alert_button",
+              "childStyles": [],
+              "alwaysBuild": true,
+              "padding": "8 16 8 16"
+            },
+            {
+              "objID": "85f44e5f-3da1-407e-57a2-aee66a4c68aa",
+              "id": 13,
+              "name": "menu_with_buttons_button",
+              "childStyles": [],
+              "alwaysBuild": true,
+              "padding": "0 4",
+              "margin": "0"
+            },
+            {
+              "objID": "fa680b00-5a77-f63a-7aad-b774279a1c8c",
+              "id": 19,
+              "name": "button_disabled",
+              "childStyles": [],
+              "color": "button_disabled_text",
+              "backgroundColor": "button_disabled_background",
+              "activeColor": "button_disabled_text",
+              "activeBackgroundColor": "button_disabled_background",
+              "borderColor": "button_disabled_border"
+            }
+          ],
+          "color": "button_text",
+          "backgroundColor": "button_background",
+          "activeColor": "button_text",
+          "activeBackgroundColor": "button_active_background",
+          "borderColor": "button_border"
+        },
+        {
+          "objID": "00947574-0f82-d1c9-419a-ee1680384ec4",
+          "id": 20,
+          "name": "note_M",
+          "childStyles": [],
+          "color": "dark_text",
+          "backgroundColor": "note"
+        },
+        {
+          "objID": "54647aad-d4fe-9b42-6da6-1bb8452131c0",
+          "id": 21,
+          "name": "drop_down_list",
+          "childStyles": [],
+          "color": "drop_down_list_color",
+          "backgroundColor": "drop_down_list_background",
+          "activeColor": "drop_down_list_color",
+          "activeBackgroundColor": "drop_down_list_active_background",
+          "borderColor": "drop_down_list_border"
+        },
+        {
+          "objID": "72d784b2-e693-7b06-cc0d-18e32a5ccd25",
+          "id": 22,
+          "name": "roller",
+          "childStyles": [
+            {
+              "objID": "2dccf1f1-b94e-8c75-87b8-e7fd053491d7",
+              "id": 23,
+              "name": "roller_selected_value",
+              "childStyles": [],
+              "borderSize": "2",
+              "borderRadius": "4",
+              "borderColor": "#c0c0c0"
+            },
+            {
+              "objID": "4a89fd1f-824b-fb95-1575-dfe95862c657",
+              "id": 24,
+              "name": "roller_unselected_value",
+              "childStyles": [],
+              "color": "#808080"
+            }
+          ]
+        }
+      ],
       "font": "text_M",
       "alignHorizontal": "center",
       "alignVertical": "center",
@@ -3612,225 +4588,6 @@
       "activeBackgroundColor": "text",
       "borderColor": "border",
       "padding": "0"
-    },
-    {
-      "objID": "d9630995-549b-27a2-06c2-a2794496b85a",
-      "id": 2,
-      "name": "info_alert",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "padding": "20",
-      "margin": "20"
-    },
-    {
-      "objID": "596e02a3-c281-63d5-74de-a9f10915ecad",
-      "id": 3,
-      "name": "error_alert",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "color": "dark_text",
-      "backgroundColor": "error",
-      "activeColor": "error",
-      "activeBackgroundColor": "dark_text",
-      "padding": "20",
-      "margin": "20"
-    },
-    {
-      "objID": "47f65ab6-cfa3-09b2-b3b4-4260adc98ef5",
-      "id": 4,
-      "name": "error_alert_button",
-      "inheritFrom": "button",
-      "alwaysBuild": true,
-      "padding": "8 16 8 16"
-    },
-    {
-      "objID": "99524f6d-f187-67b3-070c-f68da187ac56",
-      "id": 5,
-      "name": "select_enum_item_popup_container",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "font": "text_L",
-      "color": "drop_down_list_color",
-      "backgroundColor": "drop_down_list_background",
-      "activeColor": "drop_down_list_background",
-      "activeBackgroundColor": "drop_down_list_color",
-      "padding": "12"
-    },
-    {
-      "objID": "451ff6d3-0da3-8dd3-54cc-5630b8a68c1f",
-      "id": 6,
-      "name": "select_enum_item_popup_container_S",
-      "inheritFrom": "select_enum_item_popup_container",
-      "alwaysBuild": true,
-      "font": "text_M"
-    },
-    {
-      "objID": "0d0344fa-33c2-0b11-7d16-e298ad85df1a",
-      "id": 7,
-      "name": "select_enum_item_popup_item",
-      "inheritFrom": "select_enum_item_popup_container",
-      "alwaysBuild": true,
-      "padding": "6"
-    },
-    {
-      "objID": "eccd5f27-3959-bf9b-36e6-401768a0cbd2",
-      "id": 8,
-      "name": "select_enum_item_popup_item_S",
-      "inheritFrom": "select_enum_item_popup_container_S",
-      "alwaysBuild": true,
-      "alignHorizontal": "left",
-      "padding": "6"
-    },
-    {
-      "objID": "15c183e7-e541-10d2-dc96-701adca53473",
-      "id": 9,
-      "name": "select_enum_item_popup_disabled_item",
-      "inheritFrom": "select_enum_item_popup_item",
-      "alwaysBuild": true,
-      "color": "drop_down_list_color_disabled"
-    },
-    {
-      "objID": "32fc2d2f-db93-8b71-6883-195f498d5977",
-      "id": 10,
-      "name": "select_enum_item_popup_disabled_item_S",
-      "inheritFrom": "select_enum_item_popup_item_S",
-      "alwaysBuild": true,
-      "color": "drop_down_list_color_disabled"
-    },
-    {
-      "objID": "896bb373-355d-40b9-8386-4332390ce115",
-      "id": 11,
-      "name": "menu_with_buttons_message",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "alignVertical": "top",
-      "color": "text",
-      "backgroundColor": "background",
-      "activeColor": "background",
-      "activeBackgroundColor": "text",
-      "padding": "0 0 10 0",
-      "margin": "0"
-    },
-    {
-      "objID": "c8203187-878b-1452-d8ff-9425dede499b",
-      "id": 12,
-      "name": "menu_with_buttons_container",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "padding": "20",
-      "margin": "20"
-    },
-    {
-      "objID": "85f44e5f-3da1-407e-57a2-aee66a4c68aa",
-      "id": 13,
-      "name": "menu_with_buttons_button",
-      "inheritFrom": "button",
-      "alwaysBuild": true,
-      "padding": "0 4",
-      "margin": "0"
-    },
-    {
-      "objID": "b250a172-d01b-d54f-3d84-891f3c6c48ab",
-      "id": 14,
-      "name": "fps_graph",
-      "inheritFrom": "default",
-      "alwaysBuild": true,
-      "color": "#00ff1e",
-      "backgroundColor": "#000000",
-      "borderSize": "1",
-      "borderColor": "backdrop"
-    },
-    {
-      "objID": "196d3137-46d6-a552-f1bc-80c98098e3ce",
-      "id": 15,
-      "name": "slider_widget",
-      "inheritFrom": "default",
-      "color": "slider_widget_color",
-      "backgroundColor": "slider_widget_background"
-    },
-    {
-      "objID": "4d239458-1686-00b4-e6d6-551070c8e0c6",
-      "id": 16,
-      "name": "switch_widget",
-      "inheritFrom": "default",
-      "color": "switch_widget_color",
-      "backgroundColor": "switch_widget_background_off",
-      "activeColor": "switch_widget_color",
-      "activeBackgroundColor": "switch_widget_background_on",
-      "focusColor": "switch_widget_color",
-      "borderSize": "2",
-      "borderColor": "switch_widget_border",
-      "padding": "3 0"
-    },
-    {
-      "objID": "b1aa1e30-6a2d-4fe1-8880-b4fecf686ed2",
-      "id": 17,
-      "name": "background",
-      "inheritFrom": "default",
-      "backgroundColor": "background"
-    },
-    {
-      "objID": "07d83b2f-14da-b1c3-ea6e-d277fb3355be",
-      "id": 18,
-      "name": "button",
-      "inheritFrom": "default",
-      "color": "button_text",
-      "backgroundColor": "button_background",
-      "activeColor": "button_text",
-      "activeBackgroundColor": "button_active_background",
-      "borderColor": "button_border"
-    },
-    {
-      "objID": "fa680b00-5a77-f63a-7aad-b774279a1c8c",
-      "id": 19,
-      "name": "button_disabled",
-      "inheritFrom": "button",
-      "color": "button_disabled_text",
-      "backgroundColor": "button_disabled_background",
-      "activeColor": "button_disabled_text",
-      "activeBackgroundColor": "button_disabled_background",
-      "borderColor": "button_disabled_border"
-    },
-    {
-      "objID": "00947574-0f82-d1c9-419a-ee1680384ec4",
-      "id": 20,
-      "name": "note_M",
-      "inheritFrom": "default",
-      "color": "dark_text",
-      "backgroundColor": "note"
-    },
-    {
-      "objID": "54647aad-d4fe-9b42-6da6-1bb8452131c0",
-      "id": 21,
-      "name": "drop_down_list",
-      "inheritFrom": "default",
-      "color": "drop_down_list_color",
-      "backgroundColor": "drop_down_list_background",
-      "activeColor": "drop_down_list_color",
-      "activeBackgroundColor": "drop_down_list_active_background",
-      "borderColor": "drop_down_list_border"
-    },
-    {
-      "objID": "72d784b2-e693-7b06-cc0d-18e32a5ccd25",
-      "id": 22,
-      "name": "roller_widget",
-      "inheritFrom": "default"
-    },
-    {
-      "objID": "2dccf1f1-b94e-8c75-87b8-e7fd053491d7",
-      "id": 23,
-      "name": "roller_widget_selected_value",
-      "inheritFrom": "default_XXL",
-      "borderSize": "2",
-      "borderRadius": "4",
-      "borderColor": "#c0c0c0"
-    },
-    {
-      "objID": "4a89fd1f-824b-fb95-1575-dfe95862c657",
-      "id": 24,
-      "name": "roller_widget_unselected_value",
-      "inheritFrom": "default_XL",
-      "color": "#808080"
     }
   ],
   "fonts": [
