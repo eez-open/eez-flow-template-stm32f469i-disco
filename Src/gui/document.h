@@ -93,12 +93,12 @@ enum FontsEnum {
     FONT_ID_SHADOW = 2,
     FONT_ID_TEXT_M = 3,
     FONT_ID_TEXT_L = 4,
-    FONT_ID_TEXT_XL = 5,
-    FONT_ID_TEXT_XXL = 6
+    FONT_ID_TEXT_XXL = 5
 };
 
 enum BitmapsEnum {
-    BITMAP_ID_NONE = 0
+    BITMAP_ID_NONE = 0,
+    BITMAP_ID_VALENT_800X480 = 1
 };
 
 enum StylesEnum {
@@ -181,7 +181,7 @@ enum PagesEnum {
     PAGE_ID_KEYBOARD = 3
 };
 
-extern const uint8_t assets[59128];
+extern const uint8_t assets[358149];
 
 #elif defined(EEZ_PLATFORM_SIMULATOR)
 
@@ -272,13 +272,13 @@ enum FontsEnum {
     FONT_ID_SHADOW = 2,
     FONT_ID_TEXT_M = 3,
     FONT_ID_TEXT_L = 4,
-    FONT_ID_TEXT_XL = 5,
-    FONT_ID_TEXT_XXL = 6
+    FONT_ID_TEXT_XXL = 5
 };
 
 enum BitmapsEnum {
     BITMAP_ID_NONE = 0,
-    BITMAP_ID_FRONT_PANEL = 1
+    BITMAP_ID_VALENT_800X480 = 1,
+    BITMAP_ID_FRONT_PANEL = 2
 };
 
 enum StylesEnum {
@@ -362,7 +362,7 @@ enum PagesEnum {
     PAGE_ID_FRONT_PANEL = 4
 };
 
-extern const uint8_t assets[75517];
+extern const uint8_t assets[374469];
 
 #endif
 
