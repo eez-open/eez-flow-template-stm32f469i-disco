@@ -181,7 +181,7 @@ enum PagesEnum {
     PAGE_ID_KEYBOARD = 3
 };
 
-extern const uint8_t assets[358149];
+extern const uint8_t assets[355480];
 
 #elif defined(EEZ_PLATFORM_SIMULATOR)
 
@@ -362,7 +362,7 @@ enum PagesEnum {
     PAGE_ID_FRONT_PANEL = 4
 };
 
-extern const uint8_t assets[374469];
+extern const uint8_t assets[371651];
 
 #endif
 
